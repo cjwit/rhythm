@@ -206,7 +206,7 @@ PULSE 1 (MUTED)
 PULSE 2 (MUTED)
 ```
 
-### Dividing time
+## Part 4: Dividing time
 
 Just as beats are organized into larger groups, they are divided and hold smaller collections that we can feel. Of all of the rhythmic concepts discussed here, this might be the one where notational practices in western tradition differs the most from the sounds that we hear. Notes that land between beats do so at specific moments. They allude to regularity, but rarely come at mathematically consistent intervals. Instead, a musician's expressivity will push a note just before or after, making it subtly early or late.
 
@@ -226,12 +226,43 @@ SUBD     | | | | | | | | | | | | | | |
 Other examples of triple/duple, duple/triple
 ```
 
-##### Things we hear
+### Playing with subdivisions
 
-* Swing
-* Microtiming
+This conceptual structure of divisions serves as a groundwork for musicians. While the norm is to work within it to build off of a listener's expectations, memorable moments or funky grooves (to use a technical term) can work against it. [TODO: J-Dilla groove example and citation]
 
-### Morocco
+```
+EXAMPLE OF J-DILLA REPRESENTATION
+```
+
+Another common version of this is a technique of changing subdivisions that is called *swing*. This was common in early jazz and became the name of an entire genre, but it shows up elsewhere, too. In swing, a duple subdivision turns into something else: the musicians lengthen the first half of the subdivision and shorten the second half. This means that they are no logner halves. A frequent division is for the first "half" to be two-thirds of the beat, leaving one-third for the second "half." This particular division turns into a mathematical *triple* subdivision where the first two thirds are linked together and roughly aligns with another name: a *shuffle*.
+
+```
+BEAT .     .     .     .     .     .
+DUP  .  .  .  .  .  .  .  .  .  .  .
+TRI  . . . . . . . . . . . . . . . .
+SWI  .   . .   . .   . .   . .   . .
+```
+
+As usual, musicians do not typically adhere to mathematical certainties. They can and do, but they make use of the flexibility that live performance offers.[^computers] TODO describes how jazz musicians vary the degree of their swing to create an individual style while also changing the ratios of their subdivisions at different points of a performance to build and release tension (TODO cite). TODO shares similar ideas about Brazilian samba music, showing that this is not unique to the genre known as "swing" (TODO cite). These methods of manipulating time in practice (not conceptually as above) are examples of *microtiming*, adjusting the timing of notes in slight, but noticeable, ways.
+
+To hear some examples, move the slider below to change the subdivision ratio and listen to how the "feel" of the simple swing drum set beat changes.
+
+```
+SLIDER
+RIDE (swung)
+SNARE
+BASS DRUM
+```
+
+So far, the discussion of subdivision has been about grooves, repeating patterns that orient the music. This technique of rushing or delaying notes can happen anywhere in a piece of music, but it is a matter of balance. Breaking too far from expectations or norms could confuse a listener or dancer, but sticking to them methodically might get dull.
+
+One of my own favorite moments demonstrating this happens in a performance of "Watermelon Man" by Mongo Santamaria (TODO introduce). While listening, try to let yourself feel the groove and, if the music inspires you, move along with it or clap. Then, *feel* what happens in the horn section (brass instruments) at (TODO time). When I listen, it feels as if the band is figuratively dragging the horn players along with them and, when everyone aligns again, it is a huge relief that I feel more than I hear.
+
+```
+Mongo Santamaria Watermelon Man clip
+```
+
+## Part 5: Morocco
 
 * Gnawa tightening
 * Hamadsha pattern
@@ -240,6 +271,10 @@ Other examples of triple/duple, duple/triple
 ## References
 
 Farraj and Shumays
+
+TODO jazz swing
+
+TODO samba swing
 
 Witulski 2019, Focus
 
@@ -258,3 +293,5 @@ Judith Becker
 [^notation]: This way of thinking about how to organize time in music differs from how rhythm and a concept called *meter* are taught in many music classrooms. Where this approach follows the way people make, listen to, and feel music in many contexts across the world (including Europe in Europe and the United States and in classical music traditions), the teaching of rhythm and meter often focuses on quasi-mathematical procedures that relate to written musical notation. Notation is important for a number of reasons, but there is much that it does not represent well, including nuances in rhythm that change the "feel" of a pattern (TODO: cite issues). As seen in the maqamworld.com examples above, musicians globally can use western notational techniques as a tool to represent sound, but they recognize its failures and it rarely shows up in performance. This, again, is true in "the west": innumerable outstanding musicians never needed to learn to read music to wield it powerfully. Notation is an abstraction that can serve a purpose (namely, it can preserve and transmit some elements of sound for distribution, analysis, or similar goals). Also relevant is the fact that there are many other representational systems available to musicians and listeners, not only the one that has roots in European classical traditions (TODO: citations of other systems).
 
 [^issawa]: In this case, the term "brotherhood" refers to the all male musical ensembles who carry out ritual ceremonies. The events themselves are usually open to client families (who require healing through sacred blessing) and their friends. There are other rituals within the tradition that happen in religious spaces and are differentiated by gender.
+
+[^computers]: It should be said that flexibility in subdivisions and other expressive techniques are not exclusive to human performers. Electronic music has this capability and, in some cases, can do so with more specific intentionality on the part of the composer or producer than a live performer.
