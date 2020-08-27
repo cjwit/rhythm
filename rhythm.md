@@ -3,6 +3,8 @@ title: On Rhythm DRAFT
 author: Christopher Witulski
 pandoc: pandoc rhythm.md -o index.html -s -H pandoc.css
 ---
+>*Note: this is a draft for a project that will span multiple pages. The "Part #" headings show where the document splits occur. These will make a single long page into a more "user friendly" series of shorter essays that mirror a blog post format. The layout and stylistic look of the page will depend on where it ends up published, it simply uses a theme mirroring GitHub documentation. This draft is not intended to represent visual elements.*
+
 ## Part 1: Expectation and repetition
 
 So much of music is about expectation. People who make music set us listeners up by following "rules" that are not really rules. They are expectations. When music does something different from what we have heard so many times before, it can be confusing. It can be exciting. It can also be surprising, fulfilling, and so on. Yet, these same sensations can come out of music that fulfils, instead of breaking from, our expectations.
@@ -246,8 +248,6 @@ Steven Freidson, vimbuza
 Danielsen funk
 
 Judith Becker
-
-## Notes
 
 [^shave]: TODO Shave and a haircut discussion, citation
 
