@@ -228,13 +228,7 @@ Other examples of triple/duple, duple/triple
 
 ### Playing with subdivisions
 
-This conceptual structure of divisions serves as a groundwork for musicians. While the norm is to work within it to build off of a listener's expectations, memorable moments or funky grooves (to use a technical term) can work against it. [TODO: J-Dilla groove example and citation]
-
-```
-EXAMPLE OF J-DILLA REPRESENTATION
-```
-
-Another common version of this is a technique of changing subdivisions that is called *swing*. This was common in early jazz and became the name of an entire genre, but it shows up elsewhere, too. In swing, a duple subdivision turns into something else: the musicians lengthen the first half of the subdivision and shorten the second half. This means that they are no logner halves. A frequent division is for the first "half" to be two-thirds of the beat, leaving one-third for the second "half." This particular division turns into a mathematical *triple* subdivision where the first two thirds are linked together and roughly aligns with another name: a *shuffle*.
+This conceptual structure of divisions serves as a groundwork for what a musician or ensemble actually does in practice. A common version of this is a technique of changing subdivisions that is called *swing*. This was common in early jazz and became the name of an entire genre, but it shows up elsewhere, too. In swing, a duple subdivision turns into something else: the musicians lengthen the first half of the subdivision and shorten the second half. This means that they are no longer halves. A frequent division is for the first "half" to be two-thirds of the beat, leaving one-third for the second "half." This particular division turns into a mathematical *triple* subdivision where the first two thirds are linked together and roughly aligns with another name: a *shuffle*.
 
 ```
 BEAT .     .     .     .     .     .
@@ -243,7 +237,7 @@ TRI  . . . . . . . . . . . . . . . .
 SWI  .   . .   . .   . .   . .   . .
 ```
 
-As usual, musicians do not typically adhere to mathematical certainties. They can and do, but they make use of the flexibility that live performance offers.[^computers] TODO describes how jazz musicians vary the degree of their swing to create an individual style while also changing the ratios of their subdivisions at different points of a performance to build and release tension (TODO cite). TODO shares similar ideas about Brazilian samba music, showing that this is not unique to the genre known as "swing" (TODO cite). These methods of manipulating time in practice (not conceptually as above) are examples of *microtiming*, adjusting the timing of notes in slight, but noticeable, ways.
+While the norm is to work within it to build off of a listener's expectations, memorable moments or funky grooves (to use a technical term) can work against it. Musicians do not typically adhere to mathematical certainties. They can and do, but they make use of the flexibility that live performance offers.[^computers] TODO describes how jazz musicians vary the degree of their swing to create an individual style while also changing the ratios of their subdivisions at different points of a performance to build and release tension (TODO cite). TODO shares similar ideas about Brazilian samba music, showing that this is not unique to the genre known as "swing" (TODO cite). These methods of manipulating time in practice (not conceptually as above) are examples of *microtiming*, adjusting the timing of notes in slight, but noticeable, ways.
 
 To hear some examples, move the slider below to change the subdivision ratio and listen to how the "feel" of the simple swing drum set beat changes.
 
@@ -259,13 +253,39 @@ So far, the discussion of subdivision has been about grooves, repeating patterns
 One of my own favorite moments demonstrating this happens in a performance of "Watermelon Man" by Mongo Santamaria (TODO introduce). While listening, try to let yourself feel the groove and, if the music inspires you, move along with it or clap. Then, *feel* what happens in the horn section (brass instruments) at (TODO time). When I listen, it feels as if the band is figuratively dragging the horn players along with them and, when everyone aligns again, it is a huge relief that I feel more than I hear.
 
 ```
-Mongo Santamaria Watermelon Man clip
+Mongo Santamaria "Watermelon Man" clip
 ```
 
-## Part 5: Morocco
+## Part 5: Consistent inconsistencies from Morocco
 
-* Gnawa tightening
-* Hamadsha pattern
+One of my main goals in this series is to disassociate widely used terminology from an exclusive understanding based in western classical music and a specific system of written notation. Rhythm is central to music worldwide, even in contexts where it is important in absentia, in common practices like free rhythm improvisations. It is difficult to imagine music that does not incorporate a sense of passing time and, where that might seem possible, it commonly works in contrast to something else that happens before or afterward.
+
+The exclusive association of ideas like beat and meter to western systems has a secondary impact: it leads analysts to consider all music from a set of expectations that adhere to western classical music or other western traditions. Using three examples from my own research in Morocco, I aim to demonstrate how centering experience and perception and decentering prescriptive conceptions of musical elements brings about new ideas of how music works.[^ethnography]
+
+### Uneven beats
+
+Two of these three examples come from the *hamadsha* tradition. The hamadsha brotherhood is a Muslim Sufi group, which means that they regularly gather to perform and participate in sung devotional poetry. Unlike some other Sufi brotherhoods, the hamadsha are organized as professional ensembles who visit client houses to chant and sing poetry along with instrumental accompaniment. They are closely linked to the figure of Aisha, a spirit who possesses some individuals. One of the goals of their ritual healing ceremonies is the maintenance of the relationship between Aisha and her host body. They help the client to appease Aisha through chanting, prayer, singing, a trance possession "dance," and the ritual sacrifice of animals like chickens and goats.[^hamadsha]
+
+The hamadsha ceremony moves through a number of segments, each with its own musical characteristics. One, called the *saf al-ginbri* features an underlying rhythmic pattern of uneven heavy beats with a consistent subdivision. This pattern is also common elsewhere in the world, including the Balkan region of Europe and across the Middle East.[^5-8] This example is from a ceremony I attended with the hamadsha leader Abdderrahim Amrani.
+
+```
+PLAY EXAMPLE
+BEAT  .   .
+SUB   . . . . .
+```
+
+A western system would define this as a 5/8 meter by focusing on the greatest even "beat." In practice, however, this is felt at the larger grouping of one short beat (with two subdivisions) and one that is slightly longer (with three subdivisions). It is possible to write this as 2 + 3, but that also prioritizes writing over hearing and feeling.
+
+### Shrinking beats
+
+A second pattern is both more complicated from the perspective of western musical systems and far simpler when understood on its own terms. This comes from another Moroccan ritual healing ceremony, this time as part of the gnawa tradition. This music is widely associated with Morocco's history of slavery and the sub-Saharan Africans who were brought to the country from West African countries like Mali in the past through the trans-Saharan slave trade. This ritual also serves to heal clients by repairing the relationship between them and possessing spirits, but here Aisha is just one of many. As with the hamadsha, the ceremony moves through various segments. These are associated with specific colors (black, white, blue, and so on) that identify individual spirits or sets of spirits who might possess the client. The music of each segment is specific to that spirit, but it is more broadly similar throughout than the music that animates the hamadsha ceremony.
+
+Gnawa music uses three types of instruments. A single low bass string instrument called a *hajhuj* or *ginbri* is at its core. This is the only melodic instrument. A large drum called a *tbal* appears in certain places. Of interest here, though are the *quraqib*, sets of iron castanets that beat out consistent rhythmic patterns throughout most of the overnight ceremony.
+
+![Quraqib, as demonstrated by TODO](TODO)
+
+START HERE: EXPLAIN RHYTHM
+
 * Hamadsha al-unassa
 
 ## References
@@ -295,3 +315,9 @@ Judith Becker
 [^issawa]: In this case, the term "brotherhood" refers to the all male musical ensembles who carry out ritual ceremonies. The events themselves are usually open to client families (who require healing through sacred blessing) and their friends. There are other rituals within the tradition that happen in religious spaces and are differentiated by gender.
 
 [^computers]: It should be said that flexibility in subdivisions and other expressive techniques are not exclusive to human performers. Electronic music has this capability and, in some cases, can do so with more specific intentionality on the part of the composer or producer than a live performer.
+
+[^ethnography]: While my research was ethnographic fieldwork over roughly three years in Morocco, these observations are my own. I hope to take the ideas I present here back to Morocco and make them central to interviews and conversations to see whether people share them. This is difficult in part, however, because the terminologies used by musicians trained in western systems (wherever they might live and work) do not always align with how listeners talk about music.
+
+[^hamadsha]: For more detail on the hamadsha and their ritual ceremony, see TODO: WITULSKI, CRAPANZANO?
+
+[^5-8]: TODO CITE BALKAN AND MIDDLE EAST 5/8, MAYBE DANIEL IN AAWM?
