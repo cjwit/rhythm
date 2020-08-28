@@ -284,7 +284,25 @@ Gnawa music uses three types of instruments. A single low bass string instrument
 
 ![Quraqib, as demonstrated by TODO](TODO)
 
-START HERE: EXPLAIN RHYTHM
+Most individual songs in gnawa music start slowly and get faster as the trance intensifies.[^tempo] Increasing the speed is not uncommon globally, but it works differently in many western traditions. For example, it may happen at the end of a piece to build excitement in a similar way, but rarely occurs gradually throughout the entire thing. And when it does happen in western traditions, the internal subdivision pacing increases with the speed of the beats. This maintains the relationships between them (at least roughly). A duple subdivision usually stays duple. But not always: at higher speeds, it can get harder to maintain those relationships simply because shorter notes get too short to play.
+
+This is what happens in gnawa music. The pattern that starts a piece gets so fast that the musicians "even out" the distance between the subdivisions. The mathmatical ratios are less important than the intensity of the experience. They do not lock into one set of relationshipos and then "lock" into a new one. Instead, the change happens gradually. In this example, it moves from a feeling of a duple subdivision to a triple one as the long note shortens. These three moments are from different parts of "TODO CHOOSE TUNE" as played by Abderrahim Abderrazak, my teacher during my fieldwork in Fez, Morocco.
+
+```
+PLAY BEGINNING
+BEAT    .
+STROKE  .   . .
+
+PLAY MIDDLE
+BEAT
+STROKE
+
+PLAY END
+BEAT    .
+STROKE  . . .
+```
+
+The beginning and ending rhythms can be easily represented using western musical notation, but the gradual change throughout the song means that most of the relationships that bring a person into trance cannot. The subdivision relationships here are not a result of a larger conceptual framework. They come from a group of people who are playing as fast as they can so that their music can be intense enough to invite a spirit into the room and heal a listener. The rhythms that we hear reflect a fundamentally different set of priorities.
 
 * Hamadsha al-unassa
 
@@ -321,3 +339,5 @@ Judith Becker
 [^hamadsha]: For more detail on the hamadsha and their ritual ceremony, see TODO: WITULSKI, CRAPANZANO?
 
 [^5-8]: TODO CITE BALKAN AND MIDDLE EAST 5/8, MAYBE DANIEL IN AAWM?
+
+[^tempo]: If using western terminology, the speed would be referred to with the term *tempo*.
