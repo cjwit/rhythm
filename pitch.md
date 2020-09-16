@@ -31,3 +31,7 @@
 
 * A set of pitches (scale) used at random vs a collection of related pitches that carry expectations in terms of melodic development and motion (interactive with randomized pitches vs a maqam performance)
 * This sense of mode is not unique to other places (India, Middle East), it defines how we conceptualize major and minor
+
+## Texture
+
+* Odetta, Moses, Moses as example of multiple melody

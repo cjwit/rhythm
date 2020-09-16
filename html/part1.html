@@ -1,0 +1,1247 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Christopher Witulski" />
+  <title>On Rhythm (Part 1: Expectation and repetition) DRAFT</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style>
+  /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+  
+  
+  /* ==========================================================================
+     HTML5 display definitions
+     ========================================================================== */
+  
+  
+  /**
+   * Correct `block` display not defined in IE 8/9.
+   */
+  
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  nav,
+  section,
+  summary {
+      display: block;
+  }
+  
+  
+  /**
+    * Correct `inline-block` display not defined in IE 8/9.
+    */
+  
+  audio,
+  canvas,
+  video {
+      display: inline-block;
+  }
+  
+  
+  /**
+    * Prevent modern browsers from displaying `audio` without controls.
+    * Remove excess height in iOS 5 devices.
+    */
+  
+  audio:not([controls]) {
+      display: none;
+      height: 0;
+  }
+  
+  
+  /**
+    * Address `[hidden]` styling not present in IE 8/9.
+    * Hide the `template` element in IE, Safari, and Firefox < 22.
+    */
+  
+  [hidden],
+  template {
+      display: none;
+  }
+  
+  
+  /* ==========================================================================
+      Base
+      ========================================================================== */
+  
+  
+  /**
+    * 1. Set default font family to sans-serif.
+    * 2. Prevent iOS text size adjust after orientation change, without disabling
+    *    user zoom.
+    */
+  
+  html {
+      font-family: sans-serif;
+      /* 1 */
+      -ms-text-size-adjust: 100%;
+      /* 2 */
+      -webkit-text-size-adjust: 100%;
+      /* 2 */
+  }
+  
+  
+  /**
+    * Remove default margin.
+    */
+  
+  body {
+      margin: 0;
+  }
+  
+  
+  /* ==========================================================================
+      Links
+      ========================================================================== */
+  
+  
+  /**
+    * Remove the gray background color from active links in IE 10.
+    */
+  
+  a {
+      background: transparent;
+  }
+  
+  
+  /**
+    * Address `outline` inconsistency between Chrome and other browsers.
+    */
+  
+  a:focus {
+      outline: thin dotted;
+  }
+  
+  
+  /**
+    * Improve readability when focused and also mouse hovered in all browsers.
+    */
+  
+  a:active,
+  a:hover {
+      outline: 0;
+  }
+  
+  
+  /* ==========================================================================
+      Typography
+      ========================================================================== */
+  
+  
+  /**
+    * Address variable `h1` font-size and margin within `section` and `article`
+    * contexts in Firefox 4+, Safari 5, and Chrome.
+    */
+  
+  h1 {
+      font-size: 2em;
+      margin: 0.67em 0;
+  }
+  
+  
+  /**
+    * Address styling not present in IE 8/9, Safari 5, and Chrome.
+    */
+  
+  abbr[title] {
+      border-bottom: 1px dotted;
+  }
+  
+  
+  /**
+    * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+    */
+  
+  b,
+  strong {
+      font-weight: bold;
+  }
+  
+  
+  /**
+    * Address styling not present in Safari 5 and Chrome.
+    */
+  
+  dfn {
+      font-style: italic;
+  }
+  
+  
+  /**
+    * Address differences between Firefox and other browsers.
+    */
+  
+  hr {
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      height: 0;
+  }
+  
+  
+  /**
+    * Address styling not present in IE 8/9.
+    */
+  
+  mark {
+      background: #ff0;
+      color: #000;
+  }
+  
+  
+  /**
+    * Correct font family set oddly in Safari 5 and Chrome.
+    */
+  
+  code,
+  kbd,
+  pre,
+  samp {
+      font-family: monospace, serif;
+      font-size: 1em;
+  }
+  
+  
+  /**
+    * Improve readability of pre-formatted text in all browsers.
+    */
+  
+  pre {
+      white-space: pre-wrap;
+  }
+  
+  
+  /**
+    * Set consistent quote types.
+    */
+  
+  q {
+      quotes: "\201C" "\201D" "\2018" "\2019";
+  }
+  
+  
+  /**
+    * Address inconsistent and variable font size in all browsers.
+    */
+  
+  small {
+      font-size: 80%;
+  }
+  
+  
+  /**
+    * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+    */
+  
+  sub,
+  sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline;
+  }
+  
+  sup {
+      top: -0.5em;
+  }
+  
+  sub {
+      bottom: -0.25em;
+  }
+  
+  
+  /* ==========================================================================
+      Embedded content
+      ========================================================================== */
+  
+  
+  /**
+    * Remove border when inside `a` element in IE 8/9.
+    */
+  
+  img {
+      border: 0;
+  }
+  
+  
+  /**
+    * Correct overflow displayed oddly in IE 9.
+    */
+  
+  svg:not(:root) {
+      overflow: hidden;
+  }
+  
+  
+  /* ==========================================================================
+      Figures
+      ========================================================================== */
+  
+  
+  /**
+    * Address margin not present in IE 8/9 and Safari 5.
+    */
+  
+  figure {
+      margin: 0;
+  }
+  
+  
+  /* ==========================================================================
+      Forms
+      ========================================================================== */
+  
+  
+  /**
+    * Define consistent border, margin, and padding.
+    */
+  
+  fieldset {
+      border: 1px solid #c0c0c0;
+      margin: 0 2px;
+      padding: 0.35em 0.625em 0.75em;
+  }
+  
+  
+  /**
+    * 1. Correct `color` not being inherited in IE 8/9.
+    * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+    */
+  
+  legend {
+      border: 0;
+      /* 1 */
+      padding: 0;
+      /* 2 */
+  }
+  
+  
+  /**
+    * 1. Correct font family not being inherited in all browsers.
+    * 2. Correct font size not being inherited in all browsers.
+    * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+    */
+  
+  button,
+  input,
+  select,
+  textarea {
+      font-family: inherit;
+      /* 1 */
+      font-size: 100%;
+      /* 2 */
+      margin: 0;
+      /* 3 */
+  }
+  
+  
+  /**
+    * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+    * the UA stylesheet.
+    */
+  
+  button,
+  input {
+      line-height: normal;
+  }
+  
+  
+  /**
+    * Address inconsistent `text-transform` inheritance for `button` and `select`.
+    * All other form control elements do not inherit `text-transform` values.
+    * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+    * Correct `select` style inheritance in Firefox 4+ and Opera.
+    */
+  
+  button,
+  select {
+      text-transform: none;
+  }
+  
+  
+  /**
+    * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+    *    and `video` controls.
+    * 2. Correct inability to style clickable `input` types in iOS.
+    * 3. Improve usability and consistency of cursor style between image-type
+    *    `input` and others.
+    */
+  
+  button,
+  html input[type="button"],
+  
+  /* 1 */
+  
+  input[type="reset"],
+  input[type="submit"] {
+      -webkit-appearance: button;
+      /* 2 */
+      cursor: pointer;
+      /* 3 */
+  }
+  
+  
+  /**
+    * Re-set default cursor for disabled elements.
+    */
+  
+  button[disabled],
+  html input[disabled] {
+      cursor: default;
+  }
+  
+  
+  /**
+    * 1. Address box sizing set to `content-box` in IE 8/9/10.
+    * 2. Remove excess padding in IE 8/9/10.
+    */
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+      box-sizing: border-box;
+      /* 1 */
+      padding: 0;
+      /* 2 */
+  }
+  
+  
+  /**
+    * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+    * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+    *    (include `-moz` to future-proof).
+    */
+  
+  input[type="search"] {
+      -webkit-appearance: textfield;
+      /* 1 */
+      -moz-box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+      /* 2 */
+      box-sizing: content-box;
+  }
+  
+  
+  /**
+    * Remove inner padding and search cancel button in Safari 5 and Chrome
+    * on OS X.
+    */
+  
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+      -webkit-appearance: none;
+  }
+  
+  
+  /**
+    * Remove inner padding and border in Firefox 4+.
+    */
+  
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+  }
+  
+  
+  /**
+    * 1. Remove default vertical scrollbar in IE 8/9.
+    * 2. Improve readability and alignment in all browsers.
+    */
+  
+  textarea {
+      overflow: auto;
+      /* 1 */
+      vertical-align: top;
+      /* 2 */
+  }
+  
+  
+  /* ==========================================================================
+      Tables
+      ========================================================================== */
+  
+  
+  /**
+    * Remove most spacing between table cells.
+    */
+  
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  
+  .go-top {
+      position: fixed;
+      bottom: 2em;
+      right: 2em;
+      text-decoration: none;
+      background-color: #E0E0E0;
+      font-size: 12px;
+      padding: 1em;
+      display: inline;
+  }
+  
+  
+  /* ==========================================================================
+      Github css
+      ========================================================================== */
+  
+  html,
+  body {
+      margin: auto;
+      padding-right: 1em;
+      padding-left: 1em;
+      max-width: 70em;
+      color: black;
+  }
+  
+  *:not('#mkdbuttons') {
+      margin: 0;
+      padding: 0
+  }
+  
+  body {
+      font: 13.34px helvetica, arial, freesans, clean, sans-serif;
+      -webkit-font-smoothing: subpixel-antialiased;
+      line-height: 1.4;
+      padding: 3px;
+      background: #fff;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px
+  }
+  
+  p {
+      margin: 1em 0
+  }
+  
+  a {
+      color: #4183c4;
+      text-decoration: none
+  }
+  
+  body {
+      background-color: #fff;
+      padding: 30px;
+      margin: 15px;
+      font-size: 14px;
+      line-height: 1.6
+  }
+  
+  body>*:first-child {
+      margin-top: 0!important
+  }
+  
+  body>*:last-child {
+      margin-bottom: 0!important
+  }
+  
+  @media screen {
+      body {
+          /* box-shadow: 0 0 0 1px #cacaca, 0 0 0 4px #eee */
+      }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      margin: 20px 0 10px;
+      padding: 0;
+      font-weight: bold;
+      -webkit-font-smoothing: subpixel-antialiased;
+      cursor: text
+  }
+  
+  h1 {
+      font-size: 28px;
+      color: #000
+  }
+  
+  h2 {
+      font-size: 24px;
+      border-bottom: 1px solid #ccc;
+      color: #000
+  }
+  
+  h3 {
+      font-size: 18px;
+      color: #333
+  }
+  
+  h4 {
+      font-size: 16px;
+      color: #333
+  }
+  
+  h5 {
+      font-size: 14px;
+      color: #333
+  }
+  
+  h6 {
+      color: #777;
+      font-size: 14px
+  }
+  
+  p,
+  blockquote,
+  table,
+  pre {
+      margin: 15px 0
+  }
+  
+  ul {
+      padding-left: 30px
+  }
+  
+  ol {
+      padding-left: 30px
+  }
+  
+  ol li ul:first-of-type {
+      margin-top: 0
+  }
+  
+  hr {
+      background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+      border: 0 none;
+      color: #ccc;
+      height: 4px;
+      padding: 0
+  }
+  
+  body>h2:first-child {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  body>h1:first-child {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  body>h1:first-child+h2 {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  body>h3:first-child,
+  body>h4:first-child,
+  body>h5:first-child,
+  body>h6:first-child {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  a:first-child h1,
+  a:first-child h2,
+  a:first-child h3,
+  a:first-child h4,
+  a:first-child h5,
+  a:first-child h6 {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  h1+p,
+  h2+p,
+  h3+p,
+  h4+p,
+  h5+p,
+  h6+p,
+  ul li>:first-child,
+  ol li>:first-child {
+      margin-top: 0
+  }
+  
+  dl {
+      padding: 0
+  }
+  
+  dl dt {
+      font-size: 14px;
+      font-weight: bold;
+      font-style: italic;
+      padding: 0;
+      margin: 15px 0 5px
+  }
+  
+  dl dt:first-child {
+      padding: 0
+  }
+  
+  dl dt>:first-child {
+      margin-top: 0
+  }
+  
+  dl dt>:last-child {
+      margin-bottom: 0
+  }
+  
+  dl dd {
+      margin: 0 0 15px;
+      padding: 0 15px
+  }
+  
+  dl dd>:first-child {
+      margin-top: 0
+  }
+  
+  dl dd>:last-child {
+      margin-bottom: 0
+  }
+  
+  blockquote {
+      border-left: 4px solid #DDD;
+      padding: 0 15px;
+      color: #777
+  }
+  
+  blockquote>:first-child {
+      margin-top: 0
+  }
+  
+  blockquote>:last-child {
+      margin-bottom: 0
+  }
+  
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: 100%;
+      font: inherit
+  }
+  
+  table th {
+      font-weight: bold;
+      border: 1px solid #ccc;
+      padding: 6px 13px
+  }
+  
+  table td {
+      border: 1px solid #ccc;
+      padding: 6px 13px
+  }
+  
+  table tr {
+      border-top: 1px solid #ccc;
+      background-color: #fff
+  }
+  
+  table tr:nth-child(2n) {
+      background-color: #f8f8f8
+  }
+  
+  img {
+      max-width: 100%
+  }
+  
+  code,
+  tt {
+      margin: 0 2px;
+      padding: 0 5px;
+      white-space: nowrap;
+      border: 1px solid #eaeaea;
+      background-color: #f8f8f8;
+      border-radius: 3px;
+      font-family: Consolas, 'Liberation Mono', Courier, monospace;
+      font-size: 12px;
+      color: #333
+  }
+  
+  pre>code {
+      margin: 0;
+      padding: 0;
+      white-space: pre;
+      border: 0;
+      background: transparent
+  }
+  
+  .highlight pre {
+      background-color: #f8f8f8;
+      border: 1px solid #ccc;
+      font-size: 13px;
+      line-height: 19px;
+      overflow: auto;
+      padding: 6px 10px;
+      border-radius: 3px
+  }
+  
+  pre {
+      background-color: #f8f8f8;
+      border: 1px solid #ccc;
+      font-size: 13px;
+      line-height: 19px;
+      overflow: auto;
+      padding: 6px 10px;
+      border-radius: 3px
+  }
+  
+  pre code,
+  pre tt {
+      background-color: transparent;
+      border: 0
+  }
+  
+  .poetry pre {
+      font-family: Georgia, Garamond, serif!important;
+      font-style: italic;
+      font-size: 110%!important;
+      line-height: 1.6em;
+      display: block;
+      margin-left: 1em
+  }
+  
+  .poetry pre code {
+      font-family: Georgia, Garamond, serif!important;
+      word-break: break-all;
+      word-break: break-word;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto;
+      white-space: pre-wrap
+  }
+  
+  sup,
+  sub,
+  a.footnote {
+      font-size: 1.4ex;
+      height: 0;
+      line-height: 1;
+      vertical-align: super;
+      position: relative
+  }
+  
+  sub {
+      vertical-align: sub;
+      top: -1px
+  }
+  
+  @media print {
+      body {
+          background: #fff
+      }
+      img,
+      pre,
+      blockquote,
+      table,
+      figure {
+          page-break-inside: avoid
+      }
+      body {
+          background: #fff;
+          border: 0
+      }
+      code {
+          background-color: #fff;
+          color: #333!important;
+          padding: 0 .2em;
+          border: 1px solid #dedede
+      }
+      pre {
+          background: #fff
+      }
+      pre code {
+          background-color: white!important;
+          overflow: visible
+      }
+  }
+  
+  @media screen {
+      body.inverted {
+          color: #eee!important;
+          border-color: #555;
+          box-shadow: none
+      }
+      .inverted body,
+      .inverted hr .inverted p,
+      .inverted td,
+      .inverted li,
+      .inverted h1,
+      .inverted h2,
+      .inverted h3,
+      .inverted h4,
+      .inverted h5,
+      .inverted h6,
+      .inverted th,
+      .inverted .math,
+      .inverted caption,
+      .inverted dd,
+      .inverted dt,
+      .inverted blockquote {
+          color: #eee!important;
+          border-color: #555;
+          box-shadow: none
+      }
+      .inverted td,
+      .inverted th {
+          background: #333
+      }
+      .inverted h2 {
+          border-color: #555
+      }
+      .inverted hr {
+          border-color: #777;
+          border-width: 1px!important
+      }
+       ::selection {
+          background: rgba(157, 193, 200, 0.5)
+      }
+      h1::selection {
+          background-color: rgba(45, 156, 208, 0.3)
+      }
+      h2::selection {
+          background-color: rgba(90, 182, 224, 0.3)
+      }
+      h3::selection,
+      h4::selection,
+      h5::selection,
+      h6::selection,
+      li::selection,
+      ol::selection {
+          background-color: rgba(133, 201, 232, 0.3)
+      }
+      code::selection {
+          background-color: rgba(0, 0, 0, 0.7);
+          color: #eee
+      }
+      code span::selection {
+          background-color: rgba(0, 0, 0, 0.7)!important;
+          color: #eee!important
+      }
+      a::selection {
+          background-color: rgba(255, 230, 102, 0.2)
+      }
+      .inverted a::selection {
+          background-color: rgba(255, 230, 102, 0.6)
+      }
+      td::selection,
+      th::selection,
+      caption::selection {
+          background-color: rgba(180, 237, 95, 0.5)
+      }
+      .inverted {
+          background: #0b2531;
+          background: #252a2a
+      }
+      .inverted body {
+          background: #252a2a
+      }
+      .inverted a {
+          color: #acd1d5
+      }
+  }
+  
+  .highlight .c {
+      color: #998;
+      font-style: italic
+  }
+  
+  .highlight .err {
+      color: #a61717;
+      background-color: #e3d2d2
+  }
+  
+  .highlight .k,
+  .highlight .o {
+      font-weight: bold
+  }
+  
+  .highlight .cm {
+      color: #998;
+      font-style: italic
+  }
+  
+  .highlight .cp {
+      color: #999;
+      font-weight: bold
+  }
+  
+  .highlight .c1 {
+      color: #998;
+      font-style: italic
+  }
+  
+  .highlight .cs {
+      color: #999;
+      font-weight: bold;
+      font-style: italic
+  }
+  
+  .highlight .gd {
+      color: #000;
+      background-color: #fdd
+  }
+  
+  .highlight .gd .x {
+      color: #000;
+      background-color: #faa
+  }
+  
+  .highlight .ge {
+      font-style: italic
+  }
+  
+  .highlight .gr {
+      color: #a00
+  }
+  
+  .highlight .gh {
+      color: #999
+  }
+  
+  .highlight .gi {
+      color: #000;
+      background-color: #dfd
+  }
+  
+  .highlight .gi .x {
+      color: #000;
+      background-color: #afa
+  }
+  
+  .highlight .go {
+      color: #888
+  }
+  
+  .highlight .gp {
+      color: #555
+  }
+  
+  .highlight .gs {
+      font-weight: bold
+  }
+  
+  .highlight .gu {
+      color: #800080;
+      font-weight: bold
+  }
+  
+  .highlight .gt {
+      color: #a00
+  }
+  
+  .highlight .kc,
+  .highlight .kd,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .kr {
+      font-weight: bold
+  }
+  
+  .highlight .kt {
+      color: #458;
+      font-weight: bold
+  }
+  
+  .highlight .m {
+      color: #099
+  }
+  
+  .highlight .s {
+      color: #d14
+  }
+  
+  .highlight .na {
+      color: #008080
+  }
+  
+  .highlight .nb {
+      color: #0086b3
+  }
+  
+  .highlight .nc {
+      color: #458;
+      font-weight: bold
+  }
+  
+  .highlight .no {
+      color: #008080
+  }
+  
+  .highlight .ni {
+      color: #800080
+  }
+  
+  .highlight .ne,
+  .highlight .nf {
+      color: #900;
+      font-weight: bold
+  }
+  
+  .highlight .nn {
+      color: #555
+  }
+  
+  .highlight .nt {
+      color: #000080
+  }
+  
+  .highlight .nv {
+      color: #008080
+  }
+  
+  .highlight .ow {
+      font-weight: bold
+  }
+  
+  .highlight .w {
+      color: #bbb
+  }
+  
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mi,
+  .highlight .mo {
+      color: #099
+  }
+  
+  .highlight .sb,
+  .highlight .sc,
+  .highlight .sd,
+  .highlight .s2,
+  .highlight .se,
+  .highlight .sh,
+  .highlight .si,
+  .highlight .sx {
+      color: #d14
+  }
+  
+  .highlight .sr {
+      color: #009926
+  }
+  
+  .highlight .s1 {
+      color: #d14
+  }
+  
+  .highlight .ss {
+      color: #990073
+  }
+  
+  .highlight .bp {
+      color: #999
+  }
+  
+  .highlight .vc,
+  .highlight .vg,
+  .highlight .vi {
+      color: #008080
+  }
+  
+  .highlight .il {
+      color: #099
+  }
+  
+  .highlight .gc {
+      color: #999;
+      background-color: #eaf2f5
+  }
+  
+  .type-csharp .highlight .k,
+  .type-csharp .highlight .kt {
+      color: #00F
+  }
+  
+  .type-csharp .highlight .nf {
+      color: #000;
+      font-weight: normal
+  }
+  
+  .type-csharp .highlight .nc {
+      color: #2b91af
+  }
+  
+  .type-csharp .highlight .nn {
+      color: #000
+  }
+  
+  .type-csharp .highlight .s,
+  .type-csharp .highlight .sc {
+      color: #a31515
+  }
+  
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">On Rhythm (Part 1: Expectation and repetition) DRAFT</h1>
+<p class="author">Christopher Witulski</p>
+</header>
+<h2 id="part-1-expectation-and-repetition">Part 1: Expectation and repetition</h2>
+<p>So much of music is about expectation. People who make music set up expectations by following guidelines based in experience that are commonly called “rules.” One aspect of music that can make it exciting, confusing, surprising, fulfilling—rich in so many ways—is how it satisfies or transgresses our expectations.</p>
+<p>This set of short essays considers rhythm from the perspective of expectation and ambiguity. Music is something that we feel as much as we hear.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> It impacts us, in part, through how we sense it, not just how we hear or think about it. Centering this idea, I introduce some ideas about how rhythm works broadly. Then, I describe how patterns and the repetition of cycles can organize time before looking more closely at how we can hear and feel smaller divisions and manipulations of time. The final section uses demonstrates these concepts with patterns from sacred musical traditions in Morocco. While not the subject of any individual part, this series is about creativity and embodiment: how musicians set up and break down listener expectation in innovative ways that dramatically change how we experience music.</p>
+<h3 id="familiarity-unfamiliarity-and-repetition">Familiarity, unfamiliarity, and repetition</h3>
+<p>While rhythm is an integral part of all music, it is often foregrounded in discussions of drumming or percussion. Depending on your musical experiences and expectations—what you listen to—a drumming pattern can be confusing, boring, groovy, exciting, and so on. Here is a common rock beat. Thanks to the globalizing tendencies of the music industry, this is a familiar sound for many people across the world.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<pre><code>PLAY LOOP
+High hat  . . . .
+Snare         .
+Bass      .</code></pre>
+<p>Many different things combine to determine how you might hear and feel this pattern. Here are some examples:</p>
+<p><strong>Familiarity:</strong> If you have heard certain types of popular music before, then this pattern may sound familiar. That does not mean that you have words to describe it or have ever listened and said “Oh, I know that drum pattern, I’ve heard it before!” This is an example of how things like globalization, memory, nostalgia, and culture play out in listening. If someone remembers her parents listening to a certain artist or type of music (like <a href="https://www.youtube.com/watch?v=bjCoKslQOEs">1950s country</a>, the band <a href="https://www.youtube.com/watch?v=P5jNJd7HRVU">Blood, Sweat, and Tears</a>, or <a href="https://www.youtube.com/watch?v=nyYqkRv0D5g">1980s hip hop</a>, for example), then little bits of those sounds that show up in something that is new to her can amplify old emotions or memories. For country, that might be a way of playing guitar. Brass instruments like the trumpet and trombone in a rock band might take her back to Blood, Sweat, and Tears. “Old school” beat samples may draw out ’80s hip hop. It is nearly impossible to talk about music without these memories and experiences. The hard part, of course, is that we all live different lives. Therefore, when we hear something new (or old), we hear it differently. Even if it’s a supposedly “simple” rock beat.</p>
+<p><strong>Unfamiliarity:</strong> If you have no expectations—maybe because something you hear, see, or taste is brand new to you—it’s really hard to guess what is coming next. Because it changes over time, music makes this easier. We just have to wait a moment to find out. With visual art that is static (like a painting), we might look more closely. We return to what we saw and think about it differently. Music vanishes into the air as soon as we hear it. We are left with memories of the sound and of how our bodies reacted to it. Maybe we danced and felt the movement. Perhaps we are at a loud live concert where we were pushed around by the sound waves. I still remember the sensation of how the heavy drums at a <a href="https://www.youtube.com/watch?v=8LhCd1W2V0Q">Lenny Kravitz</a> concert physically shoved my guts to the back of my ribcage when I was in high school.</p>
+<p><strong>Repetition:</strong> If the sound repeats, then it is easier to find a pattern and build an expectation. Of course, it also sets us up as listeners to be surprised when the repetition ends. And some patterns show themselves to us more quickly: that, again, is based on what we have heard before.</p>
+<p>In the case of the example above, the pattern is broadly (but not universally) familiar. It’s also repetitive over a short <em>cycle</em>, a single iteration of the pattern. Cycles can be measured in different ways. A composer scoring a film might be thinking in terms of seconds or milliseconds to line up the sound and the video. It is more common, though, to refer to an internal pulse called a <em>beat</em>. That word gets used in many other ways, though, and we’ll leave it for now and come back to it later.</p>
+<h3 id="organizing-time">Organizing time</h3>
+<p>That earlier pattern is fairly simple (which doesn’t mean that it’s not interesting or full of potential creativity). More intricate patterns with less regular internal relationships can make it harder to grasp what’s happening at first. More significantly, however, is the fact that there is no single way to hear or feel rhythm, let alone music. Here is an example from a family of common rhythmic cycles that are common in African diasporic traditions, especially in Brazil, Cuba, and the United States. It usually gets played on an instrument that is loud and clear, like a bell of some sort of the <em>clavé</em>, a pair of sticks. Since musicians use the pattern to hold everything else together, it needs to be audible over everything else. This particular variation is sometimes called the <em>rumba clave</em> after the Cuban rumba, which uses it.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<pre><code>PLAY LOOP
+Rumba   .--.--.---.--.--
+Don&#39;t show the pattern</code></pre>
+<p>Go back and listen to that again, but try and clap along this time. Just see if you can work it out. It might be hard, it might be easy. Where does the cycle start? Can you hear the point where it repeats?</p>
+<p><em>Really, listen again and try clapping or tapping along. Then try to stomp or say “Top” at the beginning of each cycle. Once you do, or you find yourself sufficiently lost, click the button below to show the next paragraphs.</em></p>
+<pre><code>&quot;I tried, really!&quot; button to show more text</code></pre>
+<p>Here is an example of this pattern in practice. See if you can hear it: <a href="TODO">TODO</a>.</p>
+<pre><code>PLAY LOOP
+Rumba   .--.--.---.--.--
+Show the pattern this time, mark &quot;clap&quot; and make that sound different</code></pre>
+<p>You might have heard the pattern differently, though. If we move the clap to another part of the pattern, it changes the character.</p>
+<pre><code>PLAY LOOP
+Rumba   .--.--.-C-.--.--
+Show the pattern this time, mark &quot;clap&quot; in the middle and make that sound different</code></pre>
+<p><a href="http://wayneandwax.com/?page_id=9315&amp;fbclid=IwAR02xUOhjtC4fw-E6LOTQzcakI4o2IgKlkHmodg5FAbcr3X7qLmz-wS9FXk">Here is an entire blog post that highlights this version of the pattern</a>, calling it the “American clavé,” a reference to a common name given to this figure. Flipping it so that the new beginning of the cycle is at the beginning of the graphic makes it easier to see.</p>
+<pre><code>PLAY LOOP
+American clavé C-.--.--.--.--.-
+Show pattern with clap at beginning</code></pre>
+<p>Note that the clap to start the pattern happens during a silence. Rhythm is not just about sound, it’s about the creative use of space, too.Here are some examples that are mentioned in that article.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> Listen for how this cycle organizes time through repetition and expectation. It might quickly become familiar.</p>
+<p><a href="TODO">TODO: examples from American clave article</a></p>
+<h3 id="ambiguous-terms">Ambiguous terms</h3>
+<p>It’s worth discussing the words <em>rhythm</em> and <em>beat</em> themselves before trying to use them to talk about other things. People use these words interchangeably and, in fact, they can mean the same thing. They also might refer to different, but related, ideas. I separate them here while recognizing that the language used to talk about these distinctions “in real life” is at least somewhat artificial.</p>
+<p>A <em>rhythm</em> refers to sounds and silences that are associated based on their relationship in time. They come together to create a unified “thing” that might appear again. Some traditions have well-recognized names for certain rhythms. When rhythms that are familiar appear in different contexts, they might gain referential meanings over time. <a href="TODO">“Shave and a haircut, two bits”</a><a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> was a common ending to songs during a (TODO a certain?) period of American popular music history. It was so common that it could be <a href="TODO">stylized</a> and <a href="TODO">satirized</a>. The <em>dembow</em> rhythm comes from a specific place and has its own history in the Caribbean<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>. Like the examples above, it demonstrates how repeating a <em>rhythm</em> can turn it into a <em>groove</em>, to use a not-so-technical term. Push play to hear the rhythm by itself, then click “loop” to hear it repeat. That repeated version underlines global popular music styles ranging from <a href="TODO">TODO</a> to <a href="TODO">TODO</a>.</p>
+<pre><code>PLAY LOOP
+dembow .--.--.-</code></pre>
+<p>The collection of sounds that gives forward momentum to a piece of music using rhythms and cycles of looping rhythmic phrases is often called <em>the beat</em>. As the next part describes, the <em>beat</em> of a song can also refer to a steady pulse that we sense in our bodies. The confluence of the pulse and the music that marks that pulse creates a terminological ambiguity that can be confusing when writing about sound.</p>
+<p>Familiarity, expectation, and ambiguity are more than esoteric musical ideas. Musicians use them in meaningful ways. Take an example from electronic music (among other things): the beat drop.</p>
+<p>When “the beat drops” in a song, the entire groove of the music changes in dramatic and powerful ways. That the change happens at a specific moment (<em>a beat</em>) and is caused by changes to the repetition of rhythms (<em>the beat</em>) is not lost on dancers in a club who are anticipating the drop, ready for the boost of energy. Anticipation, which is related to expectation, builds as the musician (a DJ in this case) toys with the sound of the music. The pacing of the music doesn’t change, but something in <em>the beat</em> does. It’s easier to hear this than to read about it. It’s even better to feel it happen, since rhythm and music are things that our body senses. We’ll return to this idea later, too, but for now, here is an example to watch and listen to. Let yourself <em>feel</em> these sounds as much as you <em>hear</em> them or <em>see</em> people reacting: <a href="TODO">TODO</a>.</p>
+<p><a href="index.html">Back to contents</a> | <a href="part2.html">Part 2: Cycles, grooves, and time</a></p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>TODO cite<a href="#fnref1" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn2" role="doc-endnote"><p>TODO cite globalizing rock beat<a href="#fnref2" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn3" role="doc-endnote"><p>TODO cite maybe Robin Moore’s book on rumba<a href="#fnref3" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn4" role="doc-endnote"><p>TODO cite<a href="#fnref4" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn5" role="doc-endnote"><p>TODO Shave and a haircut discussion, citation<a href="#fnref5" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn6" role="doc-endnote"><p>TODO Dembow citation<a href="#fnref6" class="footnote-back" role="doc-backlink">↩</a></p></li>
+</ol>
+</section>
+</body>
+</html>

@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Christopher Witulski" />
+  <title>On Rhythm (Part 2: Cycles, grooves, and time) DRAFT</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style>
+  /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+  
+  
+  /* ==========================================================================
+     HTML5 display definitions
+     ========================================================================== */
+  
+  
+  /**
+   * Correct `block` display not defined in IE 8/9.
+   */
+  
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  nav,
+  section,
+  summary {
+      display: block;
+  }
+  
+  
+  /**
+    * Correct `inline-block` display not defined in IE 8/9.
+    */
+  
+  audio,
+  canvas,
+  video {
+      display: inline-block;
+  }
+  
+  
+  /**
+    * Prevent modern browsers from displaying `audio` without controls.
+    * Remove excess height in iOS 5 devices.
+    */
+  
+  audio:not([controls]) {
+      display: none;
+      height: 0;
+  }
+  
+  
+  /**
+    * Address `[hidden]` styling not present in IE 8/9.
+    * Hide the `template` element in IE, Safari, and Firefox < 22.
+    */
+  
+  [hidden],
+  template {
+      display: none;
+  }
+  
+  
+  /* ==========================================================================
+      Base
+      ========================================================================== */
+  
+  
+  /**
+    * 1. Set default font family to sans-serif.
+    * 2. Prevent iOS text size adjust after orientation change, without disabling
+    *    user zoom.
+    */
+  
+  html {
+      font-family: sans-serif;
+      /* 1 */
+      -ms-text-size-adjust: 100%;
+      /* 2 */
+      -webkit-text-size-adjust: 100%;
+      /* 2 */
+  }
+  
+  
+  /**
+    * Remove default margin.
+    */
+  
+  body {
+      margin: 0;
+  }
+  
+  
+  /* ==========================================================================
+      Links
+      ========================================================================== */
+  
+  
+  /**
+    * Remove the gray background color from active links in IE 10.
+    */
+  
+  a {
+      background: transparent;
+  }
+  
+  
+  /**
+    * Address `outline` inconsistency between Chrome and other browsers.
+    */
+  
+  a:focus {
+      outline: thin dotted;
+  }
+  
+  
+  /**
+    * Improve readability when focused and also mouse hovered in all browsers.
+    */
+  
+  a:active,
+  a:hover {
+      outline: 0;
+  }
+  
+  
+  /* ==========================================================================
+      Typography
+      ========================================================================== */
+  
+  
+  /**
+    * Address variable `h1` font-size and margin within `section` and `article`
+    * contexts in Firefox 4+, Safari 5, and Chrome.
+    */
+  
+  h1 {
+      font-size: 2em;
+      margin: 0.67em 0;
+  }
+  
+  
+  /**
+    * Address styling not present in IE 8/9, Safari 5, and Chrome.
+    */
+  
+  abbr[title] {
+      border-bottom: 1px dotted;
+  }
+  
+  
+  /**
+    * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+    */
+  
+  b,
+  strong {
+      font-weight: bold;
+  }
+  
+  
+  /**
+    * Address styling not present in Safari 5 and Chrome.
+    */
+  
+  dfn {
+      font-style: italic;
+  }
+  
+  
+  /**
+    * Address differences between Firefox and other browsers.
+    */
+  
+  hr {
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      height: 0;
+  }
+  
+  
+  /**
+    * Address styling not present in IE 8/9.
+    */
+  
+  mark {
+      background: #ff0;
+      color: #000;
+  }
+  
+  
+  /**
+    * Correct font family set oddly in Safari 5 and Chrome.
+    */
+  
+  code,
+  kbd,
+  pre,
+  samp {
+      font-family: monospace, serif;
+      font-size: 1em;
+  }
+  
+  
+  /**
+    * Improve readability of pre-formatted text in all browsers.
+    */
+  
+  pre {
+      white-space: pre-wrap;
+  }
+  
+  
+  /**
+    * Set consistent quote types.
+    */
+  
+  q {
+      quotes: "\201C" "\201D" "\2018" "\2019";
+  }
+  
+  
+  /**
+    * Address inconsistent and variable font size in all browsers.
+    */
+  
+  small {
+      font-size: 80%;
+  }
+  
+  
+  /**
+    * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+    */
+  
+  sub,
+  sup {
+      font-size: 75%;
+      line-height: 0;
+      position: relative;
+      vertical-align: baseline;
+  }
+  
+  sup {
+      top: -0.5em;
+  }
+  
+  sub {
+      bottom: -0.25em;
+  }
+  
+  
+  /* ==========================================================================
+      Embedded content
+      ========================================================================== */
+  
+  
+  /**
+    * Remove border when inside `a` element in IE 8/9.
+    */
+  
+  img {
+      border: 0;
+  }
+  
+  
+  /**
+    * Correct overflow displayed oddly in IE 9.
+    */
+  
+  svg:not(:root) {
+      overflow: hidden;
+  }
+  
+  
+  /* ==========================================================================
+      Figures
+      ========================================================================== */
+  
+  
+  /**
+    * Address margin not present in IE 8/9 and Safari 5.
+    */
+  
+  figure {
+      margin: 0;
+  }
+  
+  
+  /* ==========================================================================
+      Forms
+      ========================================================================== */
+  
+  
+  /**
+    * Define consistent border, margin, and padding.
+    */
+  
+  fieldset {
+      border: 1px solid #c0c0c0;
+      margin: 0 2px;
+      padding: 0.35em 0.625em 0.75em;
+  }
+  
+  
+  /**
+    * 1. Correct `color` not being inherited in IE 8/9.
+    * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+    */
+  
+  legend {
+      border: 0;
+      /* 1 */
+      padding: 0;
+      /* 2 */
+  }
+  
+  
+  /**
+    * 1. Correct font family not being inherited in all browsers.
+    * 2. Correct font size not being inherited in all browsers.
+    * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+    */
+  
+  button,
+  input,
+  select,
+  textarea {
+      font-family: inherit;
+      /* 1 */
+      font-size: 100%;
+      /* 2 */
+      margin: 0;
+      /* 3 */
+  }
+  
+  
+  /**
+    * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+    * the UA stylesheet.
+    */
+  
+  button,
+  input {
+      line-height: normal;
+  }
+  
+  
+  /**
+    * Address inconsistent `text-transform` inheritance for `button` and `select`.
+    * All other form control elements do not inherit `text-transform` values.
+    * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+    * Correct `select` style inheritance in Firefox 4+ and Opera.
+    */
+  
+  button,
+  select {
+      text-transform: none;
+  }
+  
+  
+  /**
+    * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+    *    and `video` controls.
+    * 2. Correct inability to style clickable `input` types in iOS.
+    * 3. Improve usability and consistency of cursor style between image-type
+    *    `input` and others.
+    */
+  
+  button,
+  html input[type="button"],
+  
+  /* 1 */
+  
+  input[type="reset"],
+  input[type="submit"] {
+      -webkit-appearance: button;
+      /* 2 */
+      cursor: pointer;
+      /* 3 */
+  }
+  
+  
+  /**
+    * Re-set default cursor for disabled elements.
+    */
+  
+  button[disabled],
+  html input[disabled] {
+      cursor: default;
+  }
+  
+  
+  /**
+    * 1. Address box sizing set to `content-box` in IE 8/9/10.
+    * 2. Remove excess padding in IE 8/9/10.
+    */
+  
+  input[type="checkbox"],
+  input[type="radio"] {
+      box-sizing: border-box;
+      /* 1 */
+      padding: 0;
+      /* 2 */
+  }
+  
+  
+  /**
+    * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+    * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+    *    (include `-moz` to future-proof).
+    */
+  
+  input[type="search"] {
+      -webkit-appearance: textfield;
+      /* 1 */
+      -moz-box-sizing: content-box;
+      -webkit-box-sizing: content-box;
+      /* 2 */
+      box-sizing: content-box;
+  }
+  
+  
+  /**
+    * Remove inner padding and search cancel button in Safari 5 and Chrome
+    * on OS X.
+    */
+  
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+      -webkit-appearance: none;
+  }
+  
+  
+  /**
+    * Remove inner padding and border in Firefox 4+.
+    */
+  
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+  }
+  
+  
+  /**
+    * 1. Remove default vertical scrollbar in IE 8/9.
+    * 2. Improve readability and alignment in all browsers.
+    */
+  
+  textarea {
+      overflow: auto;
+      /* 1 */
+      vertical-align: top;
+      /* 2 */
+  }
+  
+  
+  /* ==========================================================================
+      Tables
+      ========================================================================== */
+  
+  
+  /**
+    * Remove most spacing between table cells.
+    */
+  
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+  }
+  
+  .go-top {
+      position: fixed;
+      bottom: 2em;
+      right: 2em;
+      text-decoration: none;
+      background-color: #E0E0E0;
+      font-size: 12px;
+      padding: 1em;
+      display: inline;
+  }
+  
+  
+  /* ==========================================================================
+      Github css
+      ========================================================================== */
+  
+  html,
+  body {
+      margin: auto;
+      padding-right: 1em;
+      padding-left: 1em;
+      max-width: 70em;
+      color: black;
+  }
+  
+  *:not('#mkdbuttons') {
+      margin: 0;
+      padding: 0
+  }
+  
+  body {
+      font: 13.34px helvetica, arial, freesans, clean, sans-serif;
+      -webkit-font-smoothing: subpixel-antialiased;
+      line-height: 1.4;
+      padding: 3px;
+      background: #fff;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px
+  }
+  
+  p {
+      margin: 1em 0
+  }
+  
+  a {
+      color: #4183c4;
+      text-decoration: none
+  }
+  
+  body {
+      background-color: #fff;
+      padding: 30px;
+      margin: 15px;
+      font-size: 14px;
+      line-height: 1.6
+  }
+  
+  body>*:first-child {
+      margin-top: 0!important
+  }
+  
+  body>*:last-child {
+      margin-bottom: 0!important
+  }
+  
+  @media screen {
+      body {
+          /* box-shadow: 0 0 0 1px #cacaca, 0 0 0 4px #eee */
+      }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      margin: 20px 0 10px;
+      padding: 0;
+      font-weight: bold;
+      -webkit-font-smoothing: subpixel-antialiased;
+      cursor: text
+  }
+  
+  h1 {
+      font-size: 28px;
+      color: #000
+  }
+  
+  h2 {
+      font-size: 24px;
+      border-bottom: 1px solid #ccc;
+      color: #000
+  }
+  
+  h3 {
+      font-size: 18px;
+      color: #333
+  }
+  
+  h4 {
+      font-size: 16px;
+      color: #333
+  }
+  
+  h5 {
+      font-size: 14px;
+      color: #333
+  }
+  
+  h6 {
+      color: #777;
+      font-size: 14px
+  }
+  
+  p,
+  blockquote,
+  table,
+  pre {
+      margin: 15px 0
+  }
+  
+  ul {
+      padding-left: 30px
+  }
+  
+  ol {
+      padding-left: 30px
+  }
+  
+  ol li ul:first-of-type {
+      margin-top: 0
+  }
+  
+  hr {
+      background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+      border: 0 none;
+      color: #ccc;
+      height: 4px;
+      padding: 0
+  }
+  
+  body>h2:first-child {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  body>h1:first-child {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  body>h1:first-child+h2 {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  body>h3:first-child,
+  body>h4:first-child,
+  body>h5:first-child,
+  body>h6:first-child {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  a:first-child h1,
+  a:first-child h2,
+  a:first-child h3,
+  a:first-child h4,
+  a:first-child h5,
+  a:first-child h6 {
+      margin-top: 0;
+      padding-top: 0
+  }
+  
+  h1+p,
+  h2+p,
+  h3+p,
+  h4+p,
+  h5+p,
+  h6+p,
+  ul li>:first-child,
+  ol li>:first-child {
+      margin-top: 0
+  }
+  
+  dl {
+      padding: 0
+  }
+  
+  dl dt {
+      font-size: 14px;
+      font-weight: bold;
+      font-style: italic;
+      padding: 0;
+      margin: 15px 0 5px
+  }
+  
+  dl dt:first-child {
+      padding: 0
+  }
+  
+  dl dt>:first-child {
+      margin-top: 0
+  }
+  
+  dl dt>:last-child {
+      margin-bottom: 0
+  }
+  
+  dl dd {
+      margin: 0 0 15px;
+      padding: 0 15px
+  }
+  
+  dl dd>:first-child {
+      margin-top: 0
+  }
+  
+  dl dd>:last-child {
+      margin-bottom: 0
+  }
+  
+  blockquote {
+      border-left: 4px solid #DDD;
+      padding: 0 15px;
+      color: #777
+  }
+  
+  blockquote>:first-child {
+      margin-top: 0
+  }
+  
+  blockquote>:last-child {
+      margin-bottom: 0
+  }
+  
+  table {
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: 100%;
+      font: inherit
+  }
+  
+  table th {
+      font-weight: bold;
+      border: 1px solid #ccc;
+      padding: 6px 13px
+  }
+  
+  table td {
+      border: 1px solid #ccc;
+      padding: 6px 13px
+  }
+  
+  table tr {
+      border-top: 1px solid #ccc;
+      background-color: #fff
+  }
+  
+  table tr:nth-child(2n) {
+      background-color: #f8f8f8
+  }
+  
+  img {
+      max-width: 100%
+  }
+  
+  code,
+  tt {
+      margin: 0 2px;
+      padding: 0 5px;
+      white-space: nowrap;
+      border: 1px solid #eaeaea;
+      background-color: #f8f8f8;
+      border-radius: 3px;
+      font-family: Consolas, 'Liberation Mono', Courier, monospace;
+      font-size: 12px;
+      color: #333
+  }
+  
+  pre>code {
+      margin: 0;
+      padding: 0;
+      white-space: pre;
+      border: 0;
+      background: transparent
+  }
+  
+  .highlight pre {
+      background-color: #f8f8f8;
+      border: 1px solid #ccc;
+      font-size: 13px;
+      line-height: 19px;
+      overflow: auto;
+      padding: 6px 10px;
+      border-radius: 3px
+  }
+  
+  pre {
+      background-color: #f8f8f8;
+      border: 1px solid #ccc;
+      font-size: 13px;
+      line-height: 19px;
+      overflow: auto;
+      padding: 6px 10px;
+      border-radius: 3px
+  }
+  
+  pre code,
+  pre tt {
+      background-color: transparent;
+      border: 0
+  }
+  
+  .poetry pre {
+      font-family: Georgia, Garamond, serif!important;
+      font-style: italic;
+      font-size: 110%!important;
+      line-height: 1.6em;
+      display: block;
+      margin-left: 1em
+  }
+  
+  .poetry pre code {
+      font-family: Georgia, Garamond, serif!important;
+      word-break: break-all;
+      word-break: break-word;
+      -webkit-hyphens: auto;
+      -moz-hyphens: auto;
+      hyphens: auto;
+      white-space: pre-wrap
+  }
+  
+  sup,
+  sub,
+  a.footnote {
+      font-size: 1.4ex;
+      height: 0;
+      line-height: 1;
+      vertical-align: super;
+      position: relative
+  }
+  
+  sub {
+      vertical-align: sub;
+      top: -1px
+  }
+  
+  @media print {
+      body {
+          background: #fff
+      }
+      img,
+      pre,
+      blockquote,
+      table,
+      figure {
+          page-break-inside: avoid
+      }
+      body {
+          background: #fff;
+          border: 0
+      }
+      code {
+          background-color: #fff;
+          color: #333!important;
+          padding: 0 .2em;
+          border: 1px solid #dedede
+      }
+      pre {
+          background: #fff
+      }
+      pre code {
+          background-color: white!important;
+          overflow: visible
+      }
+  }
+  
+  @media screen {
+      body.inverted {
+          color: #eee!important;
+          border-color: #555;
+          box-shadow: none
+      }
+      .inverted body,
+      .inverted hr .inverted p,
+      .inverted td,
+      .inverted li,
+      .inverted h1,
+      .inverted h2,
+      .inverted h3,
+      .inverted h4,
+      .inverted h5,
+      .inverted h6,
+      .inverted th,
+      .inverted .math,
+      .inverted caption,
+      .inverted dd,
+      .inverted dt,
+      .inverted blockquote {
+          color: #eee!important;
+          border-color: #555;
+          box-shadow: none
+      }
+      .inverted td,
+      .inverted th {
+          background: #333
+      }
+      .inverted h2 {
+          border-color: #555
+      }
+      .inverted hr {
+          border-color: #777;
+          border-width: 1px!important
+      }
+       ::selection {
+          background: rgba(157, 193, 200, 0.5)
+      }
+      h1::selection {
+          background-color: rgba(45, 156, 208, 0.3)
+      }
+      h2::selection {
+          background-color: rgba(90, 182, 224, 0.3)
+      }
+      h3::selection,
+      h4::selection,
+      h5::selection,
+      h6::selection,
+      li::selection,
+      ol::selection {
+          background-color: rgba(133, 201, 232, 0.3)
+      }
+      code::selection {
+          background-color: rgba(0, 0, 0, 0.7);
+          color: #eee
+      }
+      code span::selection {
+          background-color: rgba(0, 0, 0, 0.7)!important;
+          color: #eee!important
+      }
+      a::selection {
+          background-color: rgba(255, 230, 102, 0.2)
+      }
+      .inverted a::selection {
+          background-color: rgba(255, 230, 102, 0.6)
+      }
+      td::selection,
+      th::selection,
+      caption::selection {
+          background-color: rgba(180, 237, 95, 0.5)
+      }
+      .inverted {
+          background: #0b2531;
+          background: #252a2a
+      }
+      .inverted body {
+          background: #252a2a
+      }
+      .inverted a {
+          color: #acd1d5
+      }
+  }
+  
+  .highlight .c {
+      color: #998;
+      font-style: italic
+  }
+  
+  .highlight .err {
+      color: #a61717;
+      background-color: #e3d2d2
+  }
+  
+  .highlight .k,
+  .highlight .o {
+      font-weight: bold
+  }
+  
+  .highlight .cm {
+      color: #998;
+      font-style: italic
+  }
+  
+  .highlight .cp {
+      color: #999;
+      font-weight: bold
+  }
+  
+  .highlight .c1 {
+      color: #998;
+      font-style: italic
+  }
+  
+  .highlight .cs {
+      color: #999;
+      font-weight: bold;
+      font-style: italic
+  }
+  
+  .highlight .gd {
+      color: #000;
+      background-color: #fdd
+  }
+  
+  .highlight .gd .x {
+      color: #000;
+      background-color: #faa
+  }
+  
+  .highlight .ge {
+      font-style: italic
+  }
+  
+  .highlight .gr {
+      color: #a00
+  }
+  
+  .highlight .gh {
+      color: #999
+  }
+  
+  .highlight .gi {
+      color: #000;
+      background-color: #dfd
+  }
+  
+  .highlight .gi .x {
+      color: #000;
+      background-color: #afa
+  }
+  
+  .highlight .go {
+      color: #888
+  }
+  
+  .highlight .gp {
+      color: #555
+  }
+  
+  .highlight .gs {
+      font-weight: bold
+  }
+  
+  .highlight .gu {
+      color: #800080;
+      font-weight: bold
+  }
+  
+  .highlight .gt {
+      color: #a00
+  }
+  
+  .highlight .kc,
+  .highlight .kd,
+  .highlight .kn,
+  .highlight .kp,
+  .highlight .kr {
+      font-weight: bold
+  }
+  
+  .highlight .kt {
+      color: #458;
+      font-weight: bold
+  }
+  
+  .highlight .m {
+      color: #099
+  }
+  
+  .highlight .s {
+      color: #d14
+  }
+  
+  .highlight .na {
+      color: #008080
+  }
+  
+  .highlight .nb {
+      color: #0086b3
+  }
+  
+  .highlight .nc {
+      color: #458;
+      font-weight: bold
+  }
+  
+  .highlight .no {
+      color: #008080
+  }
+  
+  .highlight .ni {
+      color: #800080
+  }
+  
+  .highlight .ne,
+  .highlight .nf {
+      color: #900;
+      font-weight: bold
+  }
+  
+  .highlight .nn {
+      color: #555
+  }
+  
+  .highlight .nt {
+      color: #000080
+  }
+  
+  .highlight .nv {
+      color: #008080
+  }
+  
+  .highlight .ow {
+      font-weight: bold
+  }
+  
+  .highlight .w {
+      color: #bbb
+  }
+  
+  .highlight .mf,
+  .highlight .mh,
+  .highlight .mi,
+  .highlight .mo {
+      color: #099
+  }
+  
+  .highlight .sb,
+  .highlight .sc,
+  .highlight .sd,
+  .highlight .s2,
+  .highlight .se,
+  .highlight .sh,
+  .highlight .si,
+  .highlight .sx {
+      color: #d14
+  }
+  
+  .highlight .sr {
+      color: #009926
+  }
+  
+  .highlight .s1 {
+      color: #d14
+  }
+  
+  .highlight .ss {
+      color: #990073
+  }
+  
+  .highlight .bp {
+      color: #999
+  }
+  
+  .highlight .vc,
+  .highlight .vg,
+  .highlight .vi {
+      color: #008080
+  }
+  
+  .highlight .il {
+      color: #099
+  }
+  
+  .highlight .gc {
+      color: #999;
+      background-color: #eaf2f5
+  }
+  
+  .type-csharp .highlight .k,
+  .type-csharp .highlight .kt {
+      color: #00F
+  }
+  
+  .type-csharp .highlight .nf {
+      color: #000;
+      font-weight: normal
+  }
+  
+  .type-csharp .highlight .nc {
+      color: #2b91af
+  }
+  
+  .type-csharp .highlight .nn {
+      color: #000
+  }
+  
+  .type-csharp .highlight .s,
+  .type-csharp .highlight .sc {
+      color: #a31515
+  }
+  
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">On Rhythm (Part 2: Cycles, grooves, and time) DRAFT</h1>
+<p class="author">Christopher Witulski</p>
+</header>
+<h2 id="part-2-cycles-grooves-and-time">Part 2: Cycles, grooves, and time</h2>
+<p>We can divide time into pieces, both small and large. Seconds or minutes move quickly when compared to hours, days, and weeks. We can count seconds, but we feel hours passing differently. We generally use sleep to mark days and weather or larger cycles tell us about passing months or years. The same is true for music. While writing music down on paper forces us to measure things in certain ways, those methods don’t necessarily align with how we feel sound’s temporal momentum.</p>
+<p>Western classical music, as it is often taught in schools, focuses on grouping smaller divisions of time to create <em>measures</em>, also called <em>bars</em>. These are called <em>beats</em>, adding another use of that term. Most musics around the world, including many European and American styles, use rhythmic cycles to orient the listener. The rock beat from earlier shows this: within much popular music, the cyclic repetitions provide momentum and stability while the subtle variations (like those in the dance club) manipulate that stability to create anticipation. This is one reason why popular music can be criticized as “mechanical”<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, but it’s also one of the reasons why it is accessible and engaging.</p>
+<p>These cycles even have names: a high school jazz band percussionist may get sheet music with a small label in the upper left hand corner that says “samba,” “funk,” “rock,” or “bossa nova.” These terms refer to adaptable patterns that someone might learn as they improve at the drum set. They play this cyclic pattern (“lay down the beat,” perhaps) and provide a foundation for the rest of the ensemble. The player is not a machine, though. She will incorporate nuances and changes to match other things that are happening in other parts of the ensemble or to toy with the energy level of the performance. The pattern (“funk” or “bossa”) is a skeletal guide.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>In many Middle Eastern musical styles, these patterns have similar names, each with its own history, appropriate place, and connotation. Johnny Farraj and Sami Abu Shumays describe many of them in <em>Inside Arab Music</em>, but they also outline a selection on their website: <a href="http://www.maqamworld.com/en/iqaa.php">maqamworld.com</a>. These patterns, collectively called <em>iqa’at</em>, are made of up two general types of drum strokes (or other sounds): <em>dum</em> signifies a lower, heavier sound while <em>tek</em> is usually higher or lighter. Maqamworld.com uses the letters D and T to show these, with S signifying a pause or silence. Take a moment to listen to the ways in which some of these cycles work in different pieces: <a href="http://www.maqamworld.com/en/iqaa/maqsum.php">the iqa’ called <em>maqsum</em></a> is a popular one to start with. <a href="http://www.maqamworld.com/en/iqaa/ayyub.php">The examples for <em>ayyoub</em></a> show a huge diversity of stylistic range within one pattern. Some, like <a href="http://www.maqamworld.com/en/iqaa/zaffa.php"><em>zaffa</em></a> are specifically linked to certain traditions, in this case a wedding procession, even though they now appear in other styles and contexts. Listening to a symphony orchestra presenting popular music, as when <a href="https://www.youtube.com/watch?v=Tb5zO7OybPg">a group like Black Violin</a> incorporates hip hop beats into classical chamber music contexts, gives an idea of how a rhythmic pattern (a funky hip hop beat) can hold its identity in a seemingly unrelated context (on the violin and in classical music halls).</p>
+<h3 id="layers-of-interaction">Layers of interaction</h3>
+<p>Cyclic rhythmic patterns can grow and adapt in many ways. One is through improvisation: a musician can subtly change the placement of certain sounds, add new ones, or remove a few parts of the rhythm to regulate energy. “Regulate” sounds so sterile, it’s about getting a crowd hype or making them hold their collective breath in anticipation. Groups of people can work together to do the same. If you have ever clapped along to a piece or changed how you move your feet while dancing, you were co-creating a pattern. This happens when, at a concert, everyone starts jumping together or swaying from side to side, cell phone flashlights held high. Rhythm can draw people in and together.</p>
+<p>Another form of adaptation is layering. A technical term for a repeating rhythmic pattern is an <em>ostinato</em>. When one of these ostinatos (rhythmic cycles) appears alongside another, they can combine to create something identifiably new. This is how a drum set works. A pattern on a bass drum appears alongside a second one on a snare drum, perhaps a third on a high hat cymbal, and others on floor toms, larger cymbals, or other instruments to create an intricate groove.</p>
+<p>A simple example from my own research in Morocco demonstrates this well (Witulski 2019). This is a pattern that appears in much popular music, but I crossed paths with it when researching a sacred ritual tradition as practiced by the <em>ʿissawa</em> brotherhood.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> It is part of a Muslim trance ceremony that involves prayer, devotional singing, and plenty of dancing and fun. This rhythm animates the moments where the musical ensemble invites laughter and popular religious songs into a long night of prayer and healing. The rhythmic pattern that I want to focus on also appears in a tradition of sung poetry called <em>malhun</em> that includes both “sacred” texts and “secular” ones.</p>
+<figure>
+<img src="TODO" alt="ʿIssawa ensemble performing in Fez, note the tabla drums" /><figcaption>ʿIssawa ensemble performing in Fez, note the <em>tabla</em> drums</figcaption>
+</figure>
+<p>In <em>ʿissawa</em> contexts, this pattern shows up on a pair of clay drums that are tied together. Some artists have switched from these traditional drums, however, to use manufactured <em>timbales</em>. In both cases, a larger and smaller drum makes two distinct sounds: one is lower and the other is higher. In <em>malhun</em>, different musicians each have small handheld goblet-shaped drums. Each one, called a <em>tarʿija</em> has a slightly different sound because of the natural fish-skin head.</p>
+<figure>
+<img src="TODO" alt="Malhun ensemble performing in Fez" /><figcaption>Malhun ensemble performing in Fez</figcaption>
+</figure>
+<p>These pairs of drums articulate two patterns. The first is two notes, equally spaced. This usually shows up on the larger drum. The second is offset and the notes are unequally spaced. In live settings, people might clap along to one or the other patterns. Try listening to each and clapping along with it individually.</p>
+<pre><code>BUTTONS: Play, Loop? Then show pattern with moving line?
+P1 BUTTON WITH VISUAL: D - - - D - - -
+P2 BUTTON WITH VISUAL: - - - T - - T -</code></pre>
+<p>Combining the two patterns changes the feel. They integrate into a single idea, yet people still clap along to the individual parts. Try identifying and clapping the distinct patterns when listening to the two of them together. Then, mute one and attempt to carry on the other.</p>
+<pre><code>BUTTONS: Loop, show both patterns, mute or quiet buttons for each</code></pre>
+<p>These are pretty mechanical examples. Real people making music will make other changes as well. The music speeds up as it gets closer to the climactic ending of a section or poem. As it speeds up, musicians will slightly adjust the relationships between the two patterns. They might make the last note of the second (offset) pattern louder to push listeners back to the beginning of the cycle in a way that you can feel when you move. They might squeeze the two middle notes, which are already close together, even tighter to make the music feel rushed or excited. These details are the subject of Part 3.</p>
+<p><a href="part1.html">Part 1: Expectation and repetition</a> (1,686 words) | <a href="part3.html">Part 3: Feeling the beat(s)</a></p>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>TODO Criticisms and citations of mechanical popular music<a href="#fnref1" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn2" role="doc-endnote"><p>This way of thinking about how to organize time in music differs from how rhythm and a concept called <em>meter</em> are taught in many music classrooms. Where this approach follows the way people make, listen to, and feel music in many contexts across the world (including Europe in Europe and the United States and in classical music traditions), the teaching of rhythm and meter often focuses on quasi-mathematical procedures that relate to written musical notation. Notation is important for a number of reasons, but there is much that it does not represent well, including nuances in rhythm that change the “feel” of a pattern (TODO: cite issues). As seen in the maqamworld.com examples above, musicians globally can use western notational techniques as a tool to represent sound, but they recognize its failures and it rarely shows up in performance. This, again, is true in “the west”: innumerable outstanding musicians never needed to learn to read music to wield it powerfully. Notation is an abstraction that can serve a purpose (namely, it can preserve and transmit some elements of sound for distribution, analysis, or similar goals). Also relevant is the fact that there are many other representational systems available to musicians and listeners, not only the one that has roots in European classical traditions (TODO: citations of other systems).<a href="#fnref2" class="footnote-back" role="doc-backlink">↩</a></p></li>
+<li id="fn3" role="doc-endnote"><p>In this case, the term “brotherhood” refers to the all male musical ensembles who carry out ritual ceremonies. The events themselves are usually open to client families (who require healing through sacred blessing) and their friends. There are other rituals within the tradition that happen in religious spaces and are differentiated by gender.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩</a></p></li>
+</ol>
+</section>
+</body>
+</html>
