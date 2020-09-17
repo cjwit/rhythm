@@ -7,6 +7,7 @@ To do
 * Update pandoc commands to move things into the html folder
 * Add link back to index on each page at the bottom
 * Add a note to each page with a link back to contents at top
+* Add goatcounter and split out CSS (since this has multiple pages now)
 * Add examples
 * Add references as footnotes and in final page
 * Update word counts for review

@@ -93,4 +93,4 @@ PULSE 1 (MUTED)
 PULSE 2 (MUTED)
 ```
 
-[Part 2: Cycles, grooves, and time](part2.html) | [Part 4: Dividing time](part4.html)
+[Part 2: Cycles, grooves, and time](part2.html) | [Back to contents](index.html) | [Part 4: Dividing time](part4.html)

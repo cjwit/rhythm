@@ -9,7 +9,7 @@ pandoc: pandoc index.md -o index.html -s -H pandoc.css
 
 [Part 1: Expectation and repetition](part1.html) (1,686 words)
 
-[Part 2: Cycles, grooves, and time](part2.html) (1,460 words)
+[Part 2: Cycles, grooves, and time](part2.html) (1,469 words)
 
 [Part 3: Feeling the beat(s)](part3.html) (1,166 words)
 
