@@ -2,7 +2,7 @@
 title: "On Rhythm"
 author: Christopher Witulski
 ---
-[Part 4: Consistent Inconsistencies from Morocco](part4.html) | [Back to contents](index.html) | [References](references.html)
+[Part 4: Consistent Inconsistencies from Morocco](part4.html) | [Back to contents](index.html)
 
 ## References
 
@@ -38,4 +38,4 @@ Witulski, Christopher. 2018. *The Gnawa Lions: Authenticity and Opportunity in M
 
 ———. 2019. *Focus: Music and Religion of Morocco*. New York and London: Routledge.
 
-[Part 4: Consistent Inconsistencies from Morocco](part4.html) | [Back to contents](index.html) | [References](references.html)
+[Part 4: Consistent Inconsistencies from Morocco](part4.html) | [Back to contents](index.html)
