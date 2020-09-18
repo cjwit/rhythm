@@ -2,7 +2,7 @@
 title: "On Rhythm"
 author: Christopher Witulski
 ---
-[Back to contents](index.html)
+[Part 3: Feeling the beat(s)](part3.html) | [Back to contents](index.html) | [References](references.html)
 
 ## Part 4: Consistent inconsistencies from Morocco
 

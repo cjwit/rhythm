@@ -2,7 +2,7 @@
 title: "On Rhythm"
 author: Christopher Witulski
 ---
-[Back to contents](index.html)
+[Back to contents](index.html) | [Part 2: Cycles of time](part2.html)
 
 ## Part 1: Expectation and repetition
 
