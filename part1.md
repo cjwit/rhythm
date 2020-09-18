@@ -3,7 +3,7 @@ title: "On Rhythm (Part 1: Expectation and repetition) DRAFT"
 author: Christopher Witulski
 pandoc: pandoc part1.md -o part1.html -s -H pandoc.css
 ---
-## Part 1: Expectation and repetition
+## Expectation and repetition
 
 So much of music is about expectation. People who make music set up expectations by following guidelines based in experience that are commonly called "rules." One aspect of music that can make it exciting, confusing, surprising, fulfilling—rich in so many ways—is how it satisfies or transgresses our expectations.
 
@@ -84,7 +84,7 @@ Note that the clap to start the pattern happens during a silence. Rhythm is not 
 
 [^american-clave]: TODO cite
 
-### Ambiguous terms
+## Ambiguous terms
 
 It's worth discussing the words *rhythm* and *beat* themselves before trying to use them to talk about other things. People use these words interchangeably and, in fact, they can mean the same thing. They also might refer to different, but related, ideas. I separate them here while recognizing that the language used to talk about these distinctions "in real life" is at least somewhat artificial.
 
@@ -105,4 +105,4 @@ Familiarity, expectation, and ambiguity are more than esoteric musical ideas. Mu
 
 When "the beat drops" in a song, the entire groove of the music changes in dramatic and powerful ways. That the change happens at a specific moment (*a beat*) and is caused by changes to the repetition of rhythms (*the beat*) is not lost on dancers in a club who are anticipating the drop, ready for the boost of energy. Anticipation, which is related to expectation, builds as the musician (a DJ in this case) toys with the sound of the music. The pacing of the music doesn't change, but something in *the beat* does. It's easier to hear this than to read about it. It's even better to feel it happen, since rhythm and music are things that our body senses. We'll return to this idea later, too, but for now, here is an example to watch and listen to. Let yourself *feel* these sounds as much as you *hear* them or *see* people reacting: [TODO](TODO).
 
-[Back to contents](index.html) | [Part 2: Cycles, grooves, and time](part2.html)
+[Back to contents](index.html) | [Part 2: Cycles of time](part2.html)

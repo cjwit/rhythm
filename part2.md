@@ -1,10 +1,10 @@
 ---
-title: "On Rhythm (Part 2: Cycles, grooves, and time) DRAFT"
+title: "On Rhythm (Part 2: Cycles of time) DRAFT"
 author: Christopher Witulski
 pandoc: pandoc part2.md -o part2.html -s -H pandoc.css
 ---
 
-## Part 2: Cycles of time
+## Cycles of time
 
 We can divide time into pieces, both small and large. Seconds or minutes move quickly when compared to hours, days, and weeks. We can count seconds, but feel hours passing differently. We generally use sleep to mark days and weather can tell us about passing months or years. The same is true for music. While writing music down on paper forces us to measure things in certain ways, those methods are not always aligned with how we sense sound's temporal momentum.
 
@@ -20,7 +20,7 @@ These cycles even have names: a high school jazz band percussionist may get shee
 
 In many Middle Eastern musical styles, these patterns have similar names, each with its own history, appropriate place, and connotation. Johnny Farraj and Sami Abu Shumays describe many of them in *Inside Arab Music*, but they also outline a selection on their website: [maqamworld.com](http://www.maqamworld.com/en/iqaa.php). These patterns, collectively called *iqa'at*, are made of up two general types of drum strokes (or other sounds): *dum* signifies a lower, heavier sound while *tek* is usually higher or lighter. Maqamworld.com uses the letters *D* and *T* to show these, with *S* signifying a pause or silence. Take a moment to listen to the ways in which some of these cycles work in different pieces: [the iqa' called *maqsum*](http://www.maqamworld.com/en/iqaa/maqsum.php) is a popular one to start with. [The examples for *ayyoub*](http://www.maqamworld.com/en/iqaa/ayyub.php) show a huge diversity of stylistic range within one pattern. Some, like [*zaffa*](http://www.maqamworld.com/en/iqaa/zaffa.php) are specifically linked to certain traditions, in this case a wedding procession, even though they now appear in other styles and contexts. Listening to a symphony orchestra presenting popular music, as when [a group like Black Violin](https://www.youtube.com/watch?v=Tb5zO7OybPg) incorporates hip hop beats into classical chamber music contexts, gives an idea of how a rhythmic pattern (a funky hip hop beat) can hold its identity in a seemingly unrelated context (the classical music hall).
 
-### Layers of interaction
+## Layers of interaction
 
 Cyclic rhythmic patterns can grow and adapt in many ways. One is through improvisation: a musician can subtly change the placement of certain sounds, add new ones, or remove a few parts of the rhythm to regulate energy. "Regulate" sounds so sterile, it's about getting a crowd hype or making them hold their collective breath in anticipation. Groups of people can work together to do the same. If you have ever clapped along to a piece or changed how you move your feet while dancing, you were co-creating a pattern. This happens when, at a concert, everyone starts jumping together or swaying from side to side, cell phone flashlights held high. Rhythm can draw people in and together.
 
