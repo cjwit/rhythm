@@ -2,15 +2,9 @@
 
 To do
 
-* Finish editing parts 2-5
-* Finish conclusion in part 5
-* Update pandoc commands to move things into the html folder
-* Add link back to index on each page at the bottom
 * Add a note to each page with a link back to contents at top
 * Add goatcounter and split out CSS (since this has multiple pages now)
-* Add examples
-* Add references as footnotes and in final page
-* Update word counts for review
+* Finish examples
 
 Code
 
@@ -23,3 +17,14 @@ Code
   * Play and loop buttons
   * Text description
   * Audio object?
+
+Command
+
+```
+pandoc source/index.md -o index.html -s -H source/pandoc.css
+pandoc source/part1.md -o part1.html -s -H source/pandoc.css
+pandoc source/part2.md -o part2.html -s -H source/pandoc.css
+pandoc source/part3.md -o part3.html -s -H source/pandoc.css
+pandoc source/part4.md -o part4.html -s -H source/pandoc.css
+pandoc source/references.md -o references.html -s -H source/pandoc.css
+```

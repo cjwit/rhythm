@@ -1,10 +1,10 @@
 ---
-title: "On Rhythm (Part 4: Consistent inconsistencies from Morocco) DRAFT"
+title: "On Rhythm"
 author: Christopher Witulski
-pandoc: pandoc part4.md -o part4.html -s -H pandoc.css
 ---
+[Back to contents](index.html)
 
-## Consistent inconsistencies from Morocco
+## Part 4: Consistent inconsistencies from Morocco
 
 One of my main goals in this series is to disassociate widely used terminology from an exclusive understanding based in western classical music and its associated system of written symbols. Rhythm is central to music worldwide, even in contexts where it is important in absentia like free rhythm improvisations. It is difficult to imagine music that does not incorporate a sense of passing time. Even where that might be possible, it is likely to work by breaking expectations.
 
@@ -16,9 +16,9 @@ The exclusive association of ideas like beat and meter to western systems has a 
 
 Two of these three examples come from the *hamadsha* tradition. The hamadsha brotherhood is a Muslim Sufi group, which means that they regularly gather to perform and participate in sung devotional poetry. Unlike some other Sufi brotherhoods, the hamadsha are organized as professional ensembles who visit client houses to chant and sing poetry along with instrumental accompaniment. They are closely linked to the figure of Aisha, a spirit who possesses some individuals. The ritual healing ceremony is not an exocism. One of its goals is the maintenance of the relationship between Aisha and her host body. The musicians and their ceremony help the client to appease Aisha through chanting, prayer, singing, a trance possession "dance," and the ritual sacrifice of animals like chickens and goats.[^hamadsha]
 
-[^hamadsha]: For more detail on the hamadsha and their ritual ceremony, see Witulski 2019 and Crapanzano TODO.
+[^hamadsha]: For more detail on the hamadsha and their ritual ceremony, see Witulski 2019.
 
-An evening hamadsha event moves through a number of segments, each with its own musical characteristics. One, called the *saf al-ginbri* features an underlying rhythmic pattern of uneven heavy beats that group the beats of a consistent pulse. This pattern is also common elsewhere in the world, including the Balkan region of Europe and across the Middle East (TODO cite balkan, Daniel in AAWM). This example is from a ceremony I attended with the hamadsha leader Abdderrahim Amrani.
+An evening hamadsha event moves through a number of segments, each with its own musical characteristics. One, called the *saf al-ginbri* features an underlying rhythmic pattern of uneven heavy beats that group the beats of a consistent pulse. This pattern is also common elsewhere in the world, including the Balkan region of Europe and across the Middle East (Goldberg 2020). This example is from a ceremony I attended with the hamadsha leader Abdderrahim Amrani.
 
 ```
 PLAY EXAMPLE
@@ -34,13 +34,13 @@ A second pattern is both more complicated from the perspective of western musica
 
 Gnawa music uses three types of instruments. A single low bass string instrument called a *hajhuj*, *ginbri*, or *sintir* is at its core. This is the only melodic instrument that accompanies singing. A large drum called a *tbal* appears in certain places. Of interest here, though, are the *quraqib*, sets of iron castanets that beat out consistent rhythmic patterns throughout most of the overnight ceremony.
 
-![Quraqib, as demonstrated by TODO](TODO)
+![Quraqib, as demonstrated by TODO](https://via.placeholder.com/500x200.png?text=Quraqib)
 
 Most individual songs in gnawa music start slowly and get faster as the trance intensifies.[^tempo] This example—and many similar instances of speeding up gradually that happen across the globe—is different than most western instances where, for example, acceleration may happen at the end of a piece to build excitement. When it does happen in western traditions, the internal subdivision pacing increases with the speed of the beats. This maintains the relationships between them (at least roughly). A duple subdivision usually stays duple.
 
 [^tempo]: If using western terminology, the speed would be referred to with the term *tempo*.
 
-At higher speeds, it can get hard to maintain the pace of subdivisions simply because shorter notes get too fast to play. This pacing issue is simply accepted and normalized in gnawa music. The pattern that starts a piece gets so fast that the musicians "even out" the distance between the subdivisions. Mathematical ratios are less important than the intensity of the experience. A gradual moves happens where a feeling of a duple subdivision shifts into a triple one as longer long notes shorten. These three moments are from different parts of "TODO CHOOSE TUNE" as played by Abderrahim Abderrazak, my teacher during my fieldwork in Fez, Morocco.
+At higher speeds, it can get hard to maintain the pace of subdivisions simply because shorter notes get too fast to play. This pacing issue is simply accepted and normalized in gnawa music. The pattern that starts a piece gets so fast that the musicians "even out" the distance between the subdivisions. Mathematical ratios are less important than the intensity of the experience. A gradual moves happens where a feeling of a duple subdivision shifts into a triple one as longer long notes shorten. These three moments are from different parts of "TODO" as played by Abderrahim Abderrazak, my teacher during my fieldwork in Fez, Morocco.
 
 ```
 PLAY BEGINNING
@@ -115,4 +115,4 @@ REAL AUDIO
 
 This set of short essays describes core elements of rhythm by prioritizing perception with three goals in mind. First, I aim to introduce some terminology that can inform how we hear and understand what we listen to. These elements may prove more or less helpful depending on the music that is playing, but they are widely applicable. Second, the approaches here resist the western-centric methods and perspectives that commonly define things like beat, meter, and subdivision. I present these examples, especially in this final section, to show how these methods are not as widely useful as they so often seem. This is not a case of a system being used inappropriately for something that does not fit. Like other global systems, western ,musical notation is derived from specific histories and compositional styles. It is a tool serving a purpose. Just as it obfuscates nuance in some Moroccan styles, it hinders certain elements of western performance practice when used in appropriately. Finally, I want to focus our understanding of music and sound more holistically on the body. We do not just hear music, we feel it, dance it, sing it, and experience the world around us to it. Yet, each of us does so differently based on experiences, abilities, training, hopes, dreams, and so on. Music, like us, lives in systems that we internalize. But at their best, rules and expectations—whether musical or otherwise—are made to be broken.
 
-[Part 3: Feeling the beat(s)](part3.html) | [References](references.html)
+[Part 3: Feeling the beat(s)](part3.html) | [Back to contents](index.html) | [References](references.html)

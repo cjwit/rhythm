@@ -1,18 +1,14 @@
 ---
-title: "On Rhythm (Part 3: Feeling the beat(s)) DRAFT"
+title: "On Rhythm"
 author: Christopher Witulski
-pandoc: pandoc part3.md -o part3.html -s -H pandoc.css
 ---
+[Back to contents](index.html)
 
-## Feeling the beat(s)
+## Part 3: Feeling the beat(s)
 
 Just as musical repetition and relationships can orient listeners over long stretches of time, smaller details impact how we feel music in the moment. Some of these details go unnoticed in common discussions of sound. For example, they may not appear in written music notation in western contexts. That doesn't mean that they are not important or that we don't feel them.
 
-Much of the world's music has a sense of *pulse*, a consistent sense of motion. This is one of many terms that is difficult to describe in words without falling back on other equally problematic sets of terminology. It also resists being bounded into a specific definition. Take dance: a pulse can be the points in time where you put your feet down or, in the case of Argentinean tango music, where you step while walking. Listen here and watch as the dancers' feet move in a somewhat consistent pulse, or, to use another term, to the beat.
-
-```
-TODO Tango example with obvious pulse and walking motion
-```
+Much of the world's music has a sense of *pulse*, a consistent sense of motion. This is one of many terms that is difficult to describe in words without falling back on other equally problematic sets of terminology. It also resists being bounded into a specific definition. Take dance: a pulse can be the points in time where you put your feet down or, in the case of Argentinean tango music, where you step while walking. [Listen here and watch](https://www.youtube.com/embed/wIvfPI_GT3U) as the dancers' feet move in a somewhat consistent pulse, or, to use another term, to the beat.
 
 That word, *beat*, returns here. The *pulse* is often referred to as the *beat*, but I will nudge the meaning here to say that each pulse—each moment in time—is a *beat*. These beats that make up the pulse are not identical to the rhythm, though in Western music notation systems, they do get used to calculate larger structures like *meter*.
 
@@ -64,7 +60,7 @@ Each group is called a *measure* or *bar* and where those measures start and end
 
 Triple groupings *feel* different. Here is an example from the American old time fiddling tradition as performed by Tommy Jarrell, an influential fiddle player. Try counting "one, two, three, one, two, three..." as he plays. A lifting or lilting sensation is at the core of many triple meter pieces, in part because of the dance steps that the music accompanies.
 
-TODO: embed or replace with stable archive [Tommy Jarrell performing "Jack of Diamonds" from the documentary *Sprout Wings and Fly* (music begins at 0:28)](https://www.youtube.com/watch?v=bDJPnG3RDxU)s
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bDJPnG3RDxU?start=28" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 If the pace quickens, though, we might feel the central pulse at a different place. This short sample of an Irish jig a patting sound that marks the beat. Counting "one, two, three" fast fits well, but a dancer cannot move her feet at that speed. Instead, you step to a slower "one, two." Here the pulse shifts and a division of the beat itself becomes clear. That will be the focus of a later section.
 
@@ -79,12 +75,12 @@ Or an audio with a diagram
 [   ] [     ] [   ]
 ```
 
-These groupings can appear in ways that foster ambiguity for the listener to generate tension or space. Rhythms can spread over time in a way that emphasizes two or more different pulses simultaneously. This displacement can be troubling or exciting. Stephen Friedson argues that it opens the body to an experience of trance (TODO). Ann Danielsen describes how the guitar groove in James Brown's famous song "Sex Machine" creates its own pulse that is slightly offset from the main one followed by the rest of the band (TODO). While it does not bring about trance, it gives life to funk. In either case, a similar musical practice impacts the listener in a contextually-defined way, but both change our perception (TODO Becker).
+These groupings can appear in ways that foster ambiguity for the listener to generate tension or space. Rhythms can spread over time in a way that emphasizes two or more different pulses simultaneously. This displacement can be troubling or exciting. Stephen Friedson argues that it opens the body to an experience of trance (1996). Ann Danielsen describes how the guitar groove in James Brown's famous song "Sex Machine" creates its own pulse that is slightly offset from the main one followed by the rest of the band (2006). While it does not bring about trance, it gives life to funk. In either case, a similar musical practice impacts the listener in a contextually-defined way, but both change our perception (Becker 2004).
 
-Listen to this example of (TODO) and clap along to the pulse that you hear. Then unmute the first given pulse to see if it aligns with what you felt. Mute it again and try the second one. Then, if you are up to the challenge, try shifting your perception from one to the other and back, either with the pulse audio samples muted or unmuted. At first, it might feel unnatural. Eventually, and with familiarity, it may get easier.
+Listen to this example and clap along to the pulse that you hear. Then unmute the first given pulse to see if it aligns with what you felt. Mute it again and try the second one. Then, if you are up to the challenge, try shifting your perception from one to the other and back, either with the pulse audio samples muted or unmuted. At first, it might feel unnatural. Eventually, and with familiarity, it may get easier.
 
 ```
-AUDIO LOOP
+AUDIO LOOP (VIMBUZA PATTERN? TIMELINE?)
 PULSE 1 (MUTED)
 PULSE 2 (MUTED)
 ```
@@ -122,9 +118,11 @@ TRI  . . . . . . . . . . . . . . . .
 SWI  .   . .   . .   . .   . .   . .
 ```
 
-[TODO shuffle example]()
+This example from Odetta is a slow shuffle, which brings it closer to the sound of the blues.
 
-Musicians do not typically adhere to mathematical certainties, though. They can and do, but they make use of the flexibility that live performance offers.[^computers] Swing performers themselves vary the degree of their swing to create an individual style. Even within a single musical line, they change the ratios of their subdivisions to build and release tension (TODO cite). TODO shares similar ideas about Brazilian samba music, showing that this is not unique to the genre known as "swing" (TODO cite). These manipulations are examples of *microtiming*, adjusting the timing of notes in slight, but noticeable, ways.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/V6xJLQKIRUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Musicians do not typically adhere to mathematical certainties, though. They can and do, but they make use of the flexibility that live performance offers.[^computers] Swing performers themselves vary the degree of their swing to create an individual style. Even within a single musical line, they change the ratios of their subdivisions to build and release tension (Benadon 2006). Christine Gerischer shares similar ideas about Brazilian samba music, showing that this is not unique to the genre known as "swing" (2006). These manipulations are examples of *microtiming*, adjusting the timing of notes in slight, but noticeable, ways.
 
 [^computers]: It should be said that flexibility in subdivisions and other expressive techniques are not exclusive to human performers. Electronic music has this capability and, in some cases, can do so with more specific intentionality on the part of the composer or producer than a live performer.
 
@@ -137,11 +135,7 @@ SNARE
 BASS DRUM
 ```
 
-This technique of rushing or delaying notes can happen anywhere in a piece of music, but it is a matter of balance. Breaking too far from expectations or norms could confuse a listener or dancer, but sticking to them methodically might get dull. One of my own favorite moments that exemplifies this is from a performance of "Watermelon Man" by Mongo Santamaria. While listening, try to let yourself feel the groove and, if the music inspires you, move along with it or clap. Then, *feel* how the percussion (drum set and other instruments) almost pull the horn section (the brass instruments and saxophone) along. It is even more extreme when the percussion drops out at about 30 seconds in. When I listen, I can't help but to actually feel this tension in my body, as well as the relief that comes when they snap back together.
-
-```
-[Mongo Santamaria "Watermelon Man"](https://www.youtube.com/watch?v=zJuX-JJ8WF0)
-```
+This technique of rushing or delaying notes can happen anywhere in a piece of music, but it is a matter of balance. Breaking too far from expectations or norms could confuse a listener or dancer, but sticking to them methodically might get dull. One of my own favorite moments that exemplifies this is from [a performance of "Watermelon Man" by Mongo Santamaria](https://www.youtube.com/embed/zJuX-JJ8WF0). While listening, try to let yourself feel the groove and, if the music inspires you, move along with it or clap. Then, *feel* how the percussion (drum set and other instruments) almost pull the horn section (the brass instruments and saxophone) along. It is even more extreme when the percussion drops out at about 30 seconds in. When I listen, I can't help but to actually feel this tension in my body, as well as the relief that comes when they snap back together.
 
 The final section turns to Morocco for a series of rhythms that challenge expectations by combining each of these practices.
 
