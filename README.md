@@ -1,13 +1,16 @@
 # README
 
-To do
+[On Rhythm draft](http://cwitulski.com/rhythm/)
 
-* Add a note to each page with a link back to contents at top
-* Add goatcounter and split out CSS (since this has multiple pages now)
+## To do
+
+### Writing
+
 * Finish examples
 
-Code
+### Code
 
+* Add goatcounter and split out CSS (since this has multiple pages now)
 * Determine overall look
 * Set up color variables for easy changes later
 * Try using objects to organize the code
@@ -18,7 +21,7 @@ Code
   * Text description
   * Audio object?
 
-Command
+## Pandoc command
 
 ```
 pandoc source/index.md -o index.html -s -H source/pandoc.css
