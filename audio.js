@@ -1,13 +1,13 @@
 // helper functions
-var toggleMute = function() {
+var toggleMute = function () {
   // mute = !mute
 }
 
-var playOnce = function() {
+var playOnce = function () {
   // play file
 }
 
-var playLoop = function() {
+var playLoop = function () {
   // play as loop
 }
 
@@ -17,15 +17,15 @@ class Example {
   // design settings
   // label
   // audio clips
-    // label for each
-    // button types for each
-    // graphical representation for each
+  // label for each
+  // button types for each
+  // graphical representation for each
 }
 
 class PlayButton {
   // holds display logic for playing/not playing
   // controls multiple linked audio files
-    // volume of each handled by individual mute buttons
+  // volume of each handled by individual mute buttons
 }
 
 class MuteButton {
