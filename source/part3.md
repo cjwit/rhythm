@@ -1,6 +1,7 @@
 ---
 title: "On Rhythm"
 author: Christopher Witulski
+header-includes: <script src="audio.js"></script>
 ---
 [Part 2: Cycles of time](part2.html) | [Back to contents](index.html) | [Part 4: Consistent inconsistencies from Morocco](part4.html)
 

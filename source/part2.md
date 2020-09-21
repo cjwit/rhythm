@@ -1,6 +1,7 @@
 ---
 title: "On Rhythm"
 author: Christopher Witulski
+header-includes: <script src="audio.js"></script>
 ---
 [Part 1: Expectation and repetition](part1.html) | [Back to contents](index.html) | [Part 3: Feeling the beat(s)](part3.html)
 
