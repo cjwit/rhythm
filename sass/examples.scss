@@ -1,0 +1,12 @@
+$red-1: #AD74A8;
+$red-2: #90488A;
+$red-3: #74276D;	// Main Primary color */
+$red-4: #570E51;
+$red-5: #3A0035;
+
+.example {
+  border: 2px solid $red-1;
+  border-radius: 5px;
+  color: $red-5;
+  padding: 1em;
+}

@@ -15,12 +15,13 @@ This set of short essays considers rhythm from the perspective of expectation an
 
 While rhythm is an integral part of all music, it is often foregrounded in discussions of drumming or percussion. Depending on your musical experiences and expectations—what you listen to—a drumming pattern can be confusing, boring, groovy, exciting, and so on. Here is a common rock beat. Thanks to the globalizing tendencies of the music industry, this is a familiar sound for many people across the world.
 
-```
-PLAY LOOP
+<div class="example">
+  <span>Play loop</span>
+  <pre>
 High hat  . . . .
 Snare         .
-Bass      .
-```
+Bass      .</pre>
+</div>
 
 Many different things combine to determine how you might hear and feel this pattern. Here are some examples:
 
