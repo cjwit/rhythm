@@ -617,34 +617,43 @@ input {
   text-indent: 0px; }
 
 .example {
-  border: 2px solid #74276D;
+  border: 2px solid #570E51;
   border-radius: 5px;
   color: #3A0035;
   padding: 1em; }
-  .example .btn {
+  .example .title {
+    display: inline-block;
+    padding-left: 1em;
     color: #570E51;
-    border-color: #570E51; }
+    font-weight: bold; }
+    @media screen and (max-width: 42em) {
+      .example .title {
+        padding-left: 0;
+        padding-bottom: 1em; } }
+  .example .btn {
+    color: white;
+    font-weight: bold;
+    background-color: #74276D;
+    border-color: #3A0035; }
     @media screen and (max-width: 42em) {
       .example .btn {
-        margin-bottom: 0;
         display: inline-block;
         background-color: rgba(255, 255, 255, 0.2); } }
     .example .btn:hover {
-      color: #AD74A8;
-      background-color: rgba(255, 255, 255, 0.4);
-      border-color: #AD74A8; }
-
-.boxes {
-  padding-top: 1.5em; }
-
-.box {
-  padding: 0.5em 1em;
-  margin-left: 0.5em;
-  border-radius: 5px; }
+      color: white;
+      background-color: #3A0035;
+      border-color: #3A0035; }
 
 .box-label {
   display: inline-block;
-  width: 6em; }
+  color: #AD74A8;
+  font-size: 1em; }
+
+.box {
+  margin-left: 0.5em;
+  display: inline-block;
+  padding: 0.5em 1em;
+  border-radius: 5px; }
 
 .empty-box {
   background-color: #AD74A8; }
