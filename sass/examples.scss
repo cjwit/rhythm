@@ -5,8 +5,53 @@ $red-4: #570E51;
 $red-5: #3A0035;
 
 .example {
-  border: 2px solid $red-1;
+  border: 2px solid $red-3;
   border-radius: 5px;
   color: $red-5;
   padding: 1em;
+
+  .btn {
+    @include small {
+      // width: 80%;
+      margin-bottom: 0;
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.2);
+      // margin-left: 20%;
+    }
+  
+    color: $red-4;
+    border-color: $red-4;
+  
+    &:hover {
+      color: $red-1;
+      background-color: rgba(255, 255, 255, 0.4);
+      border-color: $red-1;
+    }
+  }
+}
+
+//
+// matrix boxes
+//
+.boxes {
+  padding-top: 1.5em;
+}
+
+.box {
+  padding: 0.5em 1em;
+  margin-left: 0.5em;
+  border-radius: 5px;
+}
+
+.box-label {
+  display: inline-block;
+  width: 6em;
+}
+
+.empty-box {
+  background-color: $red-1;
+}
+
+.filled-box {
+  background-color: $red-4;
 }

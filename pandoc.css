@@ -617,9 +617,39 @@ input {
   text-indent: 0px; }
 
 .example {
-  border: 2px solid #AD74A8;
+  border: 2px solid #74276D;
   border-radius: 5px;
   color: #3A0035;
   padding: 1em; }
+  .example .btn {
+    color: #570E51;
+    border-color: #570E51; }
+    @media screen and (max-width: 42em) {
+      .example .btn {
+        margin-bottom: 0;
+        display: inline-block;
+        background-color: rgba(255, 255, 255, 0.2); } }
+    .example .btn:hover {
+      color: #AD74A8;
+      background-color: rgba(255, 255, 255, 0.4);
+      border-color: #AD74A8; }
+
+.boxes {
+  padding-top: 1.5em; }
+
+.box {
+  padding: 0.5em 1em;
+  margin-left: 0.5em;
+  border-radius: 5px; }
+
+.box-label {
+  display: inline-block;
+  width: 6em; }
+
+.empty-box {
+  background-color: #AD74A8; }
+
+.filled-box {
+  background-color: #570E51; }
 
 /*# sourceMappingURL=pandoc.css.map */

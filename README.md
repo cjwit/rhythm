@@ -31,3 +31,9 @@ pandoc source/part3.md -o part3.html -s -c pandoc.css
 pandoc source/part4.md -o part4.html -s -c pandoc.css
 pandoc source/references.md -o references.html -s -c pandoc.css
 ```
+
+## Sass
+
+```
+sass --watch sass/style.scss:pandoc.css
+```

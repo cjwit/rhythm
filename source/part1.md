@@ -1,7 +1,6 @@
 ---
 title: "On Rhythm"
 author: Christopher Witulski
-header-includes: <script src="audio.js"></script>
 ---
 [Back to contents](index.html) | [Part 2: Cycles of time](part2.html)
 
@@ -15,13 +14,7 @@ This set of short essays considers rhythm from the perspective of expectation an
 
 While rhythm is an integral part of all music, it is often foregrounded in discussions of drumming or percussion. Depending on your musical experiences and expectations—what you listen to—a drumming pattern can be confusing, boring, groovy, exciting, and so on. Here is a common rock beat. Thanks to the globalizing tendencies of the music industry, this is a familiar sound for many people across the world.
 
-<div class="example">
-  <span>Play loop</span>
-  <pre>
-High hat  . . . .
-Snare         .
-Bass      .</pre>
-</div>
+<div id="example1" class="example"></div>
 
 Many different things combine to determine how you might hear and feel this pattern. Here are some examples:
 
@@ -99,3 +92,5 @@ Familiarity, expectation, and ambiguity are more than esoteric musical ideas. Mu
 When "the beat drops" in a song, the entire groove of the music changes in dramatic and powerful ways. That the change happens at a specific moment (*a beat*) and is caused by changes to the repetition of rhythms (*the beat*) is not lost on dancers in a club who are anticipating the drop, ready for the boost of energy. Anticipation, which is related to expectation, builds as the musician (a DJ in this case) toys with the sound of the music. The pacing of the music doesn't change, but something in *the beat* does. It's easier to hear this than to read about it. It's even better to feel it happen, since rhythm and music are things that our body senses. We'll return to this idea later, too, but for now, here is an example to watch and listen to. Let yourself *feel* these sounds as much as you *hear* them or *see* people reacting: [Skrillex in Argentina](https://www.youtube.com/embed/nx8bGoNkvSI).
 
 [Back to contents](index.html) | [Part 2: Cycles of time](part2.html)
+
+<script src="audio.js"></script>

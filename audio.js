@@ -1,39 +1,43 @@
-// helper functions
-var toggleMute = function () {
-  // mute = !mute
+//
+// boxes
+//
+
+var createBoxes = function(label, series) {
+  var boxes = document.createElement("div");
+  boxes.classList.add("boxes");
+  var boxLabel = document.createElement("span");
+  boxLabel.classList.add("box-label");
+  boxLabel.innerText = label;
+  boxes.appendChild(boxLabel);
+  
+  for (let i = 0; i < series.length; i++) {
+    let box = document.createElement("span");
+    box.classList.add("box");
+    let status = series[i] == 1 ? "filled-box" : "empty-box";
+    box.classList.add(status);
+    boxes.appendChild(box);
+  }
+
+  return boxes;  
 }
 
-var playOnce = function () {
-  // play file
-}
+//
+// example 1
+//
 
-var playLoop = function () {
-  // play as loop
-}
+var example1 = document.getElementById("example1");
 
-// classes
-class Example {
-  // name
-  // design settings
-  // label
-  // audio clips
-  // label for each
-  // button types for each
-  // graphical representation for each
-}
+// create elements
+var loopButton = document.createElement("span");
+loopButton.classList.add("btn");
+loopButton.innerText = "Play loop";
 
-class PlayButton {
-  // holds display logic for playing/not playing
-  // controls multiple linked audio files
-  // volume of each handled by individual mute buttons
-}
+var highHatBoxes = createBoxes("High hat", [1, 1, 1, 1]);
+var snareBoxes = createBoxes("Snare", [0, 0, 1, 0]);
+var bassBoxes = createBoxes("Bass drum", [1, 0, 0, 0]);
 
-class MuteButton {
-  // holds display logic for muted/unmuted
-  // references audio file
-}
-
-class AudioGraphic {
-  // may need multiple types: wav file, rhythm visualization
-  // control for moving place marker (red line, controlled by CSS animation?)
-}
+// append elements
+example1.appendChild(loopButton);
+example1.appendChild(highHatBoxes);
+example1.appendChild(snareBoxes);
+example1.appendChild(bassBoxes);
