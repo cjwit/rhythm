@@ -93,4 +93,4 @@ When "the beat drops" in a song, the entire groove of the music changes in drama
 
 [Back to contents](index.html) | [Part 2: Cycles of time](part2.html)
 
-<script src="audio.js"></script>
+<script src="main.js"></script>
