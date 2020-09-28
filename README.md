@@ -21,19 +21,25 @@
   * Text description
   * Audio object?
 
-## Pandoc command
+## Development commands
 
 ```
-pandoc source/index.md -o index.html -s -c pandoc.css
-pandoc source/part1.md -o part1.html -s -c pandoc.css
-pandoc source/part2.md -o part2.html -s -c pandoc.css
-pandoc source/part3.md -o part3.html -s -c pandoc.css
-pandoc source/part4.md -o part4.html -s -c pandoc.css
-pandoc source/references.md -o references.html -s -c pandoc.css
+pandoc source/index.md -o dist/index.html -s -c styles.css
+pandoc source/part1.md -o dist/part1.html -s -c styles.css
+pandoc source/part2.md -o dist/part2.html -s -c styles.css
+pandoc source/part3.md -o dist/part3.html -s -c styles.css
+pandoc source/part4.md -o dist/part4.html -s -c styles.css
+pandoc source/references.md -o dist/references.html -s -c styles.css
 ```
 
-## Sass
+### Sass
 
 ```
-sass --watch sass/style.scss:pandoc.css
+sass --watch sass/style.scss:dist/styles.css
+```
+
+### Webpack
+
+```
+npx webpack
 ```
