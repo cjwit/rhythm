@@ -1,3 +1,5 @@
+import * as Tone from 'tone'
+
 console.log("audio.js running");
 // import * as Tone from 'tone';
 //
@@ -40,7 +42,7 @@ function createBoxes({ name, pattern }) {
 }
 
 // build loop example from a data object
-function createLoopExample(tagId, loopExampleData) {
+export function createLoopExample(tagId, loopExampleData) {
   var example = document.getElementById(tagId);
 
   // create elements
@@ -62,12 +64,10 @@ function createLoopExample(tagId, loopExampleData) {
   }
   
   // connect audio for example 1
-  // loopButton.addEventListener('click', async() => {
-  //   console.log('loop start for ' + tagId);
-  // });
-}
-
-module.exports = {
-  createBoxes: createBoxes,
-  createLoopExample: createLoopExample
+  loopButton.addEventListener('click', async() => {
+    await Tone.start();
+    console.log('audio ready for ' + tagId);
+    const synth = new Tone.Synth().toDestination();
+    synth.triggerAttackRelease("C4", "8n");
+  });
 }

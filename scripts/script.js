@@ -1,4 +1,4 @@
-import Audio from './audio.js';
+import { createLoopExample } from './audio.js';
 
 //
 // example 1
@@ -21,5 +21,5 @@ var example1Data = {
   ]
 }
 
-Audio.createLoopExample("example1", example1Data);
+createLoopExample("example1", example1Data);
 console.log("end");
