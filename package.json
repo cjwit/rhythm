@@ -1,0 +1,29 @@
+{
+  "name": "wmt_rhythm",
+  "version": "1.0.0",
+  "description": "[On Rhythm draft](http://cwitulski.com/rhythm/)",
+  "main": "script.js",
+  "dependencies": {
+    "tone": "^14.7.58"
+  },
+  "devDependencies": {
+    "sass": "^1.26.11",
+    "sass-loader": "^10.0.2",
+    "source-map-loader": "^1.1.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjwit/rhythm.git"
+  },
+  "author": "Christopher Witulski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cjwit/rhythm/issues"
+  },
+  "homepage": "https://github.com/cjwit/rhythm#readme"
+}
