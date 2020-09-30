@@ -4,9 +4,11 @@
 
 ## To do
 
-### Writing
+### Next
 
-* Finish examples
+* Examples
+  * Loop button color on mobile
+  * Loop labels should go to 100% on mobile to get out of the way
 
 ### Code
 
@@ -20,26 +22,3 @@
   * Play and loop buttons
   * Text description
   * Audio object?
-
-## Development commands
-
-```
-pandoc source/index.md -o dist/index.html -s -c styles.css
-pandoc source/part1.md -o dist/part1.html -s -c styles.css
-pandoc source/part2.md -o dist/part2.html -s -c styles.css
-pandoc source/part3.md -o dist/part3.html -s -c styles.css
-pandoc source/part4.md -o dist/part4.html -s -c styles.css
-pandoc source/references.md -o dist/references.html -s -c styles.css
-```
-
-### Sass
-
-```
-sass --watch sass/style.scss:dist/styles.css
-```
-
-### Webpack
-
-```
-npx webpack
-```
