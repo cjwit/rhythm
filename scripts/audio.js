@@ -41,7 +41,7 @@ function createBoxes({ name, pattern }) {
 //
 // build loop example from a data object
 //
-export function createLoopExample(tagId, loopExampleData, audioFunction) {
+export function createLoopExample(tagId, loopExampleData, sampler, audioFunction) {
   var example = document.getElementById(tagId);
 
   // create elements
@@ -67,7 +67,7 @@ export function createLoopExample(tagId, loopExampleData, audioFunction) {
     // if not playing
     if (loopButton.innerText == "Play loop") {
       await Tone.start();
-      audioFunction();
+      audioFunction(sampler);
 
       // generic callback code
       Tone.Transport.start("+0.5");

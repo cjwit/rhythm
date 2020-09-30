@@ -1,4 +1,5 @@
 import * as Tone from 'tone';
+import { Loop } from 'tone';
 import { createLoopExample } from './audio.js';
 
 //
@@ -14,11 +15,11 @@ var example1Data = {
     },
     {
       name: "Snare drum",
-      pattern: [0, 0, 0, 0, 1, 0, 0, 0],
+      pattern: [0, 0, 1, 0, 0, 0, 1, 0],
     },
     {
       name: "Kick drum",
-      pattern: [1, 0, 0, 0, 0, 0, 0, 0],
+      pattern: [1, 0, 0, 0, 1, 0, 0, 1],
     }
   ]
 }
@@ -64,7 +65,7 @@ function makeSequenceFromNotes(note, sequence, string) {
 }
 
 // example 1 audio setup
-function example1Sampler() {
+function createDrumSampler() {
   const drumSampler = new Tone.Sampler({
     urls: {
       A1: "hihat.mp3",
@@ -74,35 +75,38 @@ function example1Sampler() {
     baseUrl: "https://raw.githubusercontent.com/Tonejs/audio/master/drum-samples/acoustic-kit/"
   }).toDestination();
 
-  // START HERE: https://tonejs.github.io/docs/14.7.39/Sequence https://medium.com/dev-red/tutorial-lets-make-music-with-javascript-and-tone-js-f6ac39d95b8c
+  return drumSampler;
+}
+
+// convert pattern from data object into a sequence array for the loop
+function createNoteSequence(pattern, noteString) {
+  var sequence = [];
+  pattern.forEach(note => makeSequenceFromNotes(note, sequence, noteString));
+  return sequence;
+}
+
+function createLoopSequence(name, sequence, noteLength, sampler) {
+  const loop = new Tone.Sequence((time, note) => {
+    boxVisualRowCallback(name);
+    sampler.triggerAttackRelease(note, noteLength, time);
+  }, sequence).start(0);
+  return loop;
+}
+
+function example1Sequences(sampler) {
   // set up sequences
-  var highHatSequence = [];
-  example1Data.parts[0].pattern.forEach(note => makeSequenceFromNotes(note, highHatSequence, "A1"));
-
-  var snareSequence = [];
-  example1Data.parts[1].pattern.forEach(note => makeSequenceFromNotes(note, snareSequence, "A2"));
-
-  var kickSequence = [];
-  example1Data.parts[2].pattern.forEach(note => makeSequenceFromNotes(note, kickSequence, "A3"));
+  var highHatSequence = createNoteSequence(example1Data.parts[0].pattern, "A1");
+  var snareSequence = createNoteSequence(example1Data.parts[1].pattern, "A2");
+  var kickSequence = createNoteSequence(example1Data.parts[2].pattern, "A3");
 
   // set up loops
-  const highHatLoop = new Tone.Sequence((time, note) => {
-    boxVisualRowCallback("high-hat");
-    drumSampler.triggerAttackRelease(note, "8n", time);
-  }, highHatSequence).start(0);
+  var highHatLoop = createLoopSequence("high-hat", highHatSequence, "8n", sampler);
+  var highHatLoop = createLoopSequence("snare-drum", snareSequence, "8n", sampler);
+  var highHatLoop = createLoopSequence("kick-drum", kickSequence, "8n", sampler);
   
-  const snareLoop = new Tone.Sequence((time, note) => {
-    boxVisualRowCallback("snare-drum");
-    drumSampler.triggerAttackRelease(note, "8n", time);
-  }, snareSequence).start(0);
-  
-  const kickLoop = new Tone.Sequence((time, note) => {
-    boxVisualRowCallback("kick-drum");
-    drumSampler.triggerAttackRelease(note, "8n", time);
-  }, kickSequence).start(0);
-
   // set tempo
   Tone.Transport.bpm.value = 108;
 }
 
-createLoopExample("example1", example1Data, example1Sampler);
+var drumSampler = createDrumSampler();
+createLoopExample("example1", example1Data, drumSampler, example1Sequences);
