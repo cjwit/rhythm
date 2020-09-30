@@ -18,6 +18,8 @@ function createBoxes({ name, pattern }) {
   for (let i = 0; i < pattern.length; i++) {
     let box = document.createElement("span");
     box.classList.add("box");
+
+    // filled or not
     let status = pattern[i] == 1 ? "filled-box" : "empty-box";
     box.classList.add(status);
 
@@ -25,6 +27,10 @@ function createBoxes({ name, pattern }) {
     let percent = 100.0/pattern.length + "%";
     let padding = nameWidth / pattern.length + 0.5;
     box.style.width = "calc(" + percent + " - " + padding + "em)"
+
+    // for identification from the draw command
+    let className = name.toLowerCase().replace(" ", "-") + "-box";
+    box.classList.add(className);
 
     boxes.appendChild(box);
   }
@@ -62,13 +68,19 @@ export function createLoopExample(tagId, loopExampleData, audioFunction) {
     if (loopButton.innerText == "Play loop") {
       await Tone.start();
       audioFunction();
-      
+
       // generic callback code
-      Tone.Transport.start("+0.1");
+      Tone.Transport.start("+0.5");
       loopButton.innerText = "Stop";
     } else {
       Tone.Transport.stop();
       loopButton.innerText = "Play loop";
+      
+      // remove active status from all boxes NOT WORKING START HERE
+      var activeBoxes = Array.from(loopButton.parentElement.getElementsByClassName("active-box"));
+      console.log(activeBoxes);
+      activeBoxes.forEach(element => element.classList.remove("active-box"));
+      console.log(activeBoxes);
     }
   });
 }
