@@ -41,7 +41,7 @@ function createBoxes({ name, pattern }) {
 //
 // build loop example from a data object
 //
-export function createLoopExample(tagId, loopExampleData, sampler, audioFunction) {
+export function createLoopExample(tagId, loopExampleData) {
   var example = document.getElementById(tagId);
 
   // create elements
@@ -67,10 +67,10 @@ export function createLoopExample(tagId, loopExampleData, sampler, audioFunction
     // if not playing
     if (loopButton.innerText == "Play loop") {
       await Tone.start();
-      audioFunction(sampler);
+      // audioFunction(sampler);
 
       // generic callback code
-      Tone.Transport.start("+0.5");
+      Tone.Transport.start("+0.1");
       loopButton.innerText = "Stop";
     } else {
       Tone.Transport.stop();
@@ -78,9 +78,7 @@ export function createLoopExample(tagId, loopExampleData, sampler, audioFunction
       
       // remove active status from all boxes NOT WORKING START HERE
       var activeBoxes = Array.from(loopButton.parentElement.getElementsByClassName("active-box"));
-      console.log(activeBoxes);
       activeBoxes.forEach(element => element.classList.remove("active-box"));
-      console.log(activeBoxes);
     }
   });
 }

@@ -85,6 +85,7 @@ function createNoteSequence(pattern, noteString) {
   return sequence;
 }
 
+// convert loop array into a loop/Sequence object
 function createLoopSequence(name, sequence, noteLength, sampler) {
   const loop = new Tone.Sequence((time, note) => {
     boxVisualRowCallback(name);
@@ -93,20 +94,28 @@ function createLoopSequence(name, sequence, noteLength, sampler) {
   return loop;
 }
 
-function example1Sequences(sampler) {
-  // set up sequences
-  var highHatSequence = createNoteSequence(example1Data.parts[0].pattern, "A1");
-  var snareSequence = createNoteSequence(example1Data.parts[1].pattern, "A2");
-  var kickSequence = createNoteSequence(example1Data.parts[2].pattern, "A3");
 
-  // set up loops
-  var highHatLoop = createLoopSequence("high-hat", highHatSequence, "8n", sampler);
-  var highHatLoop = createLoopSequence("snare-drum", snareSequence, "8n", sampler);
-  var highHatLoop = createLoopSequence("kick-drum", kickSequence, "8n", sampler);
-  
-  // set tempo
-  Tone.Transport.bpm.value = 108;
+function createSequenceObject(parts) {
+    // set up sequences
+    var sequences = {};
+    sequences.hh = createNoteSequence(parts[0].pattern, "A1");
+    sequences.snare = createNoteSequence(parts[1].pattern, "A2");
+    sequences.kick = createNoteSequence(parts[2].pattern, "A3");  
+    return sequences;
 }
 
+// convert loop objects into drum loops attached to a drum sampler
+function buildDrumLoops(sequences, tempo, sampler) {
+  // set up loops
+  var highHatLoop = createLoopSequence("high-hat", sequences.hh, "8n", sampler);
+  var highHatLoop = createLoopSequence("snare-drum", sequences.snare, "8n", sampler);
+  var highHatLoop = createLoopSequence("kick-drum", sequences.kick, "8n", sampler);
+  
+  // set tempo
+  Tone.Transport.bpm.value = tempo;
+}
+
+var example1Sequences = createSequenceObject(example1Data.parts);
 var drumSampler = createDrumSampler();
-createLoopExample("example1", example1Data, drumSampler, example1Sequences);
+buildDrumLoops(example1Sequences, 108, drumSampler);
+createLoopExample("example1", example1Data);
