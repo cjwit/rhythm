@@ -140,7 +140,8 @@ function fadeActiveBox(element) {
 // add and remove active-box class to the next box in the loop
 // callback used by createLoopSequence()
 export function boxVisualRowCallback(name) {
-  var boxes = document.getElementsByClassName(name + "-box");
+  var example = Array.from(document.getElementsByClassName("current-example"))[0];
+  var boxes = example.getElementsByClassName(name + "-box");
 
   boxes = Array.from(boxes); // convert HTMLCollection to array
   boxes = boxes.filter(box => box.classList.contains("filled-box"));
@@ -156,4 +157,17 @@ export function boxVisualRowCallback(name) {
   };
   fadeActiveBox(boxes[active]);
   boxes[active].classList.add("active-box");
+}
+
+//
+// mark specific boxes
+//
+//
+// called in individual script file
+export function markBoxWithBorder(tagId, rowNumber, boxNumber) {
+  var example = document.getElementById(tagId);
+  var children = Array.from(example.children);
+  var boxes = Array.from(children[rowNumber + 1].children);
+  var box = boxes[boxNumber + 1];
+  box.classList.add("mark-with-border")
 }

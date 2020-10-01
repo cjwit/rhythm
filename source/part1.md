@@ -2,6 +2,7 @@
 title: "On Rhythm"
 author: Christopher Witulski
 ---
+<main>
 [Back to contents](index.html) | [Part 2: Cycles of time](part2.html)
 
 ## Part 1: Expectation and repetition
@@ -36,35 +37,21 @@ Go back and listen to that again, but try and clap along this time. Just see if 
 
 *Really, listen again and try clapping or tapping along. Then try to stomp or say "Top" at the beginning of each cycle. Once you do, or you find yourself sufficiently lost, click the button below to show the next paragraphs.*
 
-```
-"I tried, really!" button to show more text
-```
+<center><div id="showMoreButton" class="btn">I tried, really! Let me keep reading</div></center>
 
-```
-PLAY LOOP
-Rumba   C--.--.---.--.--
-Show the pattern this time, mark "clap" and make that sound different
-```
+<div id="part1-second-half" class="hidden">
 
 <div id="example3" class="example"></div>
 
 Here is an example of this pattern in practice, though it is it hidden somewhat within the guitar accompaniment. See if you can hear it: [Lydia Mendoza, "La Bamba"](https://folkways.si.edu/lydia-mendoza/la-bamba-rumba/latin-world/music/track/smithsonian).
 
-You might have heard the pattern differently, though. If we move the clap to another part of the pattern, it changes the character.
+You might have heard the pattern differently, though. If we move the starting point to another part of the pattern, it changes the character.
 
-```
-PLAY LOOP
-Rumba   .--.--.-C-.--.--
-Show the pattern this time, mark "clap" in the middle and make that sound different
-```
+<div id="example4" class="example"></div>
 
 Wayne Marshall describes how this pattern is tied to the racialized history of country music, calling it the "American clavé," a reference to a common name given to this figure (Marshall 2020). Flipping it so that the new beginning of the cycle is at the beginning of the graphic makes it easier to see.
 
-```
-PLAY LOOP
-American clavé C-.--.--.--.--.-
-Show pattern with clap at beginning
-```
+<div id="example5" class="example"></div>
 
 Note that the clap to start the pattern happens during a silence. Rhythm is not just about sound, it's about the creative use of space, too. On the [website accompanying the article](http://wayneandwax.com/?page_id=9315&fbclid=IwAR02xUOhjtC4fw-E6LOTQzcakI4o2IgKlkHmodg5FAbcr3X7qLmz-wS9FXk), Marshall shares a long "megamix" of songs from across American music history that utilize the same rhythmic cycle. Listen for how the pattern organizes time through repetition and expectation across these examples. It might quickly become familiar. (It's a long mix, feel free to jump around to hear different examples.)
 
@@ -78,10 +65,7 @@ A *rhythm* refers to sounds and silences that are associated based on their rela
 
 The *dembow* rhythm comes from a specific place and has its own history in the Caribbean (Marshall 2008). Like the examples above, it demonstrates how repeating a *rhythm* can turn it into a *groove*, to use a not-so-technical term. Push play to hear the rhythm by itself, then click "loop" to hear it repeat. That repeated version underlines global popular music styles ranging from [TODO](TODO) to [TODO](TODO).
 
-```
-PLAY LOOP
-dembow D--TD-T-
-```
+<div id="example6" class="example"></div>
 
 The collection of sounds that gives forward momentum to a piece of music using rhythms and cycles of looping rhythmic phrases is often called *the beat*. As the next part describes, the *beat* of a song can also refer to a steady pulse that we sense in our bodies. The confluence of the pulse and the music that marks that pulse creates a terminological ambiguity that can be confusing when writing about sound.
 
@@ -89,6 +73,9 @@ Familiarity, expectation, and ambiguity are more than esoteric musical ideas. Mu
 
 When "the beat drops" in a song, the entire groove of the music changes in dramatic and powerful ways. That the change happens at a specific moment (*a beat*) and is caused by changes to the repetition of rhythms (*the beat*) is not lost on dancers in a club who are anticipating the drop, ready for the boost of energy. Anticipation, which is related to expectation, builds as the musician (a DJ in this case) toys with the sound of the music. The pacing of the music doesn't change, but something in *the beat* does. It's easier to hear this than to read about it. It's even better to feel it happen, since rhythm and music are things that our body senses. We'll return to this idea later, too, but for now, here is an example to watch and listen to. Let yourself *feel* these sounds as much as you *hear* them or *see* people reacting: [Skrillex in Argentina](https://www.youtube.com/embed/nx8bGoNkvSI).
 
+</div>
+
 [Back to contents](index.html) | [Part 2: Cycles of time](part2.html)
 
+</main>
 <script src="main.js"></script>

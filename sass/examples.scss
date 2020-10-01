@@ -70,7 +70,7 @@ $red-5: #3A0035;
 .box {
   margin-left: 0.1em;
   display: inline-block;
-  padding: 0.5em 0em;
+  padding: 0.5em 0.1em;
   border-radius: 3px;
   // width calculated in script
 }
@@ -81,4 +81,14 @@ $red-5: #3A0035;
 
 .filled-box {
   background-color: $red-4;
+}
+
+.mark-with-border {
+  padding: 0.2em 0em;
+  border: 0.3em solid $body-link-color;
+}
+
+// other ui
+.hidden {
+  display: none;
 }
