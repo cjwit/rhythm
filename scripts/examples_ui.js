@@ -49,9 +49,9 @@ function setAsCurrentExample(example) {
   example.classList.add("current-example");
 }
 
-function setNewLoop(loopExampleData, sampler, showBoxes) {
+function setNewLoop(loopExampleData, sampler) {
   Tone.Transport.cancel(0);
-  buildDrumLoops(loopExampleData, sampler, showBoxes);
+  buildDrumLoops(loopExampleData, sampler);
   setTempo(loopExampleData.tempo);
 }
 
@@ -64,7 +64,7 @@ function stopAllExamples() {
   })
 }
 
-export function createLoopExample(tagId, loopExampleData, sampler, showBoxes = true) {
+export function createLoopExample(tagId, loopExampleData, sampler) {
   var example = document.getElementById(tagId);
 
   // create elements
@@ -80,11 +80,11 @@ export function createLoopExample(tagId, loopExampleData, sampler, showBoxes = t
   example.appendChild(loopButton);
   example.appendChild(title);
 
-  if (showBoxes) {
-    for (let i = 0; i < loopExampleData.parts.length; i++) {
+  for (let i = 0; i < loopExampleData.parts.length; i++) {
+    if (loopExampleData.parts[i].show) {
       let part = createBoxes(loopExampleData.parts[i]);
       example.appendChild(part);
-    }  
+    }
   }
 
   loopButton.addEventListener('click', async () => {
@@ -96,7 +96,7 @@ export function createLoopExample(tagId, loopExampleData, sampler, showBoxes = t
       if (example.classList.contains("current-example") == false) {
         setAsCurrentExample(example);
         stopAllExamples();
-        setNewLoop(loopExampleData, sampler, showBoxes);
+        setNewLoop(loopExampleData, sampler);
       }
 
       // start loop

@@ -8,5 +8,5 @@ import { example1Data, example2Data, example3Data } from './examples.js';
 var drumSampler = createDrumSampler();
 
 createLoopExample("example1", example1Data, drumSampler);
-createLoopExample("example2", example2Data, drumSampler, false);
+createLoopExample("example2", example2Data, drumSampler);
 createLoopExample("example3", example3Data, drumSampler);
