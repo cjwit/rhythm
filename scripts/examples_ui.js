@@ -127,14 +127,15 @@ export function createLoopExample(tagId, loopExampleData, sampler) {
 // helper used by boxVisualRowCallback()
 function fadeActiveBox(element) {
   element.style.backgroundColor = "#2875a1";
+  setTimeout(function() {}, 100);
   setTimeout(function () {
     element.animate({
       backgroundColor: "#570E51"
-    }, 1500);
+    }, 1000);
   });
   setTimeout(function () {
     element.style.backgroundColor = "#570E51";
-  }, 1500);
+  }, 1000);
 }
 
 // add and remove active-box class to the next box in the loop
