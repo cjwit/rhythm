@@ -7,8 +7,8 @@ import { example1Data, example2Data } from './examples.js';
 //
 var drumSampler = createDrumSampler();
 
-buildDrumLoops(example1Data.parts, 108, drumSampler);
+buildDrumLoops(example1Data.parts, drumSampler);
 createLoopExample("example1", example1Data);
 
-buildDrumLoops(example2Data.parts, 108, drumSampler);
+buildDrumLoops(example2Data.parts, drumSampler);
 createLoopExample("example2", example2Data);

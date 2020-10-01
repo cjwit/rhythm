@@ -56,11 +56,12 @@ function createLoopSequence(name, sequence, noteLength, sampler) {
 }
 
 // convert loop objects into drum loops attached to a drum sampler
-export function buildDrumLoops(parts, tempo, sampler) {
+export function buildDrumLoops(parts, sampler) {
   // set up loops
   for (let i = 0; i < parts.length; i++) {
     let name = parts[i].name.toLowerCase().replace(" ", "-");
     let sequence = createSequenceObject(parts[i])
+    console.log(sequence);
     let loop = createLoopSequence(name, sequence, "8n", sampler);
   }
 }
