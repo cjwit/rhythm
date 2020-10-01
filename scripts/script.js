@@ -28,6 +28,7 @@ markBoxWithBorder("example5", 1, 0);
 // show hidden text in part 1
 var showMoreButton = document.getElementById("showMoreButton");
 showMoreButton.onclick = function() {
+  showMoreButton.style.display = "none";
   var part1secondHalf = document.getElementById("part1-second-half");
   part1secondHalf.style.display = "block";
 }
