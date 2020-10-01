@@ -23,14 +23,6 @@ $red-5: #3A0035;
   }
 
   .btn {
-    @include small {
-      // width: 80%;
-      // margin-bottom: 0;
-      display: inline-block;
-      background-color: rgba(255, 255, 255, 0.2);
-      // margin-left: 20%;
-    }
-  
     color: white;
     font-weight: bold;
     background-color: $red-3;
@@ -40,6 +32,14 @@ $red-5: #3A0035;
       color: white;
       background-color: $red-5;
       border-color: $red-5;
+    }
+
+    @include small {
+      // width: 80%;
+      // margin-bottom: 0;    
+      display: inline-block;
+      // background-color: rgba(255, 255, 255, 0.2);
+      // margin-left: 20%;
     }
   }
 }
@@ -64,6 +64,9 @@ $red-5: #3A0035;
   padding: 0.5em 1em;
   border-radius: 5px;
   // width calculated in script
+  @include small {
+    padding: 0.5em 0em;
+  }
 }
 
 .empty-box {

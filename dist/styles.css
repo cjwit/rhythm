@@ -814,16 +814,15 @@ input {
   background-color: #74276D;
   border-color: #3A0035;
 }
-@media screen and (max-width: 42em) {
-  .example .btn {
-    display: inline-block;
-    background-color: rgba(255, 255, 255, 0.2);
-  }
-}
 .example .btn:hover {
   color: white;
   background-color: #3A0035;
   border-color: #3A0035;
+}
+@media screen and (max-width: 42em) {
+  .example .btn {
+    display: inline-block;
+  }
 }
 
 .box-label {
@@ -837,6 +836,11 @@ input {
   display: inline-block;
   padding: 0.5em 1em;
   border-radius: 5px;
+}
+@media screen and (max-width: 42em) {
+  .box {
+    padding: 0.5em 0em;
+  }
 }
 
 .empty-box {
