@@ -869,4 +869,14 @@ input {
   display: none;
 }
 
+.video-embed {
+  width: 640px;
+  height: 480px;
+}
+@media screen and (max-width: 42em) {
+  .video-embed {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

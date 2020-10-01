@@ -55,7 +55,7 @@ Wayne Marshall describes how this pattern is tied to the racialized history of c
 
 Note that the clap to start the pattern happens during a silence. Rhythm is not just about sound, it's about the creative use of space, too. On the [website accompanying the article](http://wayneandwax.com/?page_id=9315&fbclid=IwAR02xUOhjtC4fw-E6LOTQzcakI4o2IgKlkHmodg5FAbcr3X7qLmz-wS9FXk), Marshall shares a long "megamix" of songs from across American music history that utilize the same rhythmic cycle. Listen for how the pattern organizes time through repetition and expectation across these examples. It might quickly become familiar. (It's a long mix, feel free to jump around to hear different examples.)
 
-<iframe src="https://drive.google.com/file/d/1LV177F0CTZGurJgswEOTURaUlxATigMy/preview" width="640" height="480"></iframe>
+<iframe class="video-embed" src="https://drive.google.com/file/d/1LV177F0CTZGurJgswEOTURaUlxATigMy/preview"></iframe>
 
 ## Ambiguous terms
 

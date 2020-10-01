@@ -92,3 +92,12 @@ $red-5: #3A0035;
 .hidden {
   display: none;
 }
+
+.video-embed {
+  width: 640px;
+  height: 480px;
+
+  @include small {
+    width: 100%;
+  }
+}
