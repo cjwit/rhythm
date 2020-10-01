@@ -36,6 +36,8 @@ Rumba   .--.--.---.--.--
 Don't show the pattern
 ```
 
+<div id="example2" class="example"></div>
+
 Go back and listen to that again, but try and clap along this time. Just see if you can work it out. It might be hard, it might be easy. Where does the cycle start? Can you hear the point where it repeats?
 
 *Really, listen again and try clapping or tapping along. Then try to stomp or say "Top" at the beginning of each cycle. Once you do, or you find yourself sufficiently lost, click the button below to show the next paragraphs.*

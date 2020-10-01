@@ -35,11 +35,7 @@ $red-5: #3A0035;
     }
 
     @include small {
-      // width: 80%;
-      // margin-bottom: 0;    
       display: inline-block;
-      // background-color: rgba(255, 255, 255, 0.2);
-      // margin-left: 20%;
     }
   }
 }
@@ -61,7 +57,7 @@ $red-5: #3A0035;
 .box {
   margin-left: 0.5em;
   display: inline-block;
-  padding: 0.5em 1em;
+  padding: 0.5em 0em;
   border-radius: 5px;
   // width calculated in script
   @include small {
@@ -76,17 +72,3 @@ $red-5: #3A0035;
 .filled-box {
   background-color: $red-4;
 }
-
-// .active-box {
-//   // background-color: $body-link-color;
-//   animation: color-fade 2s;
-
-//   @keyframes color-fade {
-//     0% {
-//       background: $body-link-color;
-//     }
-//     100% {
-//       background: $red-4;
-//     }
-//   }
-// }

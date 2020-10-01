@@ -1,84 +1,71 @@
 import * as Tone from 'tone';
+import { boxVisualRowCallback } from './examples_ui.js';
+
 //
-// boxes
+// example 1 audio setup
 //
-function createBoxes({ name, pattern }) {
-  var boxes = document.createElement("div");
-  boxes.classList.add("boxes");
-  var boxName = document.createElement("span");
-  boxName.classList.add("box-label");
-  boxName.innerText = name;
+//
+// set up sampler object
+export function createDrumSampler() {
+  const drumSampler = new Tone.Sampler({
+    urls: {
+      A1: "./hihat.mp3",
+      A2: "./snare.mp3",
+      A3: "./kick.mp3",
+      A4: "./clave.mp3"
+    },
+  }).toDestination();
 
-  // style name
-  var nameWidth = 6.0;
-  boxName.style.width = nameWidth + "em";
-
-  boxes.appendChild(boxName);
-
-  for (let i = 0; i < pattern.length; i++) {
-    let box = document.createElement("span");
-    box.classList.add("box");
-
-    // filled or not
-    let status = pattern[i] == 1 ? "filled-box" : "empty-box";
-    box.classList.add(status);
-
-    // style box width
-    let percent = 100.0/pattern.length + "%";
-    let padding = nameWidth / pattern.length + 0.5;
-    box.style.width = "calc(" + percent + " - " + padding + "em)"
-
-    // for identification from the draw command
-    let className = name.toLowerCase().replace(" ", "-") + "-box";
-    box.classList.add(className);
-
-    boxes.appendChild(box);
-  }
-
-  return boxes;  
+  return drumSampler;
 }
 
 //
-// build loop example from a data object
+// configure drum loops
 //
-export function createLoopExample(tagId, loopExampleData) {
-  var example = document.getElementById(tagId);
-
-  // create elements
-  var loopButton = document.createElement("span");
-  loopButton.classList.add("btn");
-  loopButton.innerText = "Play loop";
-  
-  var title = document.createElement("span");
-  title.classList.add("title");
-  title.innerText = loopExampleData.title;
-  
-  // append elements
-  example.appendChild(loopButton);
-  example.appendChild(title);
-  
-  for (let i = 0; i < loopExampleData.parts.length; i++) {
-    let part = createBoxes(loopExampleData.parts[i]);
-    example.appendChild(part);
+//
+// callback used in createNoteSequence() 
+function makeSequenceFromNotes(note, sequence, string) {
+  if (note == 0) {
+    sequence.push(null)
+  } else {
+    sequence.push(string)
   }
-  
-  loopButton.addEventListener('click', async() => {
+}
 
-    // if not playing
-    if (loopButton.innerText == "Play loop") {
-      await Tone.start();
-      // audioFunction(sampler);
+// convert pattern from data object into a sequence array for the loop
+function createNoteSequence(pattern, noteString) {
+  var sequence = [];
+  pattern.forEach(note => makeSequenceFromNotes(note, sequence, noteString));
+  return sequence;
+}
 
-      // generic callback code
-      Tone.Transport.start("+0.1");
-      loopButton.innerText = "Stop";
-    } else {
-      Tone.Transport.stop();
-      loopButton.innerText = "Play loop";
-      
-      // remove active status from all boxes NOT WORKING START HERE
-      var activeBoxes = Array.from(loopButton.parentElement.getElementsByClassName("active-box"));
-      activeBoxes.forEach(element => element.classList.remove("active-box"));
-    }
-  });
+// used by buildDrum Loops
+function createSequenceObject(part) {
+  // set up sequences
+  var sequence = createNoteSequence(part.pattern, part.note);
+  return sequence;
+}
+
+// convert loop array into a loop/Sequence object
+function createLoopSequence(name, sequence, noteLength, sampler) {
+  const loop = new Tone.Sequence((time, note) => {
+    boxVisualRowCallback(name);
+    sampler.triggerAttackRelease(note, noteLength, time);
+  }, sequence).start(0);
+  return loop;
+}
+
+// convert loop objects into drum loops attached to a drum sampler
+export function buildDrumLoops(parts, tempo, sampler) {
+  // set up loops
+  for (let i = 0; i < parts.length; i++) {
+    let name = parts[i].name.toLowerCase().replace(" ", "-");
+    let sequence = createSequenceObject(parts[i])
+    let loop = createLoopSequence(name, sequence, "8n", sampler);
+  }
+}
+
+export function setTempo(tempo) {
+    // set tempo
+    Tone.Transport.bpm.value = tempo;
 }
