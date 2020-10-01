@@ -15,10 +15,10 @@ $red-5: #3A0035;
     padding-left: 1em;
     color: $red-4;
     font-weight: bold;
+    padding-bottom: 1em;
     
     @include small {
       padding-left: 0;
-      padding-bottom: 1em;
     }
   }
 
@@ -40,6 +40,19 @@ $red-5: #3A0035;
   }
 }
 
+.no-boxes {
+  margin-bottom: 0;
+}
+
+.btn.no-boxes {
+  @include small {
+    margin-bottom: 1em;
+  }
+}
+
+.title.no-boxes {
+  padding-bottom: 0;
+}
 //
 // matrix boxes
 //
@@ -55,14 +68,11 @@ $red-5: #3A0035;
 }
 
 .box {
-  margin-left: 0.5em;
+  margin-left: 0.1em;
   display: inline-block;
   padding: 0.5em 0em;
-  border-radius: 5px;
+  border-radius: 3px;
   // width calculated in script
-  @include small {
-    padding: 0.5em 0em;
-  }
 }
 
 .empty-box {

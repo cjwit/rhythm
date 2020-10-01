@@ -29,7 +29,7 @@ function createBoxes({ name, pattern }) {
 
     // style box width
     let percent = 100.0 / pattern.length + "%";
-    let padding = nameWidth / pattern.length + 0.5;
+    let padding = nameWidth / pattern.length + 0.1;
     box.style.width = "calc(" + percent + " - " + padding + "em)"
 
     // for identification from the draw command
@@ -80,11 +80,17 @@ export function createLoopExample(tagId, loopExampleData, sampler) {
   example.appendChild(loopButton);
   example.appendChild(title);
 
+  var rows = 0;
   for (let i = 0; i < loopExampleData.parts.length; i++) {
     if (loopExampleData.parts[i].show) {
       let part = createBoxes(loopExampleData.parts[i]);
       example.appendChild(part);
+      rows++;
     }
+  }
+  if (rows == 0) {
+    loopButton.classList.add("no-boxes");
+    title.classList.add("no-boxes");
   }
 
   loopButton.addEventListener('click', async () => {
@@ -101,7 +107,7 @@ export function createLoopExample(tagId, loopExampleData, sampler) {
 
       // start loop
       await Tone.start();
-      Tone.Transport.start("+0.1");
+      Tone.Transport.start("+0.01");
       loopButton.innerText = "Stop";
     } else {
       Tone.Transport.stop();

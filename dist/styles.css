@@ -801,11 +801,11 @@ input {
   padding-left: 1em;
   color: #570E51;
   font-weight: bold;
+  padding-bottom: 1em;
 }
 @media screen and (max-width: 42em) {
   .example .title {
     padding-left: 0;
-    padding-bottom: 1em;
   }
 }
 .example .btn {
@@ -825,6 +825,20 @@ input {
   }
 }
 
+.no-boxes {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 42em) {
+  .btn.no-boxes {
+    margin-bottom: 1em;
+  }
+}
+
+.title.no-boxes {
+  padding-bottom: 0;
+}
+
 .box-label {
   display: inline-block;
   color: #AD74A8;
@@ -832,15 +846,10 @@ input {
 }
 
 .box {
-  margin-left: 0.5em;
+  margin-left: 0.1em;
   display: inline-block;
   padding: 0.5em 0em;
-  border-radius: 5px;
-}
-@media screen and (max-width: 42em) {
-  .box {
-    padding: 0.5em 0em;
-  }
+  border-radius: 3px;
 }
 
 .empty-box {
