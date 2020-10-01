@@ -1,14 +1,12 @@
-import { createDrumSampler, buildDrumLoops } from './audio.js';
+import { createDrumSampler } from './audio.js';
 import { createLoopExample } from './examples_ui.js';
-import { example1Data, example2Data } from './examples.js';
+import { example1Data, example2Data, example3Data } from './examples.js';
 
 //
 // instantiate examples
 //
 var drumSampler = createDrumSampler();
 
-buildDrumLoops(example1Data.parts, drumSampler);
-createLoopExample("example1", example1Data);
-
-buildDrumLoops(example2Data.parts, drumSampler);
-createLoopExample("example2", example2Data);
+createLoopExample("example1", example1Data, drumSampler);
+createLoopExample("example2", example2Data, drumSampler, false);
+createLoopExample("example3", example3Data, drumSampler);

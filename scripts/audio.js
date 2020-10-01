@@ -12,7 +12,8 @@ export function createDrumSampler() {
       A1: "./hihat.mp3",
       A2: "./snare.mp3",
       A3: "./kick.mp3",
-      A4: "./clave.mp3"
+      A4: "./clave.mp3",
+      A5: "./ding.mp3"
     },
   }).toDestination();
 
@@ -47,22 +48,24 @@ function createSequenceObject(part) {
 }
 
 // convert loop array into a loop/Sequence object
-function createLoopSequence(name, sequence, noteLength, sampler) {
+function createLoopSequence(name, sequence, sampler, showBoxes) {
   const loop = new Tone.Sequence((time, note) => {
-    boxVisualRowCallback(name);
-    sampler.triggerAttackRelease(note, noteLength, time);
+    if (showBoxes) {
+      boxVisualRowCallback(name);
+    }
+    sampler.triggerAttackRelease(note, "8n", time);
   }, sequence).start(0);
   return loop;
 }
 
 // convert loop objects into drum loops attached to a drum sampler
-export function buildDrumLoops(parts, sampler) {
+export function buildDrumLoops(exampleData, sampler, showBoxes) {
+  var parts = exampleData.parts
   // set up loops
   for (let i = 0; i < parts.length; i++) {
     let name = parts[i].name.toLowerCase().replace(" ", "-");
     let sequence = createSequenceObject(parts[i])
-    console.log(sequence);
-    let loop = createLoopSequence(name, sequence, "8n", sampler);
+    let loop = createLoopSequence(name, sequence, sampler, showBoxes);
   }
 }
 

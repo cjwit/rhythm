@@ -30,12 +30,6 @@ In the case of the example above, the pattern is broadly (but not universally) f
 
 That earlier pattern is fairly simple (which doesn't mean that it's not interesting or full of potential creativity). More intricate patterns with less regular internal relationships can make it harder to grasp what's happening at first. More significantly, however, is the fact that there is no single way to hear or feel rhythm, let alone music. Here is an example from a family of common rhythmic cycles that are common in African diasporic traditions, especially in Brazil, Cuba, and the United States. It usually gets played on an instrument that is loud and clear, like a bell of some sort of the *clavé*, a pair of sticks. Since musicians use the pattern to hold everything else together, it needs to be audible over everything else. This particular variation is sometimes called the *rumba clave* after the Cuban rumba, which uses it (see Moore 2010).
 
-```
-PLAY LOOP
-Rumba   .--.--.---.--.--
-Don't show the pattern
-```
-
 <div id="example2" class="example"></div>
 
 Go back and listen to that again, but try and clap along this time. Just see if you can work it out. It might be hard, it might be easy. Where does the cycle start? Can you hear the point where it repeats?
@@ -51,6 +45,8 @@ PLAY LOOP
 Rumba   C--.--.---.--.--
 Show the pattern this time, mark "clap" and make that sound different
 ```
+
+<div id="example3" class="example"></div>
 
 Here is an example of this pattern in practice, though it is it hidden somewhat within the guitar accompaniment. See if you can hear it: [Lydia Mendoza, "La Bamba"](https://folkways.si.edu/lydia-mendoza/la-bamba-rumba/latin-world/music/track/smithsonian).
 
