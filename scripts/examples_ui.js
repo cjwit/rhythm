@@ -50,13 +50,12 @@ function setAsCurrentExample(example) {
   example.classList.add("current-example");
 }
 
-// reset Tone.Transport with curent loops
+// reset Tone.Transport with current loops
 // used by createLoopExample
 function setNewLoop(loopExampleData, sampler) {
   Tone.Transport.cancel(0);
-  loopExampleData = buildDrumLoops(loopExampleData, sampler);
+  buildDrumLoops(loopExampleData, sampler);
   setTempo(loopExampleData.tempo);
-  return loopExampleData;
 }
 
 // click "stop" to end all running loops
@@ -123,7 +122,7 @@ export function createLoopExample(tagId, loopExampleData, sampler) {
       if (example.classList.contains("current-example") == false) {
         setAsCurrentExample(example);
         stopAllExamples();
-        loopExampleData = setNewLoop(loopExampleData, sampler);
+        setNewLoop(loopExampleData, sampler);
       }
 
       // start loop

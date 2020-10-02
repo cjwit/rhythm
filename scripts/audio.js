@@ -51,7 +51,7 @@ function createSequenceObject(part) {
 
 // convert loop array into a loop/Sequence object
 function createLoopSequence(name, sequence, sampler, show, exampleTag) {
-  return new Tone.Sequence((time, note) => {
+  new Tone.Sequence((time, note) => {
     if (show) {
       boxVisualRowCallback(name);
     }
@@ -65,9 +65,8 @@ export function buildDrumLoops(exampleData, sampler) {
   for (let i = 0; i < exampleData.parts.length; i++) {
     let name = exampleData.parts[i].name.toLowerCase().replace(" ", "-");
     let sequence = createSequenceObject(exampleData.parts[i])
-    exampleData.parts[i].sequence = createLoopSequence(name, sequence, sampler, exampleData.parts[i].show);
+    createLoopSequence(name, sequence, sampler, exampleData.parts[i].show);
   }
-  return exampleData;
 }
 
 export function setTempo(tempo) {
