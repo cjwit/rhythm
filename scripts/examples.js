@@ -216,6 +216,43 @@ var example10Data = {
   ]
 }
 
+// TODO example 11
+
+var example12Data = {
+  title: "Example 12: Different pulses",
+  tag: "example12",
+  tempo: 108,
+  parts: [
+    {
+      name: "Snare drum",
+      pattern: [0, 0, 1, 0, 0, 0, 1, 0],
+      note: "A2",
+      show: true,
+    },
+    {
+      name: "Kick drum",
+      pattern: [1, 0, 0, 1, 0, 1, 0, 0],
+      note: "A3",
+      show: true,
+    },
+    {
+      name: "Pulse 1",
+      pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+      note: "A4",
+      show: false,
+    },
+    {
+      name: "Pulse 2",
+      pattern: [1, 0, 0, 0, 1, 0, 0, 0],
+      note: "A4",
+      show: false,
+    },
+  ]
+}
+
+
+
+
 var exampleDefault = {
   title: "Example ??: Not done yet",
   tag: "n/a",
@@ -234,5 +271,7 @@ export var examples = {
   8: example8Data,
   9: example9Data,
   10: example10Data,
+  11: exampleDefault,
+  12: example12Data,
   default: exampleDefault
 }

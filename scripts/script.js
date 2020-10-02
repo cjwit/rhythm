@@ -1,5 +1,5 @@
 import { createDrumSampler } from './audio.js';
-import { createExampleHeader, createLoopExample, createMuteLoopExample, markBoxWithBorder } from './examples_ui.js';
+import { createExampleHeader, createLoopExample, createMuteLoopExample, markBoxWithBorder, addButton } from './examples_ui.js';
 import { showMoreButton } from './other_ui.js';
 import { examples } from './examples.js';
 
@@ -15,15 +15,11 @@ switch (page) {
     createLoopExample("example2", examples[2], drumSampler);
     createLoopExample("example3", examples[3], drumSampler);
     markBoxWithBorder("example3", 1, 0);
-
     createLoopExample("example4", examples[4], drumSampler);
     markBoxWithBorder("example4", 1, 8);
-
     createLoopExample("example5", examples[5], drumSampler);
     markBoxWithBorder("example5", 1, 0);
-
     createLoopExample("example6", examples[6], drumSampler);
-
 
     showMoreButton("part1-second-half");
   
@@ -46,8 +42,27 @@ switch (page) {
 
     examples.default.tag = "example11";
     createExampleHeader("example11", examples.default, drumSampler);
-    examples.default.tag = "example12";
-    createExampleHeader("example12", examples.default, drumSampler);
+
+    createLoopExample("example12", examples[12], drumSampler);
+    markBoxWithBorder("example12", 2, 0);
+    markBoxWithBorder("example12", 2, 2);
+    markBoxWithBorder("example12", 2, 4);
+    markBoxWithBorder("example12", 2, 6);
+    var example12 = document.getElementById("example12");
+    var switchButton = addButton("Switch Pulse", ["mute"]);
+    switchButton.addEventListener("click", () => {
+      if (example12.children[3].children[3].classList.contains("mark-with-border")) {
+        example12.children[3].children[3].classList.remove("mark-with-border");
+        example12.children[3].children[7].classList.remove("mark-with-border");
+        // TODO and mute clicks on 2 and 4
+      } else {
+        example12.children[3].children[3].classList.add("mark-with-border");
+        example12.children[3].children[7].classList.add("mark-with-border");
+        // TODO and unmute clicks on 2 and 4
+      }
+    })
+    example12.appendChild(switchButton);
+
     examples.default.tag = "example13";
     createExampleHeader("example13", examples.default, drumSampler);
     examples.default.tag = "example14";

@@ -47,12 +47,6 @@ Even when the pulse is fairly consistent, we don't hear music as a steady stream
 
 Most groupings are either sets that are multiples of two (*duple*) or three (*triple*). They can be combined to make innumerable other possibilities. They can also both happen at once. Most popular music is duple: rhythmic patterns like the ones described above overlay a pulse of evenly grouped beats. That does not mean that we all hear the same duple groupings: I might hear groups of 4 quick beats where you hear 2 slow ones. Unless you are trying to write music down, that distinction is unimportant. Here is the earlier loop with claps happening at a different rate. They divide the pulse differently, but they are both duple.
 
-```
-D - T D D - T -
-C - C - C - C -
-C - - - C - - -
-```
-
 <div id="example12" class="example"></div>
 
 Each group is called a *measure* or *bar* and where those measures start and end can be arbitrary. In the above example, someone could feal each iteration as one bar or made up of two shorter ones.

@@ -70,7 +70,7 @@ function stopAllExamples() {
 }
 
 // create a generic button
-function addButton(innerText, classes = []) {
+export function addButton(innerText, classes = []) {
   var button = document.createElement("span");
   button.classList.add("btn");
   button.innerText = innerText;
