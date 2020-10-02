@@ -2,7 +2,7 @@
 // examples
 //
 
-export var example1Data = {
+ var example1Data = {
   title: "Example 1: a basic rock beat",
   tag: "example1",
   tempo: 108,
@@ -28,7 +28,7 @@ export var example1Data = {
   ]
 }
 
-export var example2Data = {
+ var example2Data = {
   title: "Example 2: a Cuban rumba clave pattern",
   tag: "example2",
   tempo: 200,
@@ -42,7 +42,7 @@ export var example2Data = {
   ]
 }
 
-export var example3Data = {
+ var example3Data = {
   title: "Example 3: a Cuban rumba clave pattern",
   tag: "example3",
   tempo: 200,
@@ -62,7 +62,7 @@ export var example3Data = {
   ]
 }
 
-export var example4Data = {
+ var example4Data = {
   title: "Example 4: a rumba pattern with a different marked starting point",
   tag: "example4",
   tempo: 200,
@@ -82,7 +82,7 @@ export var example4Data = {
   ]
 }
 
-export var example5Data = {
+ var example5Data = {
   title: 'Example 5: the "American clave"',
   tag: "example5",
   tempo: 200,
@@ -102,7 +102,7 @@ export var example5Data = {
   ]
 }
 
-export var example6Data = {
+ var example6Data = {
   title: 'Example 6: the "dembow" pattern',
   tag: "example6",
   tempo: 200,
@@ -122,7 +122,8 @@ export var example6Data = {
   ]
 }
 
-export var example7Data = {
+// part 2 examples
+ var example7Data = {
   title: "Example 7: Malhun drum pattern",
   tag: "example7",
   tempo: 220,
@@ -142,7 +143,7 @@ export var example7Data = {
   ]
 }
 
-export var example8Data = {
+ var example8Data = {
   title: "Example 8: Try it out",
   tag: "example8",
   tempo: 220,
@@ -162,6 +163,66 @@ export var example8Data = {
   ]
 }
 
+// part 3 examples
+ var example9Data = {
+  title: "Example 9: An explicit pulse",
+  tag: "example9",
+  tempo: 108,
+  parts: [
+    {
+      name: "Snare drum",
+      pattern: [0, 0, 1, 0, 0, 0, 1, 0],
+      note: "A2",
+      show: true,
+    },
+    {
+      name: "Kick drum",
+      pattern: [1, 0, 0, 1, 1, 0, 0, 0],
+      note: "A3",
+      show: true,
+    },
+    {
+      name: "Clave",
+      pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+      note: "A4",
+      show: false,
+    },
+  ]
+}
+
+var example10Data = {
+  title: "Example 10: Can you feel it?",
+  tag: "example10",
+  tempo: 108,
+  parts: [
+    {
+      name: "Snare drum",
+      pattern: [0, 0, 1, 0, 0, 0, 1, 0],
+      note: "A2",
+      show: true,
+    },
+    {
+      name: "Kick drum",
+      pattern: [1, 0, 0, 1, 0, 1, 0, 0],
+      note: "A3",
+      show: true,
+    },
+    {
+      name: "Clave",
+      pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+      note: "A4",
+      show: false,
+    },
+  ]
+}
+
+var exampleDefault = {
+  title: "Example ??: Not done yet",
+  tag: "n/a",
+  tempo: 108,
+  parts: []
+}
+
 export var examples = {
   1: example1Data,
   2: example2Data,
@@ -170,5 +231,8 @@ export var examples = {
   5: example5Data,
   6: example6Data,
   7: example7Data,
-  8: example8Data
+  8: example8Data,
+  9: example9Data,
+  10: example10Data,
+  default: exampleDefault
 }

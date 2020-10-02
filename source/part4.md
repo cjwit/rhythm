@@ -1,8 +1,9 @@
 ---
 title: "On Rhythm"
 author: Christopher Witulski
-header-includes: <script src="audio.js"></script>
 ---
+<main>
+
 [Part 3: Feeling the beat(s)](part3.html) | [Back to contents](index.html) | [References](references.html)
 
 ## Part 4: Consistent inconsistencies from Morocco
@@ -26,6 +27,8 @@ PLAY EXAMPLE
 BEAT  .   .
 SUB   . . . . .
 ```
+
+<div id="example18" class="example"></div>
 
 A western system would define this as a 5/8 meter by focusing on the consistent pulse. In practice, however, this is felt at the larger grouping of one short beat (subdivided in half) and one that is slightly longer (made up of three subdivisions). There are two conflicting pulses because of the shortness of the pattern. Is it a consistently uneven pulse (which would be consistent in its own way) or is this an example of two smaller groupings combining? I argue that there is no "correct" answer. The western notational practice of calling something like this 5/8 (five even beats grouped into two and three) obfuscates what we hear by prioritizing written convenience. It fits better into a system built for western classical tradition.
 
@@ -57,12 +60,16 @@ BEAT    .
 STROKE  . . .
 ```
 
+<div id="example19" class="example"></div>
+
 Here is a shorter demonstration of the gradual change.
 
 ```
 USE A SINGLE SET OF BOXES WITH A SLIDER THAT ADJUSTS THE RADIO
 AND A PLAY BUTTON THAT STARTS A PROCESS OF SLIDING FASTER
 ```
+
+<div id="example20" class="example"></div>
 
 Western notation easily represents the duple subdivision of the beginning and triple of the ending, but the gradual change throughout the song means that most of what brings a person into trance cannot be so easily written down. The subdivision relationships here are not a result of a larger conceptual framework. They come from a group of people who are playing as fast and intensely as they can so that their music will invite a spirit into the room and heal a listener. In this way, what we hear reflects a specific set of priorities.
 
@@ -82,6 +89,8 @@ CLAP  |   |     |   |   |     end
 DRUM  t d t  d  t   t d d     end
 ```
 
+<div id="example21" class="example"></div>
+
 There are two characteristics of this poetic accompaniment that are noteworthy here. First, the beat or pulse is consistent in that it repeats over and over again, but not every beat within it is the same duration. Second, the subdivision stays duple (beats are divided in two) whether the beat is short or long. This makes some subdivisions longer and some shorter.
 
 To the first point, one of the core assumptions about rhythm in western-centric systems of understanding is that the pulse is made up of evenly-spaced beats.[^exceptions] In fact, this pattern can be mathematically broken down and written in western notation. The "long" beats are equal to three halves of the short beats.
@@ -91,6 +100,8 @@ To the first point, one of the core assumptions about rhythm in western-centric 
 ```
 BEAT b | b |  | b | b | b |  |
 ```
+
+<div id="example22" class="example"></div>
 
 Imagining this pattern as comprised of twelve beats makes it easy to create groupings of two and three. This aligns with the first hamadsha rhythm that I introduced earlier. It fits into western notation, but I argue that it fails to account for the clearly-defined nature of how these rhythms are articulated and perceived. That brings us to the second point.
 
@@ -105,6 +116,8 @@ HIGHLIGHT SYNCOPATION
 TOGGLE VISUAL OF SUBDIVISIONS
 ```
 
+<div id="example23" class="example"></div>
+
 Up until now, I have been using electronically created beats to demonstrate this pattern. In practice, however, there is an additional nuance. The last beat of the cycle is late. This is an example of microtiming, similar to Mongo Santamaria's "Watermelon Man." This subtle play with time that can build and release tension happens in every iteration of the pattern. It becomes a core part, though the amount of delay is open for exciting interpretation.
 
 ```
@@ -112,8 +125,13 @@ BEAT
 REAL AUDIO
 ```
 
+<div id="example24" class="example"></div>
+
 ## Conclusions
 
 This set of short essays describes core elements of rhythm by prioritizing perception with three goals in mind. First, I aim to introduce some terminology that can inform how we hear and understand what we listen to. These elements may prove more or less helpful depending on the music that is playing, but they are widely applicable. Second, the approaches here resist the western-centric methods and perspectives that commonly define things like beat, meter, and subdivision. I present these examples, especially in this final section, to show how these methods are not as widely useful as they so often seem. This is not a case of a system being used inappropriately for something that does not fit. Like other global systems, western ,musical notation is derived from specific histories and compositional styles. It is a tool serving a purpose. Just as it obfuscates nuance in some Moroccan styles, it hinders certain elements of western performance practice when used in appropriately. Finally, I want to focus our understanding of music and sound more holistically on the body. We do not just hear music, we feel it, dance it, sing it, and experience the world around us to it. Yet, each of us does so differently based on experiences, abilities, training, hopes, dreams, and so on. Music, like us, lives in systems that we internalize. But at their best, rules and expectations—whether musical or otherwise—are made to be broken.
 
 [Part 3: Feeling the beat(s)](part3.html) | [Back to contents](index.html) | [References](references.html)
+
+</main>
+<script src="main.js"></script>

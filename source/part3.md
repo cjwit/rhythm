@@ -16,20 +16,13 @@ That word, *beat*, returns here. The *pulse* is often referred to as the *beat*,
 
 One striking aspect of the *pulse* and *beats* in a piece of music is that listeners can sense them, even if no sound happens at those moments in time. They are not explicitly aligned with strikes on a drum or chords on a guitar. They exist among and between sounds. They are perceived, imagined, and based on our expectations.
 
-Listen to this rhythm. The consistent pulse is explicitly presented between the two instruments (a bass drum and snare drum). Try clapping a consistent *pulse* along with it and then unmute the "pulse" to hear whether you agree with it.
+Listen to this rhythm. The consistent pulse is explicitly presented between the two instruments (a bass drum and snare drum). Try clapping the consistent *pulse* that is marked in blue boxes along with the rhythm.
 
-```
-PLAY                D - T D D - T -
-MUTED, then play    C - C - C - C - <-PULSE
-```
+<div id="example9" class="example"></div>
 
-In this case, every beat of the pulse (at least as I hear it) is played by one of the instruments. Here's another example that's similar. Try clapping along again before unmuting.
+In this case, every beat of the pulse (at least as I hear it) is played by one of the instruments. Here's another example that's similar. Try clapping along again. In this case, you can hear the consistent pulse in the clave sound behind the bass and snare drums, but you can *feel* it, even when the bass drum does not specifically articulate it. (Try pretnding that the clave sound is in your imagination.)
 
-```
-PLAY  D D TD- - - T -
-MUTED C - C - C - C -
-mark red      ^
-```
+<div id="example10" class="example"></div>
 
 This time, the beat in the middle of the repeating pattern (marked in red) is not articulated, but you may have still felt it and clapped during the space. Your body moves the same way and the clap feels appropriate there. This is the result of *syncopation*, an emphasized sound that does not appear at an obvious moment. In this case, the bass drum hit shows up before the expected beat.
 
@@ -44,6 +37,8 @@ Lots of space
 Lots of off-beats
 ```
 
+<div id="example11" class="example"></div>
+
 Not all music has an underlying pulse. When a musician performs "freely" and without adherence to a consistent pulse, it can be termed *free rhythm*. This happens in solo introductions to a piece of music that showcases a performer's virtuosic and expressive technique. Without an underlying consistent pulse, a musical idea can still toy with related ideas like *pacing* to generate motion and tension. By moving from slow to fast or suddenly shifting the momentum, free rhythm can generate a powerful feeling of rhythmic direction.
 
 ### Grouping beats
@@ -57,6 +52,8 @@ D - T D D - T -
 C - C - C - C -
 C - - - C - - -
 ```
+
+<div id="example12" class="example"></div>
 
 Each group is called a *measure* or *bar* and where those measures start and end can be arbitrary. In the above example, someone could feal each iteration as one bar or made up of two shorter ones.
 
@@ -77,6 +74,8 @@ Or an audio with a diagram
 [   ] [     ] [   ]
 ```
 
+<div id="example13" class="example"></div>
+
 These groupings can appear in ways that foster ambiguity for the listener to generate tension or space. Rhythms can spread over time in a way that emphasizes two or more different pulses simultaneously. This displacement can be troubling or exciting. Stephen Friedson argues that it opens the body to an experience of trance (1996). Ann Danielsen describes how the guitar groove in James Brown's famous song "Sex Machine" creates its own pulse that is slightly offset from the main one followed by the rest of the band (2006). While it does not bring about trance, it gives life to funk. In either case, a similar musical practice impacts the listener in a contextually-defined way, but both change our perception (Becker 2004).
 
 Listen to this example and clap along to the pulse that you hear. Then unmute the first given pulse to see if it aligns with what you felt. Mute it again and try the second one. Then, if you are up to the challenge, try shifting your perception from one to the other and back, either with the pulse audio samples muted or unmuted. At first, it might feel unnatural. Eventually, and with familiarity, it may get easier.
@@ -86,6 +85,8 @@ AUDIO LOOP (VIMBUZA PATTERN? TIMELINE?)
 PULSE 1 (MUTED)
 PULSE 2 (MUTED)
 ```
+
+<div id="example14" class="example"></div>
 
 ## Dividing time
 
@@ -109,6 +110,8 @@ SUBD     | | | | | | | | | | | | | | |  MUTED
 Examples: old tango, waltz, Irish jig
 ```
 
+<div id="example15" class="example"></div>
+
 ### Playing with subdivisions
 
 This conceptual structure of divisions serves as a groundwork for what a musician or ensemble actually does in practice. *Swing* is one common example of this that developed as part of the early jazz scene in the United States before the word came to represent its own genre of music. In swing, a duple subdivision turns into something else: the musicians lengthen the first half of the subdivision and shorten the second half. This means that they are no longer halves. A frequent division is for the first "half" to be roughly two-thirds of the length of the beat, leaving one-third for the second "half." This particular division turns into a mathematical *triple* subdivision where the first two thirds are linked together and roughly aligns with another name: a *shuffle*.
@@ -119,6 +122,8 @@ DUP  .  .  .  .  .  .  .  .  .  .  .
 TRI  . . . . . . . . . . . . . . . .
 SWI  .   . .   . .   . .   . .   . .
 ```
+
+<div id="example16" class="example"></div>
 
 This example from Odetta is a slow shuffle, which brings it closer to the sound of the blues.
 
@@ -137,6 +142,8 @@ SNARE
 BASS DRUM
 ```
 
+<div id="example17" class="example"></div>
+
 This technique of rushing or delaying notes can happen anywhere in a piece of music, but it is a matter of balance. Breaking too far from expectations or norms could confuse a listener or dancer, but sticking to them methodically might get dull. One of my own favorite moments that exemplifies this is from [a performance of "Watermelon Man" by Mongo Santamaria](https://www.youtube.com/embed/zJuX-JJ8WF0). While listening, try to let yourself feel the groove and, if the music inspires you, move along with it or clap. Then, *feel* how the percussion (drum set and other instruments) almost pull the horn section (the brass instruments and saxophone) along. It is even more extreme when the percussion drops out at about 30 seconds in. When I listen, I can't help but to actually feel this tension in my body, as well as the relief that comes when they snap back together.
 
 The final section turns to Morocco for a series of rhythms that challenge expectations by combining each of these practices.
@@ -144,5 +151,4 @@ The final section turns to Morocco for a series of rhythms that challenge expect
 [Part 2: Cycles of time](part2.html) | [Back to contents](index.html) | [Part 4: Consistent inconsistencies from Morocco](part4.html)
 
 </main>
-
 <script src="main.js"></script>
