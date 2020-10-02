@@ -5,7 +5,8 @@ import { setTempo, buildDrumLoops } from './audio.js';
 // build loop example from a data object
 //
 //
-// helper used by createLoopExample
+// creates a row of boxes
+// used by createLoopExample
 function createBoxes({ name, pattern }) {
   var boxes = document.createElement("div");
   boxes.classList.add("boxes");
@@ -41,7 +42,7 @@ function createBoxes({ name, pattern }) {
 
   return boxes;
 }
-
+// remove current-example class from all other examples on the page
 // used by createLoopExample
 function setAsCurrentExample(example) {
   var active = Array.from(document.getElementsByClassName("current-example"));
@@ -49,6 +50,8 @@ function setAsCurrentExample(example) {
   example.classList.add("current-example");
 }
 
+// reset Tone.Transport with curent loops
+// used by createLoopExample
 function setNewLoop(loopExampleData, sampler) {
   Tone.Transport.cancel(0);
   loopExampleData = buildDrumLoops(loopExampleData, sampler);
@@ -56,6 +59,8 @@ function setNewLoop(loopExampleData, sampler) {
   return loopExampleData;
 }
 
+// click "stop" to end all running loops
+// used by createLoopExample
 function stopAllExamples() {
   var examples = Array.from(document.getElementsByClassName("example"));
   examples.forEach(example => {
@@ -65,22 +70,37 @@ function stopAllExamples() {
   })
 }
 
+// create a generic button
+function addButton(innerText) {
+  var button = document.createElement("span");
+  button.classList.add("btn");
+  button.innerText = innerText;
+  return button
+}
+
+// create example title
+function createTitle(title) {
+  var titleElement = document.createElement("span");
+  titleElement.classList.add("title");
+  titleElement.innerText = title;
+  return titleElement;
+}
+
+// add start/stop loop listener
+function addLoopStartStopListener(button) {
+
+}
+
 export function createLoopExample(tagId, loopExampleData, sampler) {
   var example = document.getElementById(tagId);
 
-  // create elements
-  var loopButton = document.createElement("span");
-  loopButton.classList.add("btn");
-  loopButton.innerText = "Play loop";
-
-  var title = document.createElement("span");
-  title.classList.add("title");
-  title.innerText = loopExampleData.title;
-
-  // append elements
+  // create and add elements
+  var loopButton = addButton("Play loop");
+  var title = createTitle(loopExampleData.title);
   example.appendChild(loopButton);
   example.appendChild(title);
 
+  // add rows of boxes for loops
   var rows = 0;
   for (let i = 0; i < loopExampleData.parts.length; i++) {
     if (loopExampleData.parts[i].show) {
