@@ -1,34 +1,30 @@
 import { createDrumSampler } from './audio.js';
-import { createLoopExample, markBoxWithBorder } from './examples_ui.js';
-import { example1Data, example2Data, example3Data, example4Data, example5Data, example6Data } from './examples.js';
+import { createLoopExample, createMuteLoopExample, markBoxWithBorder } from './examples_ui.js';
+import { showMoreButton } from './other_ui.js';
+import { examples } from './examples.js';
 
 //
 // instantiate examples
 //
 var drumSampler = createDrumSampler();
+var page = window.location.pathname.split("/").pop();
 
-// part 1 examples
-createLoopExample("example1", example1Data, drumSampler);
-createLoopExample("example2", example2Data, drumSampler);
-createLoopExample("example3", example3Data, drumSampler);
-createLoopExample("example4", example4Data, drumSampler);
-createLoopExample("example5", example5Data, drumSampler);
-createLoopExample("example6", example6Data, drumSampler);
+switch (page) {
+  case "part1.html":
+    createLoopExample("example1", examples[1], drumSampler);
+    createLoopExample("example2", examples[2], drumSampler);
+    createLoopExample("example3", examples[3], drumSampler);
+    createLoopExample("example4", examples[4], drumSampler);
+    createLoopExample("example5", examples[5], drumSampler);
+    createLoopExample("example6", examples[6], drumSampler);
 
-markBoxWithBorder("example3", 1, 0);
-markBoxWithBorder("example4", 1, 8);
-markBoxWithBorder("example5", 1, 0);
+    markBoxWithBorder("example3", 1, 0);
+    markBoxWithBorder("example4", 1, 8);
+    markBoxWithBorder("example5", 1, 0);
 
-// part 2 examples
-
-//
-// other ui
-//
-//
-// show hidden text in part 1
-var showMoreButton = document.getElementById("showMoreButton");
-showMoreButton.onclick = function() {
-  showMoreButton.style.display = "none";
-  var part1secondHalf = document.getElementById("part1-second-half");
-  part1secondHalf.style.display = "block";
+    showMoreButton("part1-second-half");
+  
+  case "part2.html":
+    createLoopExample("example7", examples[7], drumSampler);
+    createMuteLoopExample("example8", examples[8], drumSampler);
 }

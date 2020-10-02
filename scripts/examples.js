@@ -83,7 +83,7 @@ export var example4Data = {
 }
 
 export var example5Data = {
-  title: 'Example 5: the "American clavé"',
+  title: 'Example 5: the "American clave"',
   tag: "example5",
   tempo: 200,
   parts: [
@@ -120,4 +120,55 @@ export var example6Data = {
       show: true,
     }
   ]
+}
+
+export var example7Data = {
+  title: "Example 7: Malhun drum pattern",
+  tag: "example7",
+  tempo: 220,
+  parts: [
+    {
+      name: "Drum 1",
+      pattern: [1, 0, 0, 0, 1, 0, 0, 0],
+      note: "A6",
+      show: true,
+    },
+    {
+      name: "Drum 2",
+      pattern: [0, 0, 0, 1, 0, 0, 1, 0],
+      note: "A7",
+      show: true,
+    }
+  ]
+}
+
+export var example8Data = {
+  title: "Example 8: Try it out",
+  tag: "example8",
+  tempo: 220,
+  parts: [
+    {
+      name: "Drum 1",
+      pattern: [1, 0, 0, 0, 1, 0, 0, 0],
+      note: "A6",
+      show: true,
+    },
+    {
+      name: "Drum 2",
+      pattern: [0, 0, 0, 1, 0, 0, 1, 0],
+      note: "A7",
+      show: true,
+    }
+  ]
+}
+
+export var examples = {
+  1: example1Data,
+  2: example2Data,
+  3: example3Data,
+  4: example4Data,
+  5: example5Data,
+  6: example6Data,
+  7: example7Data,
+  8: example8Data
 }

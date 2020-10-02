@@ -13,7 +13,9 @@ export function createDrumSampler() {
       A2: "./snare.mp3",
       A3: "./kick.mp3",
       A4: "./clave.mp3",
-      A5: "./ding.mp3"
+      A5: "./ding.mp3",
+      A6: "./bongo1.mp3",
+      A7: "./bongo2.mp3"
     },
   }).toDestination();
 
@@ -49,24 +51,23 @@ function createSequenceObject(part) {
 
 // convert loop array into a loop/Sequence object
 function createLoopSequence(name, sequence, sampler, show, exampleTag) {
-  const loop = new Tone.Sequence((time, note) => {
+  return new Tone.Sequence((time, note) => {
     if (show) {
       boxVisualRowCallback(name);
     }
     sampler.triggerAttackRelease(note, "8n", time);
   }, sequence).start(0);
-  return loop;
 }
 
 // convert loop objects into drum loops attached to a drum sampler
 export function buildDrumLoops(exampleData, sampler) {
-  var parts = exampleData.parts
   // set up loops
-  for (let i = 0; i < parts.length; i++) {
-    let name = parts[i].name.toLowerCase().replace(" ", "-");
-    let sequence = createSequenceObject(parts[i])
-    let loop = createLoopSequence(name, sequence, sampler, parts[i].show);
+  for (let i = 0; i < exampleData.parts.length; i++) {
+    let name = exampleData.parts[i].name.toLowerCase().replace(" ", "-");
+    let sequence = createSequenceObject(exampleData.parts[i])
+    exampleData.parts[i].sequence = createLoopSequence(name, sequence, sampler, exampleData.parts[i].show);
   }
+  return exampleData;
 }
 
 export function setTempo(tempo) {

@@ -1,8 +1,9 @@
 ---
 title: "On Rhythm"
 author: Christopher Witulski
-header-includes: <script src="audio.js"></script>
 ---
+<main>
+
 [Part 1: Expectation and repetition](part1.html) | [Back to contents](index.html) | [Part 3: Feeling the beat(s)](part3.html)
 
 ## Part 2: Cycles of time
@@ -39,17 +40,15 @@ In *ʿissawa* contexts, this pattern shows up on a pair of clay drums that are t
 
 These pairs of drums articulate two patterns. The first is two notes, equally spaced. This usually shows up on the larger drum. The second is offset and the notes are unequally spaced. In live settings, people might clap along to one or the other patterns. Try listening to each and clapping along with it individually. 
 
-```
-P1 LOOP WITH VISUAL: D - - - D - - -
-P2 LOOP WITH VISUAL: - - - T - - T -
-```
+<div id="example7" class="example"></div>
 
-Combining the two patterns changes the overall rhythmic cycle's feel. They integrate into a single idea, yet people still clap along to the individual parts. Try identifying and clapping the distinct patterns when listening to the two of them together. Then, mute one and attempt to carry on the other.
+Combining the two patterns changes the overall rhythmic cycle's feel. They integrate into a single idea, yet people still clap along to the individual parts. Try identifying and clapping the distinct patterns when listening to the two of them together, then mute each and try to clap the other.
 
-```
-BUTTONS: Loop, show both patterns, mute or quiet buttons for each (check box)
-```
+<div id="example8" class="example"></div>
 
 These are mechanical examples produced by a computer. Real participants change the patterns in other ways, as well. For one, they speed up as as they approach climactic ending of a section of poetry. As they accelerate, musicians subtly adjust the relationships between the two patterns. They might make the last note of the second pattern louder to push listeners back to the beginning of the cycle. When I am at a ceremony or concert, I can feel this rushed anticipation in my body. They might squeeze the two middle notes, which are already close together, even tighter to excite the music even further. We turn toward these details next.
 
 [Part 1: Expectation and repetition](part1.html) | [Back to contents](index.html) | [Part 3: Feeling the beat(s)](part3.html)
+
+</main>
+<script src="main.js"></script>

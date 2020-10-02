@@ -1,8 +1,9 @@
 ---
 title: "On Rhythm"
 author: Christopher Witulski
-header-includes: <script src="audio.js"></script>
 ---
+<main>
+
 [Part 2: Cycles of time](part2.html) | [Back to contents](index.html) | [Part 4: Consistent inconsistencies from Morocco](part4.html)
 
 ## Part 3: Feeling the beat(s)
@@ -141,3 +142,7 @@ This technique of rushing or delaying notes can happen anywhere in a piece of mu
 The final section turns to Morocco for a series of rhythms that challenge expectations by combining each of these practices.
 
 [Part 2: Cycles of time](part2.html) | [Back to contents](index.html) | [Part 4: Consistent inconsistencies from Morocco](part4.html)
+
+</main>
+
+<script src="main.js"></script>

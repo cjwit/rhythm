@@ -51,8 +51,9 @@ function setAsCurrentExample(example) {
 
 function setNewLoop(loopExampleData, sampler) {
   Tone.Transport.cancel(0);
-  buildDrumLoops(loopExampleData, sampler);
+  loopExampleData = buildDrumLoops(loopExampleData, sampler);
   setTempo(loopExampleData.tempo);
+  return loopExampleData;
 }
 
 function stopAllExamples() {
@@ -102,7 +103,7 @@ export function createLoopExample(tagId, loopExampleData, sampler) {
       if (example.classList.contains("current-example") == false) {
         setAsCurrentExample(example);
         stopAllExamples();
-        setNewLoop(loopExampleData, sampler);
+        loopExampleData = setNewLoop(loopExampleData, sampler);
       }
 
       // start loop
@@ -118,7 +119,43 @@ export function createLoopExample(tagId, loopExampleData, sampler) {
       activeBoxes.forEach(element => element.classList.remove("active-box"));
     }
   });
+
+  return loopExampleData;
 }
+
+//
+// build loop object with mute buttons
+//
+//
+// mute button event listener START HERE
+function muteEventListener(part, partNumber) {
+  var muted = part.sequence.mute;
+  console.log("click", part.name, muted);
+  part.sequence.mute = !muted;  // not working
+}
+
+// create the button
+export function createMuteLoopExample(tagId, loopExampleData, sampler) {
+
+  // get sequence objects
+  loopExampleData = createLoopExample(tagId, loopExampleData, sampler);
+
+  // set up mute buttons
+  var example = document.getElementById(tagId);
+  for (let i = 0; i < loopExampleData.parts.length; i++) {
+    
+    // create mute button
+    let part = loopExampleData.parts[i];
+    let muteButton = document.createElement("span");
+    muteButton.classList.add("btn");
+    muteButton.classList.add("mute");
+    muteButton.innerText = "Mute " + part.name;
+
+    // connect to sound and wire up
+    muteButton.addEventListener("click", () => { muteEventListener(part, i); })
+    example.appendChild(muteButton);
+  }
+} 
 
 //
 // handler for box animations
