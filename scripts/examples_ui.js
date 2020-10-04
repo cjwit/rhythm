@@ -120,6 +120,7 @@ function addLoopStartStopListener(button, defaultText, example, loopExampleData,
 
 export function createExampleHeader(tagId, loopExampleData, sampler) {
   var example = document.getElementById(tagId);
+  console.log(tagId, example);
 
   // create and add elements
   var loopButton = addButton("Play loop");
@@ -148,7 +149,7 @@ export function createLoopExample(tagId, loopExampleData, sampler) {
     example.children[0].classList.add("no-boxes");  // button
     example.children[1].classList.add("no-boxes");  // title
   }
-
+  
   return example;
 }
 

@@ -22,10 +22,12 @@ switch (page) {
     createLoopExample("example6", examples[6], drumSampler);
 
     showMoreButton("part1-second-half");
+    break;
   
   case "part2.html":
     createLoopExample("example7", examples[7], drumSampler);
     createMuteLoopExample("example8", examples[8], drumSampler);
+    break;
   
   case "part3.html":
     createLoopExample("example9", examples[9], drumSampler);
@@ -73,6 +75,7 @@ switch (page) {
     createExampleHeader("example16", examples.default, drumSampler);
     examples.default.tag = "example17";
     createExampleHeader("example17", examples.default, drumSampler);
+    break;
 
   case "part4.html":
     examples.default.tag = "example18";
@@ -89,5 +92,5 @@ switch (page) {
     createExampleHeader("example23", examples.default, drumSampler);
     examples.default.tag = "example24";
     createExampleHeader("example24", examples.default, drumSampler);
-
+    break;
 }
