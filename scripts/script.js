@@ -112,8 +112,8 @@ switch (page) {
     break;
 
   case "part4.html":
-    examples.default.tag = "example18";
-    createExampleHeader("example18", examples.default, drumSampler);
+    createLoopExample("example18", examples[18], drumSampler);
+
     examples.default.tag = "example19";
     createExampleHeader("example19", examples.default, drumSampler);
     examples.default.tag = "example20";

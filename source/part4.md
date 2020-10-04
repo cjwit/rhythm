@@ -22,12 +22,6 @@ Two of these three examples come from the *hamadsha* tradition. The hamadsha bro
 
 An evening hamadsha event moves through a number of segments, each with its own musical characteristics. One, called the *saf al-ginbri* features an underlying rhythmic pattern of uneven heavy beats that group the beats of a consistent pulse. This pattern is also common elsewhere in the world, including the Balkan region of Europe and across the Middle East (Goldberg 2020). This example is from a ceremony I attended with the hamadsha leader Abdderrahim Amrani.
 
-```
-PLAY EXAMPLE
-BEAT  .   .
-SUB   . . . . .
-```
-
 <div id="example18" class="example"></div>
 
 A western system would define this as a 5/8 meter by focusing on the consistent pulse. In practice, however, this is felt at the larger grouping of one short beat (subdivided in half) and one that is slightly longer (made up of three subdivisions). There are two conflicting pulses because of the shortness of the pattern. Is it a consistently uneven pulse (which would be consistent in its own way) or is this an example of two smaller groupings combining? I argue that there is no "correct" answer. The western notational practice of calling something like this 5/8 (five even beats grouped into two and three) obfuscates what we hear by prioritizing written convenience. It fits better into a system built for western classical tradition.
