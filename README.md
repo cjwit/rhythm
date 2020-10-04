@@ -7,10 +7,10 @@
 ### Next
 
 * Examples
-  * Less margin between boxes on small (need to recalculate somehow)
-  * Hide individual rows instead of all sections (examples 2 and 3)
-  * Fix spacing on hidden rows (example 2), probably by removing the boxRows element
-  * Mark a specific element (probably via javascript, hard coded: loop up example number, find child of child, and add styling to it)
+  * Example 8: needs working mute buttons
+  * Examples 9 and 10: add mute buttons for the pulse
+  * Example 12: switch pulse button
+
 
 ### Code
 

@@ -250,8 +250,31 @@ var example12Data = {
   ]
 }
 
-
-
+var example13Data = {
+  title: "Example 13: The sama'i pattern",
+  tag: "example13",
+  tempo: 52,
+  parts: [
+    {
+      name: "Tek",
+      pattern: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0],
+      note: "A6",
+      show: true,
+    },
+    {
+      name: "Dum",
+      pattern: [1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+      note: "A8",
+      show: true,
+    },
+    {
+      name: "Pulse",
+      pattern: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+      note: "A4",
+      show: false,
+    }
+  ]
+}
 
 var exampleDefault = {
   title: "Example ??: Not done yet",
@@ -273,5 +296,6 @@ export var examples = {
   10: example10Data,
   11: exampleDefault,
   12: example12Data,
+  13: example13Data,
   default: exampleDefault
 }

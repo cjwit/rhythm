@@ -65,8 +65,12 @@ switch (page) {
     })
     example12.appendChild(switchButton);
 
-    examples.default.tag = "example13";
-    createExampleHeader("example13", examples.default, drumSampler);
+    createLoopExample("example13", examples[13], drumSampler);
+    markBoxWithBorder("example13", 2, 0);
+    markBoxWithBorder("example13", 2, 5);
+    markBoxWithBorder("example13", 1, 3);
+    markBoxWithBorder("example13", 1, 7);
+
     examples.default.tag = "example14";
     createExampleHeader("example14", examples.default, drumSampler);
     examples.default.tag = "example15";

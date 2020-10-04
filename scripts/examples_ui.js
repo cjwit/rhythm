@@ -120,7 +120,6 @@ function addLoopStartStopListener(button, defaultText, example, loopExampleData,
 
 export function createExampleHeader(tagId, loopExampleData, sampler) {
   var example = document.getElementById(tagId);
-  console.log(tagId, example);
 
   // create and add elements
   var loopButton = addButton("Play loop");

@@ -61,13 +61,6 @@ If the pace quickens, though, we might feel the central pulse at a different pla
 
 We can also add sets of duple or triple groupings to make more complicated ones. Arabic music has a classical form called *samaʿi* that is technically ten beats. In practice, however, it is a group of three beats followed by a group of four (or two pairs), and then another group of three.
 
-```
-samaʿi with counting, maybe a 4 screen video with counting, riqq, violin, oud?
-Or an audio with a diagram
-1 2 3 4 5 6 7 8 9 0
-[   ] [     ] [   ]
-```
-
 <div id="example13" class="example"></div>
 
 These groupings can appear in ways that foster ambiguity for the listener to generate tension or space. Rhythms can spread over time in a way that emphasizes two or more different pulses simultaneously. This displacement can be troubling or exciting. Stephen Friedson argues that it opens the body to an experience of trance (1996). Ann Danielsen describes how the guitar groove in James Brown's famous song "Sex Machine" creates its own pulse that is slightly offset from the main one followed by the rest of the band (2006). While it does not bring about trance, it gives life to funk. In either case, a similar musical practice impacts the listener in a contextually-defined way, but both change our perception (Becker 2004).
