@@ -276,6 +276,32 @@ var example13Data = {
   ]
 }
 
+var example14Data = {
+  title: "Example 14: a West African bell pattern",
+  tag: "example14",
+  tempo: 108,
+  parts: [
+    {
+      name: "Bell",
+      pattern: [1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1],
+      note: "A9",
+      show: true,
+    },
+    {
+      name: "Pulse 1",
+      pattern: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+      note: "A4",
+      show: false,
+    },
+    {
+      name: "Pulse 2",
+      pattern: [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0],
+      note: "A4",
+      show: false,
+    },
+  ]
+}
+
 var exampleDefault = {
   title: "Example ??: Not done yet",
   tag: "n/a",
@@ -297,5 +323,6 @@ export var examples = {
   11: exampleDefault,
   12: example12Data,
   13: example13Data,
+  14: example14Data,
   default: exampleDefault
 }

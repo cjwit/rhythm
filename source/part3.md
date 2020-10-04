@@ -67,12 +67,6 @@ These groupings can appear in ways that foster ambiguity for the listener to gen
 
 Listen to this example and clap along to the pulse that you hear. Then unmute the first given pulse to see if it aligns with what you felt. Mute it again and try the second one. Then, if you are up to the challenge, try shifting your perception from one to the other and back, either with the pulse audio samples muted or unmuted. At first, it might feel unnatural. Eventually, and with familiarity, it may get easier.
 
-```
-AUDIO LOOP (VIMBUZA PATTERN? TIMELINE?)
-PULSE 1 (MUTED)
-PULSE 2 (MUTED)
-```
-
 <div id="example14" class="example"></div>
 
 ## Dividing time

@@ -7,10 +7,10 @@
 ### Next
 
 * Examples
+  * Get better audio examples for non-drum set drums
   * Example 8: needs working mute buttons
   * Examples 9 and 10: add mute buttons for the pulse
-  * Example 12: switch pulse button
-
+  * Example 12 and 14: switch pulse button
 
 ### Code
 
@@ -24,3 +24,7 @@
   * Play and loop buttons
   * Text description
   * Audio object?
+
+## Sounds
+
+* Cowbell attribution: https://freesound.org/people/GowlerMusic/sounds/364919/

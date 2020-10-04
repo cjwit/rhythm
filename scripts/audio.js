@@ -16,7 +16,8 @@ export function createDrumSampler() {
       A5: "./ding.mp3",
       A6: "./bongo1.mp3",
       A7: "./bongo2.mp3",
-      A8: "./tom3.mp3"
+      A8: "./tom3.mp3",
+      A9: "./cowbell.mp3"
     },
   }).toDestination();
 
