@@ -302,6 +302,33 @@ var example14Data = {
   ]
 }
 
+var example15aData = {
+  title: "\"Mi Buenos Aires querido\" by Carlos Gardel (1934)",
+  tag: "example15",
+  tempo: 115,
+  audio: "./mi-buenos-aires-querido.mp3",
+  parts: [
+    {
+      name: "Measure",
+      pattern: [1, 0, 0, 0, 0, 0, 0, 0],
+      note: "A3",
+      show: true,
+    },
+    {
+      name: "Beat",
+      pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+      note: "A2",
+      show: true,
+    },
+    {
+      name: "Subdivision",
+      pattern: [1, 1, 1, 1, 1, 1, 1, 1],
+      note: "A4",
+      show: true,
+    }
+  ]
+}
+
 // part 4 examples
 var example18Data = {
   title: "Example 18: A pattern from the Hamadsha",
@@ -345,6 +372,7 @@ export var examples = {
   12: example12Data,
   13: example13Data,
   14: example14Data,
+  "15a": example15aData,
   18: example18Data,
   default: exampleDefault
 }

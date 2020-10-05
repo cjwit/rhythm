@@ -11,6 +11,7 @@
   * Example 8: needs working mute buttons
   * Examples 9 and 10: add mute buttons for the pulse
   * Example 12 and 14: switch pulse button
+  * Example 15a: mute loop at start, adjust volume, stop loops after appropriate number
 
 ### Code
 

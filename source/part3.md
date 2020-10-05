@@ -91,7 +91,11 @@ SUBD     | | | | | | | | | | | | | | |  MUTED
 Examples: old tango, waltz, Irish jig
 ```
 
-<div id="example15" class="example"></div>
+<div id="example15a" class="example"></div>
+
+<div id="example15b" class="example"></div>
+
+<div id="example15c" class="example"></div>
 
 ### Playing with subdivisions
 

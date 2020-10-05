@@ -42,6 +42,24 @@ function createBoxes({ name, pattern }) {
 
   return boxes;
 }
+
+function addRowsOfBoxes(example, loopExampleData) {
+  // add rows of boxes for loops
+  var rows = 0;
+  for (let i = 0; i < loopExampleData.parts.length; i++) {
+    if (loopExampleData.parts[i].show) {
+      let part = createBoxes(loopExampleData.parts[i]);
+      example.appendChild(part);
+      rows++;
+    }
+  }
+  if (rows == 0) {
+    example.children[0].classList.add("no-boxes");  // button
+    example.children[1].classList.add("no-boxes");  // title
+  }
+
+  return;
+}
 // remove current-example class from all other examples on the page
 // used by createLoopExample
 function setAsCurrentExample(example) {
@@ -135,21 +153,7 @@ export function createExampleHeader(tagId, loopExampleData, sampler) {
 
 export function createLoopExample(tagId, loopExampleData, sampler) {
   var example = createExampleHeader(tagId, loopExampleData, sampler);
-  // add rows of boxes for loops
-  var rows = 0;
-  for (let i = 0; i < loopExampleData.parts.length; i++) {
-    if (loopExampleData.parts[i].show) {
-      let part = createBoxes(loopExampleData.parts[i]);
-      example.appendChild(part);
-      rows++;
-    }
-  }
-  if (rows == 0) {
-    example.children[0].classList.add("no-boxes");  // button
-    example.children[1].classList.add("no-boxes");  // title
-  }
-  
-  return example;
+  addRowsOfBoxes(example, loopExampleData);
 }
 
 //
@@ -157,8 +161,15 @@ export function createLoopExample(tagId, loopExampleData, sampler) {
 //
 //
 // mute button event listener START HERE
-function muteEventListener(part, partNumber) {
-  console.log("Muting part", partNumber, part.name );
+function muteEventListener(part) {
+  console.log("Muting part", part.name);
+  console.log(Tone);
+}
+
+function addMuteButton(example, part) {
+  var muteButton = addButton("Mute " + part.name, ["mute"]);
+  muteButton.addEventListener("click", () => { muteEventListener(part); })
+  example.appendChild(muteButton);
 }
 
 // add to createLoopExample functionality
@@ -167,13 +178,9 @@ export function createMuteLoopExample(tagId, loopExampleData, sampler) {
 
   // set up mute buttons
   for (let i = 0; i < loopExampleData.parts.length; i++) {
-    
-    // create mute button
-    var muteButton = addButton("Mute " + loopExampleData.parts[i].name, ["mute"]);
-    muteButton.addEventListener("click", () => { muteEventListener(loopExampleData.parts[i], i); })
-    example.appendChild(muteButton);
+    addMuteButton(example, loopExampleData.parts[i]);
   }
-} 
+}
 
 //
 // handler for box animations
@@ -182,7 +189,7 @@ export function createMuteLoopExample(tagId, loopExampleData, sampler) {
 // helper used by boxVisualRowCallback()
 function fadeActiveBox(element) {
   element.style.backgroundColor = "#2875a1";
-  setTimeout(function() {}, 100);
+  setTimeout(function () { }, 100);
   setTimeout(function () {
     element.animate({
       backgroundColor: "#570E51"
@@ -226,4 +233,58 @@ export function markBoxWithBorder(tagId, rowNumber, boxNumber) {
   var boxes = Array.from(children[rowNumber + 1].children);
   var box = boxes[boxNumber + 1];
   box.classList.add("mark-with-border")
+}
+
+//
+// other types of examples
+//
+//
+// add delayed start loop listener
+function addDelayedStartListener(audioFile, button, defaultText, example, loopExampleData, sampler) {
+  button.addEventListener('click', async () => {
+
+    // if not playing
+    if (button.innerText == defaultText) {
+
+      // if not current, clear loops and prepare them for this example
+      if (example.classList.contains("current-example") == false) {
+        setAsCurrentExample(example);
+        stopAllExamples();
+        setNewLoop(loopExampleData, sampler);
+      }
+
+      // start loop
+      await Tone.start();
+      audioFile.play();
+      Tone.Transport.start("+0.01");
+      button.innerText = "Stop";
+
+    } else {
+      Tone.Transport.stop();
+      audioFile.pause();
+      audioFile.currentTime = 0;
+      button.innerText = defaultText;
+
+      // remove active status from all boxes NOT WORKING START HERE
+      var activeBoxes = Array.from(document.getElementsByClassName("active-box"));
+      activeBoxes.forEach(element => element.classList.remove("active-box"));
+    }
+  });
+}
+
+
+export function createAudioLoop(tagId, loopExampleData, sampler) {
+  var example = createExampleHeader(tagId, loopExampleData, sampler);
+  var playButton = example.children[0];
+  var audioPlayButton = playButton.cloneNode(true);
+  var audioFile = new Audio (loopExampleData.audio);
+  addDelayedStartListener(audioFile, audioPlayButton, audioPlayButton.innerText, example, loopExampleData, sampler);
+  example.replaceChild(audioPlayButton, playButton);
+  
+
+  addRowsOfBoxes(example, loopExampleData);
+  // set up mute buttons
+  for (let i = 0; i < loopExampleData.parts.length; i++) {
+    addMuteButton(example, loopExampleData.parts[i]);
+  }
 }

@@ -1,5 +1,5 @@
 import { createDrumSampler } from './audio.js';
-import { createExampleHeader, createLoopExample, createMuteLoopExample, markBoxWithBorder, addButton } from './examples_ui.js';
+import { createAudioLoop, createExampleHeader, createLoopExample, createMuteLoopExample, markBoxWithBorder, addButton } from './examples_ui.js';
 import { showMoreButton } from './other_ui.js';
 import { examples } from './examples.js';
 
@@ -103,9 +103,13 @@ switch (page) {
     })
     example14.appendChild(switchButton);
 
-    examples.default.tag = "example15";
-    createExampleHeader("example15", examples.default, drumSampler);
+    createAudioLoop("example15a", examples["15a"], drumSampler);
+
+    examples.default.tag = "example15b";
+    createExampleHeader("example15b", examples.default, drumSampler);
     examples.default.tag = "example16";
+    createExampleHeader("example15c", examples.default, drumSampler);
+    examples.default.tag = "example15c";
     createExampleHeader("example16", examples.default, drumSampler);
     examples.default.tag = "example17";
     createExampleHeader("example17", examples.default, drumSampler);

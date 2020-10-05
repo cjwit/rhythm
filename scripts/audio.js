@@ -53,7 +53,7 @@ function createSequenceObject(part) {
 
 // convert loop array into a loop/Sequence object
 function createLoopSequence(name, sequence, sampler, show) {
-  new Tone.Sequence((time, note) => {
+  var sequence = new Tone.Sequence((time, note) => {
     if (show) {
       boxVisualRowCallback(name);
     }
