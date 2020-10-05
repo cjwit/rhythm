@@ -795,6 +795,7 @@ input {
   border-radius: 5px;
   color: #3A0035;
   padding: 1em;
+  margin-bottom: 1em;
 }
 .example .title {
   display: inline-block;
