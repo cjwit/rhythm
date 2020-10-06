@@ -1,4 +1,5 @@
 import * as Tone from "tone";
+import { boxVisualRowCallback } from "./examples_ui";
 
 export class Example {
   constructor(tagId, data) {
@@ -126,6 +127,10 @@ export class Example {
         button.click();
       }
     })
+
+    // reset all active boxes
+    var activeBoxes = Array.from(document.getElementsByClassName("active-box"));
+    activeBoxes.forEach(box => { box.classList.remove("active-box") });
   }
 
   setUpLoop(loop) {
@@ -135,6 +140,7 @@ export class Example {
       let part = loop.parts[i];
       let name = part.name.toLowerCase().replace(" ", "-");
 
+      // convert pattern to correct format for the Tone.Sequence
       let sequenceObject = [];
       part.pattern.forEach(note => {
         if (note == 0) {
@@ -144,13 +150,49 @@ export class Example {
         }
       })
 
+      // create new sequence
       let sequence = new Tone.Sequence((time, note) => {
-        // if showing
+        if (part.show) {
+          this.visualCallback(part.name);
+        }
         part.source.triggerAttackRelease(note, "8n", time);
       }, sequenceObject).start(0);
       // createLoopSequence(name, sequence, sampler, exampleData.parts[i].show);
     }
 
     Tone.Transport.bpm.value = loop.tempo;
+  }
+
+  visualCallback(name) {
+    var name = name.toLowerCase().replace(" ", "-");
+    var row = Array.from(this.example.getElementsByClassName(name + "-box"));
+    row = row.filter(box => box.classList.contains("filled-box"));
+    var numBoxes = row.length;
+
+    // determine the active box
+    var active = 0;
+    for (let i = 0; i < row.length; i++) {
+      if (row[i].classList.contains("active-box")) {
+        row[i].classList.remove("active-box");
+        active = (i + 1) % numBoxes;
+        break;
+      }
+    }
+
+    // style the fade animation for the active box
+    var activeBox = row[active];
+    activeBox.style.backgroundColor = "#2875a1";
+    setTimeout(function () { }, 100);
+    setTimeout(function () {
+      activeBox.animate({
+        backgroundColor: "#570E51"
+      }, 1000);
+    });
+    setTimeout(function () {
+      activeBox.style.backgroundColor = "#570E51";
+    }, 1000);
+
+    // increment which box is active for the next iteration
+    activeBox.classList.add("active-box");
   }
 }

@@ -120,33 +120,3 @@ function addLoopStartStopListener(button, defaultText, example, loopExampleData,
   });
 }
 
-// mute button event listener NOT WORKING
-function muteEventListener(part) {
-  console.log("Muting part", part.name);
-  console.log(Tone);
-}
-
-//
-// structure example interfaces
-//
-
-// build generic header for all examples
-export function createExampleHeader(tagId, loopExampleData, sampler) {
-  var example = document.getElementById(tagId);
-
-  // create and add elements
-  var loopButton = addButton("Play loop");
-  var title = createTitle(loopExampleData.title);
-  example.appendChild(loopButton);
-  example.appendChild(title);
-
-  // check for synced audio and set up loop listener
-  var audioFile = false;
-  if (loopExampleData.audio) {
-    console.log(loopExampleData.audio);
-    audioFile = new Audio(loopExampleData.audio);
-  }
-  addLoopStartStopListener(loopButton, loopButton.innerText, example, loopExampleData, sampler, audioFile);
-
-  return example;
-}
