@@ -1,3 +1,6 @@
+import { createDrumSampler } from './audio.js';
+var drumSampler = createDrumSampler();
+
 //
 // examples
 //
@@ -143,22 +146,55 @@
   ]
 }
 
- var example8Data = {
+ var example8 = {
   title: "Example 8: Try it out",
   tag: "example8",
-  tempo: 220,
-  parts: [
+  loops: [
     {
-      name: "Drum 1",
-      pattern: [1, 0, 0, 0, 1, 0, 0, 0],
-      note: "A6",
-      show: true,
+      btnText: "Play loop",
+      listener: null,
+      tempo: 220,
+      parts: [
+        {
+          name: "Drum 1",
+          note: "A6",
+          source: drumSampler,
+          show: true,
+          pattern: [1, 0, 0, 0, 1, 0, 0, 0],
+        },
+        {
+          name: "Drum 2",
+          pattern: [0, 0, 0, 1, 0, 0, 1, 0],
+          note: "A7",
+          show: true,
+        }
+      ]    
     },
     {
-      name: "Drum 2",
-      pattern: [0, 0, 0, 1, 0, 0, 1, 0],
-      note: "A7",
-      show: true,
+      btnText: "Drum 1 alone",
+      listener: null,
+      tempo: 220,
+      parts: [
+        {
+          name: "Drum 1",
+          pattern: [1, 0, 0, 0, 1, 0, 0, 0],
+          note: "A6",
+          show: true,
+        },
+      ]
+    },
+    {
+      btnText: "Drum 2 alone",
+      listener: null,
+      tempo: 220,
+      parts: [
+        {
+          name: "Drum 2",
+          pattern: [0, 0, 0, 1, 0, 0, 1, 0],
+          note: "A7",
+          show: true,
+        }
+      ]
     }
   ]
 }
@@ -365,7 +401,7 @@ export var examples = {
   5: example5Data,
   6: example6Data,
   7: example7Data,
-  8: example8Data,
+  8: example8,
   9: example9Data,
   10: example10Data,
   11: exampleDefault,
