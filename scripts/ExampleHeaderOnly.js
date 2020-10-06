@@ -14,7 +14,7 @@ export class ExampleHeaderOnly {
     var button = document.createElement("span");
     button.classList.add("btn");
     button.classList.add("play-button");
-    button.innerText = "Play loop";
+    button.innerText = "Sorry!";
     this.example.appendChild(button);
   }
 
