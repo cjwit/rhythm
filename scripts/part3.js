@@ -88,7 +88,6 @@ export function part3setup(examples) {
   const example15a = new Example("example15a", examples["15a"]);
   const example15b = new Example("example15b", examples["15b"]);
 
-  new ExampleHeaderOnly("example15c");
   new ExampleHeaderOnly("example16");
   new ExampleHeaderOnly("example17");
 
