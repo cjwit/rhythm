@@ -666,31 +666,31 @@ var example16 = {
 }
 
 // part 4 examples
-var example18Data = {
+var example18 = {
   title: "Example 18: A pattern from the Hamadsha",
   tag: "example18",
-  tempo: 108,
-  parts: [
+  loops: [
     {
-      name: "Drum",
-      pattern: [1, 0, 1, 0, 0],
-      note: "A6",
-      show: true,
-    },
-    {
-      name: "Pulse",
-      pattern: [1, 1, 1, 1, 1],
-      note: "A4",
-      show: false,
+      btnText: "Play loop",
+      tempo: 108,
+      parts: [
+        {
+          name: "Drum",
+          pattern: [1, 0, 1, 0, 0],
+          note: "A6",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Pulse",
+          pattern: [1, 1, 1, 1, 1],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        }
+      ]    
     }
   ]
-}
-
-var exampleDefault = {
-  title: "Example ??: Not done yet",
-  tag: "n/a",
-  tempo: 108,
-  parts: []
 }
 
 export var examples = {
@@ -709,4 +709,5 @@ export var examples = {
   14: example14,
   15: example15,
   16: example16,
+  18: example18,
 }

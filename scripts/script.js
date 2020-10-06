@@ -1,7 +1,7 @@
 import { part1setup } from './part1.js';
 import { part2setup } from './part2.js';
 import { part3setup } from './part3.js';
-// import { part4setup } from './part4.js';
+import { part4setup } from './part4.js';
 import { examples } from './examples.js';
 
 //
@@ -28,7 +28,7 @@ switch (page) {
     part3setup(examples);
     break;
 
-  // case "part4.html":
-  //   part4setup(examples, drumSampler);
-  //   break;
+  case "part4.html":
+    part4setup(examples);
+    break;
 }

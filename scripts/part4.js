@@ -1,19 +1,13 @@
-import { createExampleHeader, createLoopExample, createMuteLoopExample, markBoxWithBorder, addButton } from './examples_ui.js';
-import { showMoreButton } from './other_ui.js';
+import { Example } from './Example.js';
+import { ExampleHeaderOnly } from './ExampleHeaderOnly.js';
 
-export function part4setup(examples, drumSampler) {
-  createLoopExample("example18", examples[18], drumSampler);
+export function part4setup(examples) {
+  const example18 = new Example("example18", examples[18]);
 
-  examples.default.tag = "example19";
-  createExampleHeader("example19", examples.default, drumSampler);
-  examples.default.tag = "example20";
-  createExampleHeader("example20", examples.default, drumSampler);
-  examples.default.tag = "example21";
-  createExampleHeader("example21", examples.default, drumSampler);
-  examples.default.tag = "example22";
-  createExampleHeader("example22", examples.default, drumSampler);
-  examples.default.tag = "example23";
-  createExampleHeader("example23", examples.default, drumSampler);
-  examples.default.tag = "example24";
-  createExampleHeader("example24", examples.default, drumSampler);
+  new ExampleHeaderOnly("example19");
+  new ExampleHeaderOnly("example20");
+  new ExampleHeaderOnly("example21");
+  new ExampleHeaderOnly("example22");
+  new ExampleHeaderOnly("example23");
+  new ExampleHeaderOnly("example24");
 }
