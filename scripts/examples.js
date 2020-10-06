@@ -436,28 +436,49 @@ var example13 = {
   ]
 }
 
-var example14Data = {
+var example14 = {
   title: "Example 14: a West African bell pattern",
   tag: "example14",
-  tempo: 108,
-  parts: [
+  loops: [
     {
-      name: "Bell",
-      pattern: [1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1],
-      note: "A9",
-      show: true,
+      btnText: "Play loop",
+      tempo: 108,
+      parts: [
+        {
+          name: "Bell",
+          pattern: [1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1],
+          note: "A9",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Pulse 1",
+          pattern: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        }
+      ]    
     },
     {
-      name: "Pulse 1",
-      pattern: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
-      note: "A4",
-      show: false,
-    },
-    {
-      name: "Pulse 2",
-      pattern: [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0],
-      note: "A4",
-      show: false,
+      btnText: "Try a different pulse",
+      tempo: 108,
+      parts: [
+        {
+          name: "Bell",
+          pattern: [1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1],
+          note: "A9",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Pulse 2",
+          pattern: [1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        },
+      ]    
     },
   ]
 }
@@ -530,4 +551,5 @@ export var examples = {
   10: example10,
   12: example12,
   13: example13,
+  14: example14,
 }

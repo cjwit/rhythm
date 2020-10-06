@@ -42,7 +42,6 @@ export function part3setup(examples) {
     }
   })
 
-  new ExampleHeaderOnly("example14");
   new ExampleHeaderOnly("example15a");
   new ExampleHeaderOnly("example15b");
   new ExampleHeaderOnly("example15c");
@@ -55,37 +54,42 @@ export function part3setup(examples) {
   addBorder(example13, 0, 3);
   addBorder(example13, 0, 7);
 
-  // createLoopExample("example14", examples[14], drumSampler);
-  // markBoxWithBorder("example14", 1, 0);
-  // markBoxWithBorder("example14", 1, 2);
-  // markBoxWithBorder("example14", 1, 4);
-  // markBoxWithBorder("example14", 1, 6);
-  // markBoxWithBorder("example14", 1, 8);
-  // markBoxWithBorder("example14", 1, 10);
+  const example14 = new Example("example14", examples[14]);
+  addBorder(example14, 0, 0);
+  addBorder(example14, 0, 2);
+  addBorder(example14, 0, 4);
+  addBorder(example14, 0, 6);
+  addBorder(example14, 0, 8);
+  addBorder(example14, 0, 10);
 
-  // var example14 = document.getElementById("example14");
-  // var switchButton = addButton("Switch Pulse", ["mute"]);
-  // switchButton.addEventListener("click", () => {
-  //   if (example14.children[2].children[3].classList.contains("mark-with-border")) {
-  //     example14.children[2].children[3].classList.remove("mark-with-border");
-  //     example14.children[2].children[5].classList.remove("mark-with-border");
-  //     example14.children[2].children[9].classList.remove("mark-with-border");
-  //     example14.children[2].children[11].classList.remove("mark-with-border");
+  var example14Children = Array.from(example14.example.children);
+  var playButton = example14Children[0];
+  playButton.addEventListener("click", () => {
+    if (playButton.innerText == "Stop") {
+      // started playing loop 0
+      addBorder(example14, 0, 2);
+      addBorder(example14, 0, 4);
+      addBorder(example14, 0, 8);
+      addBorder(example14, 0, 10);
 
-  //     example14.children[2].children[4].classList.add("mark-with-border");
-  //     example14.children[2].children[10].classList.add("mark-with-border");
-  //     // TODO and mute clicks
-  //   } else {
-  //     example14.children[2].children[3].classList.add("mark-with-border");
-  //     example14.children[2].children[5].classList.add("mark-with-border");
-  //     example14.children[2].children[9].classList.add("mark-with-border");
-  //     example14.children[2].children[11].classList.add("mark-with-border");
+      removeBorder(example14, 0, 3);
+      removeBorder(example14, 0, 9);
+    }
+  })
 
-  //     example14.children[2].children[4].classList.remove("mark-with-border");
-  //     example14.children[2].children[10].classList.remove("mark-with-border");
-  //   }
-  // })
-  // example14.appendChild(switchButton);
+  var switchButton = example14Children[example14Children.length - 1];
+  switchButton.addEventListener("click", () => {
+    if (switchButton.innerText == "Stop") {
+      // started playing loop 1
+      removeBorder(example14, 0, 2);
+      removeBorder(example14, 0, 4);
+      removeBorder(example14, 0, 8);
+      removeBorder(example14, 0, 10);
+
+      addBorder(example14, 0, 3);
+      addBorder(example14, 0, 9);
+    }
+  })
 
   // createMuteLoopExample("example15a", examples["15a"], drumSampler);
 
