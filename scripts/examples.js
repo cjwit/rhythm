@@ -341,60 +341,97 @@ var example10 = {
 
 // TODO example 11
 
-var example12Data = {
+var example12 = {
   title: "Example 12: Different pulses",
   tag: "example12",
-  tempo: 108,
-  parts: [
+  loops: [
     {
-      name: "Snare drum",
-      pattern: [0, 0, 1, 0, 0, 0, 1, 0],
-      note: "A2",
-      show: true,
+      btnText: "Play loop",
+      tempo: 108,
+      parts: [
+        {
+          name: "Snare drum",
+          pattern: [0, 0, 0, 0, 0, 1, 0, 0],
+          note: "A2",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Kick drum",
+          pattern: [1, 0, 0, 1, 1, 0, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Pulse 1",
+          pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        },
+      ],  
     },
     {
-      name: "Kick drum",
-      pattern: [1, 0, 0, 1, 0, 1, 0, 0],
-      note: "A3",
-      show: true,
-    },
-    {
-      name: "Pulse 1",
-      pattern: [1, 0, 1, 0, 1, 0, 1, 0],
-      note: "A4",
-      show: false,
-    },
-    {
-      name: "Pulse 2",
-      pattern: [1, 0, 0, 0, 1, 0, 0, 0],
-      note: "A4",
-      show: false,
+      btnText: "Try a slower pulse",
+      tempo: 108,
+      parts: [
+        {
+          name: "Snare drum",
+          pattern: [0, 0, 0, 0, 0, 1, 0, 0],
+          note: "A2",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Kick drum",
+          pattern: [1, 0, 0, 1, 1, 0, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Pulse 2",
+          pattern: [1, 0, 0, 0, 1, 0, 0, 0],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        },
+      ]
     },
   ]
 }
 
-var example13Data = {
+var example13 = {
   title: "Example 13: The sama'i pattern",
   tag: "example13",
-  tempo: 52,
-  parts: [
+  loops: [
     {
-      name: "Tek",
-      pattern: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0],
-      note: "A6",
-      show: true,
-    },
-    {
-      name: "Dum",
-      pattern: [1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
-      note: "A8",
-      show: true,
-    },
-    {
-      name: "Pulse",
-      pattern: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
-      note: "A4",
-      show: false,
+      btnText: "Play loop",
+      tempo: 52,
+      parts: [
+        {
+          name: "Tek",
+          pattern: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0],
+          note: "A6",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Dum",
+          pattern: [1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
+          note: "A8",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Pulse",
+          pattern: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        }
+      ]    
     }
   ]
 }
@@ -491,11 +528,6 @@ export var examples = {
   8: example8,
   9: example9,
   10: example10,
-  11: exampleDefault,
-  12: example12Data,
-  13: example13Data,
-  14: example14Data,
-  "15a": example15aData,
-  18: example18Data,
-  default: exampleDefault
+  12: example12,
+  13: example13,
 }

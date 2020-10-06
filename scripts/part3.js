@@ -1,6 +1,6 @@
 import { Example } from './Example.js';
 import { ExampleHeaderOnly } from './ExampleHeaderOnly.js';
-import { addBorder } from './other_ui.js';
+import { addBorder, removeBorder } from './other_ui.js';
 
 export function part3setup(examples) {
   const example9 = new Example("example9", examples[9]);
@@ -16,8 +16,32 @@ export function part3setup(examples) {
   addBorder(example10, 1, 4);
 
   new ExampleHeaderOnly("example11");
-  new ExampleHeaderOnly("example12");
-  new ExampleHeaderOnly("example13");
+
+  const example12 = new Example("example12", examples[12]);
+  addBorder(example12, 1, 0);
+  addBorder(example12, 1, 2);
+  addBorder(example12, 1, 4);
+  addBorder(example12, 1, 6);
+
+  var example12Children = Array.from(example12.example.children);
+  var playButton = example12Children[0];
+  playButton.addEventListener("click", () => {
+    if (playButton.innerText == "Stop") {
+      // started playing loop 0
+      addBorder(example12, 1, 2);
+      addBorder(example12, 1, 6);
+    }
+  })
+
+  var switchButton = example12Children[example12Children.length - 1];
+  switchButton.addEventListener("click", () => {
+    if (switchButton.innerText == "Stop") {
+      // started playing loop 1
+      removeBorder(example12, 1, 2);
+      removeBorder(example12, 1, 6);
+    }
+  })
+
   new ExampleHeaderOnly("example14");
   new ExampleHeaderOnly("example15a");
   new ExampleHeaderOnly("example15b");
@@ -25,34 +49,11 @@ export function part3setup(examples) {
   new ExampleHeaderOnly("example16");
   new ExampleHeaderOnly("example17");
 
-  // examples.default.tag = "example11";
-  // createExampleHeader("example11", examples.default, drumSampler);
-
-  // createLoopExample("example12", examples[12], drumSampler);
-  // markBoxWithBorder("example12", 2, 0);
-  // markBoxWithBorder("example12", 2, 2);
-  // markBoxWithBorder("example12", 2, 4);
-  // markBoxWithBorder("example12", 2, 6);
-  // var example12 = document.getElementById("example12");
-  // var switchButton = addButton("Switch Pulse", ["mute"]);
-  // switchButton.addEventListener("click", () => {
-  //   if (example12.children[3].children[3].classList.contains("mark-with-border")) {
-  //     example12.children[3].children[3].classList.remove("mark-with-border");
-  //     example12.children[3].children[7].classList.remove("mark-with-border");
-  //     // TODO and mute clicks on 2 and 4
-  //   } else {
-  //     example12.children[3].children[3].classList.add("mark-with-border");
-  //     example12.children[3].children[7].classList.add("mark-with-border");
-  //     // TODO and unmute clicks on 2 and 4
-  //   }
-  // })
-  // example12.appendChild(switchButton);
-
-  // createLoopExample("example13", examples[13], drumSampler);
-  // markBoxWithBorder("example13", 2, 0);
-  // markBoxWithBorder("example13", 2, 5);
-  // markBoxWithBorder("example13", 1, 3);
-  // markBoxWithBorder("example13", 1, 7);
+  const example13 = new Example("example13", examples[13]);
+  addBorder(example13, 1, 0);
+  addBorder(example13, 1, 5);
+  addBorder(example13, 0, 3);
+  addBorder(example13, 0, 7);
 
   // createLoopExample("example14", examples[14], drumSampler);
   // markBoxWithBorder("example14", 1, 0);
