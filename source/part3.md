@@ -79,24 +79,19 @@ In western music theory practice, subdivision is generally taught as *duple* or 
 
 The following examples present these structures as connected levels of organization. When listening, you can choose the different scopes (the measure/grouping of beats, the pulse/beats, and the subdivision/division of beats) to hear what each articulates. 
 
-Note that since these are real audio examples, they also do not line up perfectly as the performers subtly shift their timing, even over a short period. The first example, which demonstrates a duple feel, comes from Argentinean tango and the second, triple, is an example of American fiddle music.
+Note that since these are real audio examples, they also do not line up perfectly as the performers subtly shift their timing, even over a short period. The first example, which demonstrates a duple feel, comes from Argentinean tango.
 
-<div id="example15a" class="example"></div>
+<div id="example15" class="example"></div>
 
-<div id="example15b" class="example"></div>
+This second example, with beats grouped into sets of three or triple, is from American fiddle music.
+
+<div id="example16" class="example"></div>
 
 ### Playing with subdivisions
 
-This conceptual structure of divisions serves as a groundwork for what a musician or ensemble actually does in practice. *Swing* is one common example of this that developed as part of the early jazz scene in the United States before the word came to represent its own genre of music. In swing, a duple subdivision turns into something else: the musicians lengthen the first half of the subdivision and shorten the second half. This means that they are no longer halves. A frequent division is for the first "half" to be roughly two-thirds of the length of the beat, leaving one-third for the second "half." This particular division turns into a mathematical *triple* subdivision where the first two thirds are linked together and roughly aligns with another name: a *shuffle*.
+This conceptual structure of divisions serves as a groundwork for what a musician or ensemble actually does in practice. *Swing* is one common example of this that developed as part of the early jazz scene in the United States before the word came to represent its own genre of music. In swing, a duple subdivision turns into something else: the musicians lengthen the first half of the subdivision and shorten the second half. This means that they are no longer halves. 
 
-```
-BEAT .     .     .     .     .     .
-DUP  .  .  .  .  .  .  .  .  .  .  .
-TRI  . . . . . . . . . . . . . . . .
-SWI  .   . .   . .   . .   . .   . .
-```
-
-<div id="example16" class="example"></div>
+A frequent division is for the first "half" to be roughly two-thirds of the length of the beat, leaving one-third for the second "half." This particular division turns into a mathematical *triple* subdivision where the first two thirds are linked together and roughly aligns with another name: a *shuffle*.
 
 This example from Odetta is a slow shuffle, which brings it closer to the sound of the blues.
 

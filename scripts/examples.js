@@ -483,26 +483,26 @@ var example14 = {
   ]
 }
 
-var example15a = {
-  title: "Example 15a: \"Mi Buenos Aires querido\" by Carlos Gardel (1934)",
-  tag: "example15a",
+var example15 = {
+  title: "Example 15: \"Mi Buenos Aires querido\" by Carlos Gardel (1934)",
+  tag: "example15",
   loops: [
     {
-      btnText: "Play (marking the measure)",
+      btnText: "Play (marking the beat)",
       tempo: 115,
       audio: "./mi-buenos-aires-querido.mp3",
       parts: [
         {
           name: "Measure",
           pattern: [1, 0, 0, 0, 0, 0, 0, 0],
-          note: "A4",
+          note: null,
           source: drumSampler,
           show: true,
         },
         {
           name: "Beat",
           pattern: [1, 0, 1, 0, 1, 0, 1, 0],
-          note: null,
+          note: "A4",
           source: drumSampler,
           show: true,
         },
@@ -516,21 +516,21 @@ var example15a = {
       ]    
     },
     {
-      btnText: "Mark the beat",
+      btnText: "Mark the measure",
       tempo: 115,
       audio: "./mi-buenos-aires-querido.mp3",
       parts: [
         {
           name: "Measure",
           pattern: [1, 0, 0, 0, 0, 0, 0, 0],
-          note: null,
+          note: "A4",
           source: drumSampler,
           show: true,
         },
         {
           name: "Beat",
           pattern: [1, 0, 1, 0, 1, 0, 1, 0],
-          note: "A4",
+          note: null,
           source: drumSampler,
           show: true,
         },
@@ -574,26 +574,26 @@ var example15a = {
   ]
 }
 
-var example15b = {
-  title: "Example 15b: \"Honeymoon Waltz\" by Doc Watson",
-  tag: "example15b",
+var example16 = {
+  title: "Example 16: \"Honeymoon Waltz\" by Doc Watson",
+  tag: "example16",
   loops: [
     {
-      btnText: "Play (marking the measure)",
+      btnText: "Play (marking the beat)",
       tempo: 117.5,
       audio: "./honeymoon-waltz.mp3",
       parts: [
         {
           name: "Measure",
           pattern: [1, 0, 0, 0, 0, 0],
-          note: "A4",
+          note: null,
           source: drumSampler,
           show: true,
         },
         {
           name: "Beat",
           pattern: [1, 0, 1, 0, 1, 0],
-          note: null,
+          note: "A4",
           source: drumSampler,
           show: true,
         },
@@ -607,21 +607,21 @@ var example15b = {
       ]    
     },
     {
-      btnText: "Mark the beat",
+      btnText: "Mark the measure",
       tempo: 117.5,
       audio: "./honeymoon-waltz.mp3",
       parts: [
         {
           name: "Measure",
           pattern: [1, 0, 0, 0, 0, 0],
-          note: null,
+          note: "A4",
           source: drumSampler,
           show: true,
         },
         {
           name: "Beat",
           pattern: [1, 0, 1, 0, 1, 0],
-          note: "A4",
+          note: null,
           source: drumSampler,
           show: true,
         },
@@ -707,6 +707,6 @@ export var examples = {
   12: example12,
   13: example13,
   14: example14,
-  "15a": example15a,
-  "15b": example15b,
+  15: example15,
+  16: example16,
 }
