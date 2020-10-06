@@ -1,3 +1,5 @@
+import * as Tone from "tone";
+
 export class Example {
   constructor(tagId, data) {
     this.tagId = tagId;
@@ -6,27 +8,56 @@ export class Example {
     this.numLoops = this.loops.length;
     this.example = document.getElementById(tagId);
 
-    this.makePlayButton(this.loops[0].btnText);
+    this.makePlayButton(this.loops[0]);
     this.makeTitle();
     this.makeBoxes(this.loops[0].parts);
 
     // add other buttons/loops
     if (this.numLoops > 1) {
       for (let i = 1; i < this.numLoops; i++) {
-        this.makePlayButton(this.loops[i].btnText, "mute")
+        this.makePlayButton(this.loops[i], "mute")
       }
     }
   }
 
-  makePlayButton(innerText, btnClass = null) {
+  makePlayButton(loop, btnClass = null) {
+    var btnText = loop.btnText;
     var button = document.createElement("span");
     button.classList.add("btn");
-    button.innerText = innerText;
+    button.classList.add("play-button");
+    button.innerText = btnText;
     if (btnClass) {
       button.classList.add(btnClass);
     }
 
-    // TODO add listener
+    button.addEventListener('click', async () => {
+      
+      // start playing if stopped
+      if (button.innerText == btnText) {
+        this.stopAllExamples();
+        this.setUpLoop(loop);
+
+        await Tone.start();
+
+        if (loop.audioFile) {
+          loop.audioFile.play();
+        }
+
+        Tone.Transport.start("+0.01")
+        button.innerText = "Stop"
+      
+      // stop if playing
+      } else {
+        Tone.Transport.stop();
+
+        if (loop.audioFile) {
+          loop.audioFile.pause();
+          loop.audioFile.currentTime = 0;
+        }
+
+        button.innerText = btnText;
+      }
+    })
 
     this.example.appendChild(button); 
   }
@@ -86,5 +117,40 @@ export class Example {
       row.appendChild(box);
     }
     return row;
+  }
+
+  stopAllExamples() {
+    var playButtons = Array.from(document.getElementsByClassName("play-button"));
+    playButtons.forEach(button => {
+      if (button.innerText == "Stop") {
+        button.click();
+      }
+    })
+  }
+
+  setUpLoop(loop) {
+    Tone.Transport.cancel(0);
+
+    for (let i = 0; i < loop.parts.length; i++) {
+      let part = loop.parts[i];
+      let name = part.name.toLowerCase().replace(" ", "-");
+
+      let sequenceObject = [];
+      part.pattern.forEach(note => {
+        if (note == 0) {
+          sequenceObject.push(null)
+        } else {
+          sequenceObject.push(part.note)
+        }
+      })
+
+      let sequence = new Tone.Sequence((time, note) => {
+        // if showing
+        part.source.triggerAttackRelease(note, "8n", time);
+      }, sequenceObject).start(0);
+      // createLoopSequence(name, sequence, sampler, exampleData.parts[i].show);
+    }
+
+    Tone.Transport.bpm.value = loop.tempo;
   }
 }

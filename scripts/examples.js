@@ -126,22 +126,31 @@ var drumSampler = createDrumSampler();
 }
 
 // part 2 examples
- var example7Data = {
+ var example7 = {
   title: "Example 7: Malhun drum pattern",
   tag: "example7",
   tempo: 220,
-  parts: [
+  loops: [
     {
-      name: "Drum 1",
-      pattern: [1, 0, 0, 0, 1, 0, 0, 0],
-      note: "A6",
-      show: true,
-    },
-    {
-      name: "Drum 2",
-      pattern: [0, 0, 0, 1, 0, 0, 1, 0],
-      note: "A7",
-      show: true,
+      btnText: "Play loop",
+      listener: null,
+      tempo: 220,
+      parts: [
+        {
+          name: "Drum 1",
+          note: "A6",
+          source: drumSampler,
+          show: true,
+          pattern: [1, 0, 0, 0, 1, 0, 0, 0],
+        },
+        {
+          name: "Drum 2",
+          note: "A7",
+          source: drumSampler,
+          show: true,
+          pattern: [0, 0, 0, 1, 0, 0, 1, 0],
+        }
+      ]
     }
   ]
 }
@@ -165,6 +174,7 @@ var drumSampler = createDrumSampler();
         {
           name: "Drum 2",
           pattern: [0, 0, 0, 1, 0, 0, 1, 0],
+          source: drumSampler,
           note: "A7",
           show: true,
         }
@@ -178,6 +188,7 @@ var drumSampler = createDrumSampler();
         {
           name: "Drum 1",
           pattern: [1, 0, 0, 0, 1, 0, 0, 0],
+          source: drumSampler,
           note: "A6",
           show: true,
         },
@@ -191,6 +202,7 @@ var drumSampler = createDrumSampler();
         {
           name: "Drum 2",
           pattern: [0, 0, 0, 1, 0, 0, 1, 0],
+          source: drumSampler,
           note: "A7",
           show: true,
         }
@@ -400,7 +412,7 @@ export var examples = {
   4: example4Data,
   5: example5Data,
   6: example6Data,
-  7: example7Data,
+  7: example7,
   8: example8,
   9: example9Data,
   10: example10Data,

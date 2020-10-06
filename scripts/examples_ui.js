@@ -1,80 +1,14 @@
 import * as Tone from 'tone';
 import { setTempo, buildDrumLoops } from './audio.js';
 
-//
-// handle rows of boxes
-//
 
-// creates a row of boxes with a label
-function createRowOfBoxes({ name, pattern }) {
-  var boxes = document.createElement("div");
-  boxes.classList.add("boxes");
-  var boxName = document.createElement("span");
-  boxName.classList.add("box-label");
-  boxName.innerText = name;
-
-  // style name
-  var nameWidth = 6.0;
-  boxName.style.width = nameWidth + "em";
-
-  boxes.appendChild(boxName);
-
-  for (let i = 0; i < pattern.length; i++) {
-    let box = document.createElement("span");
-    box.classList.add("box");
-
-    // filled or not
-    let status = pattern[i] == 1 ? "filled-box" : "empty-box";
-    box.classList.add(status);
-
-    // style box width
-    let percent = 100.0 / pattern.length + "%";
-    let padding = nameWidth / pattern.length + 0.1;
-    box.style.width = "calc(" + percent + " - " + padding + "em)"
-
-    // for identification from the draw command
-    let className = name.toLowerCase().replace(" ", "-") + "-box";
-    box.classList.add(className);
-
-    boxes.appendChild(box);
-  }
-
-  return boxes;
-}
-
-// iterate through parts to add rows of boxes, format if none show
-function addRowsOfBoxes(example, loopExampleData) {
-
-  var rows = 0;
-  for (let i = 0; i < loopExampleData.parts.length; i++) {
-    if (loopExampleData.parts[i].show) {
-      let part = createRowOfBoxes(loopExampleData.parts[i]);
-      example.appendChild(part);
-      rows++;
-    }
-  }
-
-  if (rows == 0) {
-    example.children[0].classList.add("no-boxes");  // button
-    example.children[1].classList.add("no-boxes");  // title
-  }
-
-  return;
-}
 
 //
 // handle changing examples
 //
 
 // click "stop" to end all running loops
-function stopAllExamples() {
-  var examples = Array.from(document.getElementsByClassName("example"));
-  examples.forEach(example => {
-    if (example.children[0].innerText == "Stop") {
-      example.children[0].click();
-    }
-  })
-}
+
 
 // remove current-example class from all other examples on the page
 function setAsCurrentExample(example) {
@@ -90,35 +24,7 @@ function setNewLoop(loopExampleData, sampler) {
   setTempo(loopExampleData.tempo);
 }
 
-//
-// create shared UI elements
-//
 
-// create a generic button
-export function addButton(innerText, classes = []) {
-  var button = document.createElement("span");
-  button.classList.add("btn");
-  button.innerText = innerText;
-  for (let i = 0; i < classes.length; i++) {
-    button.classList.add(classes[i]);
-  }
-  return button
-}
-
-// add a button with mute class and labels, connect to mute listener
-function addMuteButton(example, part) {
-  var muteButton = addButton("Mute " + part.name, ["mute"]);
-  muteButton.addEventListener("click", () => { muteEventListener(part); })
-  example.appendChild(muteButton);
-}
-
-// create example title
-function createTitle(title) {
-  var titleElement = document.createElement("span");
-  titleElement.classList.add("title");
-  titleElement.innerText = title;
-  return titleElement;
-}
 
 // mark boxes with border (called in individual script files)
 export function markBoxWithBorder(tagId, rowNumber, boxNumber) {
@@ -243,22 +149,4 @@ export function createExampleHeader(tagId, loopExampleData, sampler) {
   addLoopStartStopListener(loopButton, loopButton.innerText, example, loopExampleData, sampler, audioFile);
 
   return example;
-}
-
-// build simple loop examples (header, rows)
-export function createLoopExample(tagId, loopExampleData, sampler) {
-  var example = createExampleHeader(tagId, loopExampleData, sampler);
-  addRowsOfBoxes(example, loopExampleData);
-  return example;
-}
-
-// add mute buttons to standard loop
-export function createMuteLoopExample(tagId, loopExampleData, sampler) {
-  var example = createLoopExample(tagId, loopExampleData, sampler);
-  console.log(example);
-
-  // set up mute buttons
-  for (let i = 0; i < loopExampleData.parts.length; i++) {
-    addMuteButton(example, loopExampleData.parts[i]);
-  }
 }
