@@ -7,3 +7,15 @@ export function showMoreButton(hiddenElementId) {
     part1secondHalf.style.display = "block";
   }
 }
+
+// mark boxes with border (called in individual script files)
+export function markBoxWithBorder(example, rowIndex, boxIndex) {
+  var exampleInstance = example.example;
+  var rows = Array.from(exampleInstance.getElementsByClassName("boxes"));
+  var row = rows[rowIndex];
+
+  var boxes = Array.from(row.getElementsByClassName("box"));
+  var box = boxes[boxIndex];
+
+  box.classList.add("mark-with-border")
+}
