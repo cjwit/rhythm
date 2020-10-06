@@ -16,9 +16,9 @@ import { examples } from './examples.js';
 var page = window.location.pathname.split("/").pop();
 
 switch (page) {
-  // case "part1.html":
-  //   part1setup(examples, drumSampler);
-  //   break;
+  case "part1.html":
+    part1setup(examples);
+    break;
 
   case "part2.html":
     part2setup(examples);

@@ -5,122 +5,166 @@ var drumSampler = createDrumSampler();
 // examples
 //
 
- var example1Data = {
+ var example1 = {
   title: "Example 1: a basic rock beat",
   tag: "example1",
-  tempo: 108,
-  parts: [
+  loops: [
     {
-      name: "High hat",
-      pattern: [1, 1, 1, 1, 1, 1, 1, 1],
-      note: "A1",
-      show: true,
-    },
-    {
-      name: "Snare drum",
-      pattern: [0, 0, 1, 0, 0, 0, 1, 0],
-      note: "A2",
-      show: true,
-    },
-    {
-      name: "Kick drum",
-      pattern: [1, 0, 0, 0, 1, 0, 0, 1],
-      note: "A3",
-      show: true,
+      btnText: "Play loop",
+      tempo: 108,
+      parts: [
+        {
+          name: "High hat",
+          note: "A1",
+          source: drumSampler,
+          show: true,
+          pattern: [1, 1, 1, 1, 1, 1, 1, 1],
+        },
+        {
+          name: "Snare drum",
+          note: "A2",
+          source: drumSampler,
+          show: true,
+          pattern: [0, 0, 1, 0, 0, 0, 1, 0],
+        },
+        {
+          name: "Kick drum",
+          note: "A3",
+          source: drumSampler,
+          show: true,
+          pattern: [1, 0, 0, 0, 1, 0, 0, 1],
+        }
+      ]  
     }
   ]
 }
 
- var example2Data = {
+ var example2 = {
   title: "Example 2: a Cuban rumba clave pattern",
   tag: "example2",
-  tempo: 200,
-  parts: [
+  loops: [
     {
-      name: "Clave",
-      pattern: [1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
-      note: "A4",
-      show: false,
+      btnText: "Play loop",
+      tempo: 200,
+      parts: [
+        {
+          name: "Clave",
+          pattern: [1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
+          note: "A4",
+          show: false,
+          source: drumSampler,
+        }
+      ]
+    
     }
   ]
 }
 
- var example3Data = {
+ var example3 = {
   title: "Example 3: a Cuban rumba clave pattern",
   tag: "example3",
-  tempo: 200,
-  parts: [
+  loops: [
     {
-      name: "Clave",
-      pattern: [1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
-      note: "A4",
-      show: true,
-    },
-    {
-      name: "Start",
-      pattern: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      note: "A3",
-      show: false,
+      btnText: "Play loop",
+      tempo: 200,
+      parts: [
+        {
+          name: "Clave",
+          pattern: [1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Start",
+          pattern: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: false,
+        }
+      ]
     }
   ]
 }
 
- var example4Data = {
+ var example4 = {
   title: "Example 4: a rumba pattern with a different marked starting point",
   tag: "example4",
-  tempo: 200,
-  parts: [
+  loops: [
     {
-      name: "Clave",
-      pattern: [1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
-      note: "A4",
-      show: true,
-    },
-    {
-      name: "Start",
-      pattern: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
-      note: "A3",
-      show: false,
+      btnText: "Play loop",
+      tempo: 200,
+      parts: [
+        {
+          name: "Clave",
+          pattern: [1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Start",
+          pattern: [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: false,
+        }
+      ]
     }
   ]
 }
 
- var example5Data = {
+ var example5 = {
   title: 'Example 5: the "American clave"',
   tag: "example5",
-  tempo: 200,
-  parts: [
+  loops: [
     {
-      name: "Clave",
-      pattern: [0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0],
-      note: "A4",
-      show: true,
-    },
-    {
-      name: "Start",
-      pattern: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-      note: "A3",
-      show: false,
+      btnText: "Play loop",
+      tempo: 200,
+      parts: [
+        {
+          name: "Clave",
+          pattern: [0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Start",
+          pattern: [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: false,
+        }
+      ]
+    
     }
   ]
 }
 
- var example6Data = {
+ var example6 = {
   title: 'Example 6: the "dembow" pattern',
   tag: "example6",
-  tempo: 200,
-  parts: [
+  loops: [
     {
-      name: "Snare drum",
-      pattern: [0, 0, 0, 1, 0, 0, 1, 0],
-      note: "A2",
-      show: true,
-    },
-    {
-      name: "Kick drum",
-      pattern: [1, 0, 0, 0, 1, 0, 0, 0],
-      note: "A3",
-      show: true,
+      btnText: "Play loop", 
+      tempo: 200,
+      parts: [
+        {
+          name: "Snare drum",
+          pattern: [0, 0, 0, 1, 0, 0, 1, 0],
+          note: "A2",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Kick drum",
+          pattern: [1, 0, 0, 0, 1, 0, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: true,
+        }
+      ]    
     }
   ]
 }
@@ -129,11 +173,9 @@ var drumSampler = createDrumSampler();
  var example7 = {
   title: "Example 7: Malhun drum pattern",
   tag: "example7",
-  tempo: 220,
   loops: [
     {
       btnText: "Play loop",
-      listener: null,
       tempo: 220,
       parts: [
         {
@@ -161,7 +203,6 @@ var drumSampler = createDrumSampler();
   loops: [
     {
       btnText: "Play loop",
-      listener: null,
       tempo: 220,
       parts: [
         {
@@ -182,7 +223,6 @@ var drumSampler = createDrumSampler();
     },
     {
       btnText: "Drum 1 alone",
-      listener: null,
       tempo: 220,
       parts: [
         {
@@ -196,7 +236,6 @@ var drumSampler = createDrumSampler();
     },
     {
       btnText: "Drum 2 alone",
-      listener: null,
       tempo: 220,
       parts: [
         {
@@ -406,12 +445,12 @@ var exampleDefault = {
 }
 
 export var examples = {
-  1: example1Data,
-  2: example2Data,
-  3: example3Data,
-  4: example4Data,
-  5: example5Data,
-  6: example6Data,
+  1: example1,
+  2: example2,
+  3: example3,
+  4: example4,
+  5: example5,
+  6: example6,
   7: example7,
   8: example8,
   9: example9Data,

@@ -1,5 +1,4 @@
 import * as Tone from "tone";
-import { boxVisualRowCallback } from "./examples_ui";
 
 export class Example {
   constructor(tagId, data) {
