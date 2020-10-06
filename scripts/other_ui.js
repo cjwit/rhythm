@@ -9,7 +9,7 @@ export function showMoreButton(hiddenElementId) {
 }
 
 // mark boxes with border (called in individual script files)
-export function markBoxWithBorder(example, rowIndex, boxIndex) {
+export function addBorder(example, rowIndex, boxIndex) {
   var exampleInstance = example.example;
   var rows = Array.from(exampleInstance.getElementsByClassName("boxes"));
   var row = rows[rowIndex];
@@ -19,3 +19,16 @@ export function markBoxWithBorder(example, rowIndex, boxIndex) {
 
   box.classList.add("mark-with-border")
 }
+
+// mark boxes with border (called in individual script files)
+export function removeBorder(example, rowIndex, boxIndex) {
+  var exampleInstance = example.example;
+  var rows = Array.from(exampleInstance.getElementsByClassName("boxes"));
+  var row = rows[rowIndex];
+
+  var boxes = Array.from(row.getElementsByClassName("box"));
+  var box = boxes[boxIndex];
+
+  box.classList.remove("mark-with-border")
+}
+

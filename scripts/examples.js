@@ -251,55 +251,91 @@ var drumSampler = createDrumSampler();
 }
 
 // part 3 examples
- var example9Data = {
+ var example9 = {
   title: "Example 9: An explicit pulse",
   tag: "example9",
-  tempo: 108,
-  parts: [
+  loops: [
     {
-      name: "Snare drum",
-      pattern: [0, 0, 1, 0, 0, 0, 1, 0],
-      note: "A2",
-      show: true,
-    },
-    {
-      name: "Kick drum",
-      pattern: [1, 0, 0, 1, 1, 0, 0, 0],
-      note: "A3",
-      show: true,
-    },
-    {
-      name: "Clave",
-      pattern: [1, 0, 1, 0, 1, 0, 1, 0],
-      note: "A4",
-      show: false,
-    },
+      btnText: "Play loop",
+      tempo: 108,
+      parts: [
+        {
+          name: "Snare drum",
+          pattern: [0, 0, 1, 0, 0, 0, 1, 0],
+          note: "A2",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Kick drum",
+          pattern: [1, 0, 0, 1, 1, 0, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Clave",
+          pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        },
+      ]    
+    }
   ]
 }
 
-var example10Data = {
+var example10 = {
   title: "Example 10: Can you feel it?",
   tag: "example10",
-  tempo: 108,
-  parts: [
+  loops: [
     {
-      name: "Snare drum",
-      pattern: [0, 0, 1, 0, 0, 0, 1, 0],
-      note: "A2",
-      show: true,
+      btnText: "Play loop",
+      tempo: 108,
+      parts: [
+        {
+          name: "Snare drum",
+          pattern: [0, 0, 1, 0, 0, 0, 1, 0],
+          note: "A2",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Kick drum",
+          pattern: [1, 0, 0, 1, 0, 1, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: true,
+        }
+      ]    
     },
     {
-      name: "Kick drum",
-      pattern: [1, 0, 0, 1, 0, 1, 0, 0],
-      note: "A3",
-      show: true,
-    },
-    {
-      name: "Clave",
-      pattern: [1, 0, 1, 0, 1, 0, 1, 0],
-      note: "A4",
-      show: false,
-    },
+      btnText: "Add pulse",
+      tempo: 108,
+      parts: [
+        {
+          name: "Snare drum",
+          pattern: [0, 0, 1, 0, 0, 0, 1, 0],
+          note: "A2",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Kick drum",
+          pattern: [1, 0, 0, 1, 0, 1, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Clave",
+          pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        },
+      ]    
+    }
   ]
 }
 
@@ -453,8 +489,8 @@ export var examples = {
   6: example6,
   7: example7,
   8: example8,
-  9: example9Data,
-  10: example10Data,
+  9: example9,
+  10: example10,
   11: exampleDefault,
   12: example12Data,
   13: example13Data,
