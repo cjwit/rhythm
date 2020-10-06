@@ -77,25 +77,13 @@ The consistent division of beats that creates an expectation for listeners is ca
 
 In western music theory practice, subdivision is generally taught as *duple* or *triple*, just like meter and measures (the larger grouping of beats). A duple subdivision divides each beat into two even halves or some other multiple of two (like four quarters). A triple subdivision divides them into three. This concept relates to the larger groupings by taking the pulse as a basis and either grouping or dividing individual beats. None of these have to be made explicit in the music: they are structures we perceive as listeners that help us to comprehend musical sounds.
 
-The following examples present these structures as connected levels of organization. While the music loops, you can mute or unmute the different scopes (the pulse, the grouping of beats, and the division of beats) to hear what each articulates.
+The following examples present these structures as connected levels of organization. When listening, you can choose the different scopes (the measure/grouping of beats, the pulse/beats, and the subdivision/division of beats) to hear what each articulates. 
 
-```
-Measures, beats, and subdivisions start muted, can be played
-
-LABEL    Text description
-MUSIC    waveform                       ON
-MEASURES |               |              MUTED
-BEATS    |   |   |   |   |   |   |   |  ON
-SUBD     | | | | | | | | | | | | | | |  MUTED
-
-Examples: old tango, waltz, Irish jig
-```
+Note that since these are real audio examples, they also do not line up perfectly as the performers subtly shift their timing, even over a short period. The first example, which demonstrates a duple feel, comes from Argentinean tango and the second, triple, is an example of American fiddle music.
 
 <div id="example15a" class="example"></div>
 
 <div id="example15b" class="example"></div>
-
-<div id="example15c" class="example"></div>
 
 ### Playing with subdivisions
 

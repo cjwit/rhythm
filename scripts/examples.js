@@ -483,30 +483,185 @@ var example14 = {
   ]
 }
 
-var example15aData = {
-  title: "\"Mi Buenos Aires querido\" by Carlos Gardel (1934)",
-  tag: "example15",
-  tempo: 115,
-  audio: "./mi-buenos-aires-querido.mp3",
-  parts: [
+var example15a = {
+  title: "Example 15a: \"Mi Buenos Aires querido\" by Carlos Gardel (1934)",
+  tag: "example15a",
+  loops: [
     {
-      name: "Measure",
-      pattern: [1, 0, 0, 0, 0, 0, 0, 0],
-      note: "A3",
-      show: true,
+      btnText: "Play (marking the measure)",
+      tempo: 115,
+      audio: "./mi-buenos-aires-querido.mp3",
+      parts: [
+        {
+          name: "Measure",
+          pattern: [1, 0, 0, 0, 0, 0, 0, 0],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Beat",
+          pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+          note: null,
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Subdivision",
+          pattern: [1, 1, 1, 1, 1, 1, 1, 1],
+          note: null,
+          source: drumSampler,
+          show: true,
+        }
+      ]    
     },
     {
-      name: "Beat",
-      pattern: [1, 0, 1, 0, 1, 0, 1, 0],
-      note: "A2",
-      show: true,
+      btnText: "Mark the beat",
+      tempo: 115,
+      audio: "./mi-buenos-aires-querido.mp3",
+      parts: [
+        {
+          name: "Measure",
+          pattern: [1, 0, 0, 0, 0, 0, 0, 0],
+          note: null,
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Beat",
+          pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Subdivision",
+          pattern: [1, 1, 1, 1, 1, 1, 1, 1],
+          note: null,
+          source: drumSampler,
+          show: true,
+        }
+      ]    
     },
     {
-      name: "Subdivision",
-      pattern: [1, 1, 1, 1, 1, 1, 1, 1],
-      note: "A4",
-      show: true,
-    }
+      btnText: "Mark the subdivision",
+      tempo: 115,
+      audio: "./mi-buenos-aires-querido.mp3",
+      parts: [
+        {
+          name: "Measure",
+          pattern: [1, 0, 0, 0, 0, 0, 0, 0],
+          note: null,
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Beat",
+          pattern: [1, 0, 1, 0, 1, 0, 1, 0],
+          note: null,
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Subdivision",
+          pattern: [1, 1, 1, 1, 1, 1, 1, 1],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        }
+      ]    
+    },
+  ]
+}
+
+var example15b = {
+  title: "Example 15b: \"Honeymoon Waltz\" by Doc Watson",
+  tag: "example15b",
+  loops: [
+    {
+      btnText: "Play (marking the measure)",
+      tempo: 117.5,
+      audio: "./honeymoon-waltz.mp3",
+      parts: [
+        {
+          name: "Measure",
+          pattern: [1, 0, 0, 0, 0, 0],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Beat",
+          pattern: [1, 0, 1, 0, 1, 0],
+          note: null,
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Subdivision",
+          pattern: [1, 1, 1, 1, 1, 1],
+          note: null,
+          source: drumSampler,
+          show: true,
+        }
+      ]    
+    },
+    {
+      btnText: "Mark the beat",
+      tempo: 117.5,
+      audio: "./honeymoon-waltz.mp3",
+      parts: [
+        {
+          name: "Measure",
+          pattern: [1, 0, 0, 0, 0, 0],
+          note: null,
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Beat",
+          pattern: [1, 0, 1, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Subdivision",
+          pattern: [1, 1, 1, 1, 1, 1],
+          note: null,
+          source: drumSampler,
+          show: true,
+        }
+      ]    
+    },
+    {
+      btnText: "Mark the subdivision",
+      tempo: 117.5,
+      audio: "./honeymoon-waltz.mp3",
+      parts: [
+        {
+          name: "Measure",
+          pattern: [1, 0, 0, 0, 0, 0],
+          note: null,
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Beat",
+          pattern: [1, 0, 1, 0, 1, 0],
+          note: null,
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Subdivision",
+          pattern: [1, 1, 1, 1, 1, 1],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        }
+      ]    
+    },
   ]
 }
 
@@ -552,4 +707,6 @@ export var examples = {
   12: example12,
   13: example13,
   14: example14,
+  "15a": example15a,
+  "15b": example15b,
 }

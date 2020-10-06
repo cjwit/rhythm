@@ -39,7 +39,8 @@ export class Example {
 
         await Tone.start();
 
-        if (loop.audioFile) {
+        if (loop.audio) {
+          loop.audioFile = new Audio(loop.audio);
           loop.audioFile.play();
         }
 

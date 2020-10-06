@@ -42,12 +42,6 @@ export function part3setup(examples) {
     }
   })
 
-  new ExampleHeaderOnly("example15a");
-  new ExampleHeaderOnly("example15b");
-  new ExampleHeaderOnly("example15c");
-  new ExampleHeaderOnly("example16");
-  new ExampleHeaderOnly("example17");
-
   const example13 = new Example("example13", examples[13]);
   addBorder(example13, 1, 0);
   addBorder(example13, 1, 5);
@@ -91,14 +85,11 @@ export function part3setup(examples) {
     }
   })
 
-  // createMuteLoopExample("example15a", examples["15a"], drumSampler);
+  const example15a = new Example("example15a", examples["15a"]);
+  const example15b = new Example("example15b", examples["15b"]);
 
-  // examples.default.tag = "example15b";
-  // createExampleHeader("example15b", examples.default, drumSampler);
-  // examples.default.tag = "example15c";
-  // createExampleHeader("example15c", examples.default, drumSampler);
-  // examples.default.tag = "example16";
-  // createExampleHeader("example16", examples.default, drumSampler);
-  // examples.default.tag = "example17";
-  // createExampleHeader("example17", examples.default, drumSampler);
+  new ExampleHeaderOnly("example15c");
+  new ExampleHeaderOnly("example16");
+  new ExampleHeaderOnly("example17");
+
 }
