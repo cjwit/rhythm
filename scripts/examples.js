@@ -665,6 +665,40 @@ var example16 = {
   ]
 }
 
+var example17 = {
+  title: "Example 17: Use the slider to change the subdivision",
+  tag: "example17",
+  loops: [
+    {
+      btnText: "Play loop",
+      tempo: 100,
+      parts: [
+        {
+          name: "Cymbal",
+          pattern: [1, 1, 1, 1, 1, 1, 1, 1],
+          note: "A1",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Snare drum",
+          pattern: [0, 0, 0, 0, 1, 0, 0, 0],
+          note: "A2",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Kick drum",
+          pattern: [1, 0, 0, 0, 0, 0, 0, 0],
+          note: "A3",
+          source: drumSampler,
+          show: true,
+        }
+      ]    
+    }
+  ]
+}
+
 // part 4 examples
 var example18 = {
   title: "Example 18: A pattern from the Hamadsha",
@@ -709,5 +743,6 @@ export var examples = {
   14: example14,
   15: example15,
   16: example16,
+  17: example17,
   18: example18,
 }

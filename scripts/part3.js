@@ -1,4 +1,5 @@
 import { Example } from './Example.js';
+import { ExampleWithSlider } from './ExampleWithSlider.js';
 import { ExampleHeaderOnly } from './ExampleHeaderOnly.js';
 import { addBorder, removeBorder } from './other_ui.js';
 
@@ -87,7 +88,6 @@ export function part3setup(examples) {
 
   const example15 = new Example("example15", examples[15]);
   const example16 = new Example("example16", examples[16]);
-
-  new ExampleHeaderOnly("example17");
-
+  
+  const example17 = new ExampleWithSlider("example17", examples[17]);
 }

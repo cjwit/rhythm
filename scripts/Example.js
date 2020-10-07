@@ -138,7 +138,6 @@ export class Example {
 
     for (let i = 0; i < loop.parts.length; i++) {
       let part = loop.parts[i];
-      let name = part.name.toLowerCase().replace(" ", "-");
 
       // convert pattern to correct format for the Tone.Sequence
       let sequenceObject = [];
