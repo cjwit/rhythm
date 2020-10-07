@@ -103,13 +103,6 @@ Musicians do not typically adhere to mathematical certainties, though. They can 
 
 These adjustments can sound and feel different. As a basic demonstration, move the slider to change the subdivision ratio and listen to how the simple swing drum set beat responds.
 
-```
-SLIDER
-RIDE (swung)
-SNARE
-BASS DRUM
-```
-
 <div id="example17" class="example"></div>
 
 This technique of rushing or delaying notes can happen anywhere in a piece of music, but it is a matter of balance. Breaking too far from expectations or norms could confuse a listener or dancer, but sticking to them methodically might get dull. One of my own favorite moments that exemplifies this is from [a performance of "Watermelon Man" by Mongo Santamaria](https://www.youtube.com/embed/zJuX-JJ8WF0). While listening, try to let yourself feel the groove and, if the music inspires you, move along with it or clap. Then, *feel* how the percussion (drum set and other instruments) almost pull the horn section (the brass instruments and saxophone) along. It is even more extreme when the percussion drops out at about 30 seconds in. When I listen, I can't help but to actually feel this tension in my body, as well as the relief that comes when they snap back together.
