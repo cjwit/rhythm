@@ -71,19 +71,11 @@ Western notation easily represents the duple subdivision of the beginning and tr
 
 The final rhythm I present here animates two different segments of the hamadsha brotherhood's ritual. *Al-unasa al-saghira* comes first and features this pattern articulated with clapping. *Al-unsasa al-kabira* returns later in the evening and uses drums. Both segments focus on sung devotional poetry that aligns with a rhythmic pattern of five beats (or five claps) that can be loosely described as short, long, short, short, long.
 
-```
-SHORT LONG SHORT SHORT LONG
-BOXES OR MARKS TO SHOW DURATION
-```
+<div id="example21" class="example"></div>
 
 This pattern is not always articulated explicitly, just as was the case with the earlier examples of a pulse. To the contrary, layers of distinct rhythms appear across clapping and drumming patterns. Take, for example, a common and structural variant that Abderrahim Amrani and Fredrick Calmus, members of the brotherhood I worked with most closely, taught me.
 
-```
-CLAP  |   |     |   |   |     end
-DRUM  t d t  d  t   t d d     end
-```
-
-<div id="example21" class="example"></div>
+<div id="example22" class="example"></div>
 
 There are two characteristics of this poetic accompaniment that are noteworthy here. First, the beat or pulse is consistent in that it repeats over and over again, but not every beat within it is the same duration. Second, the subdivision stays duple (beats are divided in two) whether the beat is short or long. This makes some subdivisions longer and some shorter.
 
@@ -95,7 +87,7 @@ To the first point, one of the core assumptions about rhythm in western-centric 
 BEAT b | b |  | b | b | b |  |
 ```
 
-<div id="example22" class="example"></div>
+<div id="example23" class="example"></div>
 
 Imagining this pattern as comprised of twelve beats makes it easy to create groupings of two and three. This aligns with the first hamadsha rhythm that I introduced earlier. It fits into western notation, but I argue that it fails to account for the clearly-defined nature of how these rhythms are articulated and perceived. That brings us to the second point.
 
@@ -110,7 +102,7 @@ HIGHLIGHT SYNCOPATION
 TOGGLE VISUAL OF SUBDIVISIONS
 ```
 
-<div id="example23" class="example"></div>
+<div id="example24" class="example"></div>
 
 Up until now, I have been using electronically created beats to demonstrate this pattern. In practice, however, there is an additional nuance. The last beat of the cycle is late. This is an example of microtiming, similar to Mongo Santamaria's "Watermelon Man." This subtle play with time that can build and release tension happens in every iteration of the pattern. It becomes a core part, though the amount of delay is open for exciting interpretation.
 
@@ -119,7 +111,7 @@ BEAT
 REAL AUDIO
 ```
 
-<div id="example24" class="example"></div>
+<div id="example25" class="example"></div>
 
 ## Conclusions
 

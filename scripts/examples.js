@@ -727,6 +727,92 @@ var example18 = {
   ]
 }
 
+var example21 = {
+  title: "Example 21: A pattern with uneven beats",
+  tag: "example21",
+  loops: [
+    {
+      btnText: "Play loop",
+      tempo: 108,
+      parts: [
+        {
+          name: "Pulse",
+          pattern: [1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0],
+          boxWidths: [2.0/12, 3.0/12, 2.0/12, 2.0/12, 3.0/12],
+          boxPattern: [1, 1, 1, 1, 1],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        }
+      ]    
+    }
+  ]
+}
+
+var example22 = {
+  title: "Example 22: Al-unasa al-saghira",
+  tag: "example22",
+  loops: [
+    {
+      btnText: "Play loop",
+      tempo: 138,
+      parts: [
+        {
+          name: "Drum 1",
+          pattern: [1, 0, 0, 0, 
+                    1, 0, 0, 0, 0, 0, 
+                    1, 0, 0, 0,
+                    1, 0, 0, 0,
+                    0, 0, 0, 0, 0, 0],
+          boxWidths: [2.0/24, 2.0/24, 
+                      3.0/24, 3.0/24, 
+                      2.0/24, 2.0/24, 
+                      2.0/24, 2.0/24, 
+                      3.0/24, 3.0/24],
+          boxPattern: [1, 0, 1, 0, 1, 0, 1, 0, 0, 0],
+          note: "A6",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Drum 2",
+          pattern: [0, 0, 1, 0, 
+                    0, 0, 0, 1, 0, 0, 
+                    0, 0, 0, 0,
+                    0, 0, 1, 0,
+                    1, 0, 0, 0, 0, 0],
+          boxWidths: [2.0/24, 2.0/24, 
+                      3.0/24, 3.0/24, 
+                      2.0/24, 2.0/24, 
+                      2.0/24, 2.0/24, 
+                      3.0/24, 3.0/24],
+          boxPattern: [0, 1, 0, 1, 0, 0, 0, 1, 1, 0],
+          note: "A7",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Pulse",
+          pattern: [1, 0, 0, 0, 
+                    1, 0, 0, 0, 0, 0, 
+                    1, 0, 0, 0,
+                    1, 0, 0, 0,
+                    1, 0, 0, 0, 0, 0],
+          boxWidths: [2.0/24, 2.0/24, 
+                      3.0/24, 3.0/24, 
+                      2.0/24, 2.0/24, 
+                      2.0/24, 2.0/24, 
+                      3.0/24, 3.0/24],
+          boxPattern: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        }
+      ]    
+    }
+  ]
+}
+
 export var examples = {
   1: example1,
   2: example2,
@@ -745,4 +831,6 @@ export var examples = {
   16: example16,
   17: example17,
   18: example18,
+  21: example21,
+  22: example22
 }
