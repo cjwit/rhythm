@@ -25,8 +25,6 @@ export class ExampleWithSlider extends Example {
     this.swingRatio = slider.value;
     slider.addEventListener("input", () => {
       this.swingRatio = slider.value;
-      console.log("ratio", this.swingRatio)
-      // Tone.Transport.swing = this.value / 100;
       this.updateBoxSizes(this.swingRatio);
       Tone.Transport.swing = this.swingRatio / 100;
     })
