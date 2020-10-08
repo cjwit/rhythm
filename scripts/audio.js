@@ -16,6 +16,5 @@ export function createDrumSampler() {
     },
   }).toDestination();
 
-  drumSampler.debug = true;
   return drumSampler;
 }
