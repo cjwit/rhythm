@@ -38,32 +38,15 @@ Most individual songs in gnawa music start slowly and get faster as the trance i
 
 [^tempo]: If using western terminology, the speed would be referred to with the term *tempo*.
 
-At higher speeds, it can get hard to maintain the pace of subdivisions simply because shorter notes get too fast to play. This pacing issue is simply accepted and normalized in gnawa music. The pattern that starts a piece gets so fast that the musicians "even out" the distance between the subdivisions. Mathematical ratios are less important than the intensity of the experience. A gradual moves happens where a feeling of a duple subdivision shifts into a triple one as longer long notes shorten. These three moments are from different parts of "TODO" as played by Abderrahim Abderrazak, my teacher during my fieldwork in Fez, Morocco.
+At higher speeds, it can get hard to maintain the pace of subdivisions simply because shorter notes get too fast to play. This pacing issue is simply accepted and normalized in gnawa music. The pattern that starts a piece gets so fast that the musicians "even out" the distance between the subdivisions. Mathematical ratios are less important than the intensity of the experience. A gradual moves happens where a feeling of a duple subdivision shifts into a triple one as longer notes shorten. This example, whch was played by Abderrahim Abderrazak, my teacher during my fieldwork in Fez, Morocco, shows the progression. Skim around the entire track and listen for the difference between the rhythmic pacing of the beginning and the end.
 
 ```
-PLAY BEGINNING
-BEAT    .
-STROKE  .   . .
-
-PLAY MIDDLE
-BEAT
-STROKE
-
-PLAY END
-BEAT    .
-STROKE  . . .
+EMBED EXAMPLE AND DESCRIBE SKIPPING AROUND FROM THE BEGINNING TO THE END
 ```
+
+This example lets you change the pacing yourself. You can see how it goes from feeling like an even duple subdivision to a triple one as you shorten the first note in the pattern. That also quickens the looping repetitions.
 
 <div id="example19" class="example"></div>
-
-Here is a shorter demonstration of the gradual change.
-
-```
-USE A SINGLE SET OF BOXES WITH A SLIDER THAT ADJUSTS THE RADIO
-AND A PLAY BUTTON THAT STARTS A PROCESS OF SLIDING FASTER
-```
-
-<div id="example20" class="example"></div>
 
 Western notation easily represents the duple subdivision of the beginning and triple of the ending, but the gradual change throughout the song means that most of what brings a person into trance cannot be so easily written down. The subdivision relationships here are not a result of a larger conceptual framework. They come from a group of people who are playing as fast and intensely as they can so that their music will invite a spirit into the room and heal a listener. In this way, what we hear reflects a specific set of priorities.
 
@@ -71,11 +54,11 @@ Western notation easily represents the duple subdivision of the beginning and tr
 
 The final rhythm I present here animates two different segments of the hamadsha brotherhood's ritual. *Al-unasa al-saghira* comes first and features this pattern articulated with clapping. *Al-unsasa al-kabira* returns later in the evening and uses drums. Both segments focus on sung devotional poetry that aligns with a rhythmic pattern of five beats (or five claps) that can be loosely described as short, long, short, short, long.
 
-<div id="example21" class="example"></div>
+<div id="example20" class="example"></div>
 
 This pattern is not always articulated explicitly, just as was the case with the earlier examples of a pulse. To the contrary, layers of distinct rhythms appear across clapping and drumming patterns. Take, for example, a common and structural variant that Abderrahim Amrani and Fredrick Calmus, members of the brotherhood I worked with most closely, taught me.
 
-<div id="example22" class="example"></div>
+<div id="example21" class="example"></div>
 
 There are two characteristics of this poetic accompaniment that are noteworthy here. First, the beat or pulse is consistent in that it repeats over and over again, but not every beat within it is the same duration. Second, the subdivision stays duple (beats are divided in two) whether the beat is short or long. This makes some subdivisions longer and some shorter.
 
@@ -87,7 +70,7 @@ To the first point, one of the core assumptions about rhythm in western-centric 
 BEAT b | b |  | b | b | b |  |
 ```
 
-<div id="example23" class="example"></div>
+<div id="example22" class="example"></div>
 
 Imagining this pattern as comprised of twelve beats makes it easy to create groupings of two and three. This aligns with the first hamadsha rhythm that I introduced earlier. It fits into western notation, but I argue that it fails to account for the clearly-defined nature of how these rhythms are articulated and perceived. That brings us to the second point.
 
@@ -102,7 +85,7 @@ HIGHLIGHT SYNCOPATION
 TOGGLE VISUAL OF SUBDIVISIONS
 ```
 
-<div id="example24" class="example"></div>
+<div id="example23" class="example"></div>
 
 Up until now, I have been using electronically created beats to demonstrate this pattern. In practice, however, there is an additional nuance. The last beat of the cycle is late. This is an example of microtiming, similar to Mongo Santamaria's "Watermelon Man." This subtle play with time that can build and release tension happens in every iteration of the pattern. It becomes a core part, though the amount of delay is open for exciting interpretation.
 
@@ -111,7 +94,7 @@ BEAT
 REAL AUDIO
 ```
 
-<div id="example25" class="example"></div>
+<div id="example24" class="example"></div>
 
 ## Conclusions
 

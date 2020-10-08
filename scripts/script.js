@@ -5,11 +5,6 @@ import { part4setup } from './part4.js';
 import { examples } from './examples.js';
 
 //
-// instantiate audio objects
-//
-
-
-//
 // create examples
 //
 

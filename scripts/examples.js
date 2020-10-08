@@ -727,9 +727,31 @@ var example18 = {
   ]
 }
 
-var example21 = {
-  title: "Example 21: A pattern with uneven beats",
-  tag: "example21",
+var example19 = {
+  title: "Example 19: The shifting gnawa beat",
+  tag: "example19",
+  loops: [
+    {
+      btnText: "Play loop",
+      tempo: 60,
+      parts: [
+        {
+          name: "Quraqeb",
+          boxWidths: [0.5, 0.25, 0.25],
+          boxPattern: [1, 1, 1],
+          durations: [1, 0.5, 0.5],
+          note: "A4",
+          source: drumSampler,
+          show: true,
+        }
+      ]    
+    }
+  ]
+}
+
+var example20 = {
+  title: "Example 20: A pattern with uneven beats",
+  tag: "example20",
   loops: [
     {
       btnText: "Play loop",
@@ -749,9 +771,9 @@ var example21 = {
   ]
 }
 
-var example22 = {
-  title: "Example 22: Al-unasa al-saghira",
-  tag: "example22",
+var example21 = {
+  title: "Example 21: Al-unasa al-saghira",
+  tag: "example21",
   loops: [
     {
       btnText: "Play loop",
@@ -831,6 +853,7 @@ export var examples = {
   16: example16,
   17: example17,
   18: example18,
+  19: example19,
+  20: example20,
   21: example21,
-  22: example22
 }
