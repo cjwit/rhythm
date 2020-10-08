@@ -56,45 +56,29 @@ The final rhythm I present here animates two different segments of the hamadsha 
 
 <div id="example20" class="example"></div>
 
-This pattern is not always articulated explicitly, just as was the case with the earlier examples of a pulse. To the contrary, layers of distinct rhythms appear across clapping and drumming patterns. Take, for example, a common and structural variant that Abderrahim Amrani and Fredrick Calmus, members of the brotherhood I worked with most closely, taught me.
+One of the core assumptions about rhythm in western-centric systems of understanding is that the pulse is made up of evenly-spaced beats.[^exceptions] In fact, this pattern can be mathematically broken down and written in western notation. The "long" beats are equal to three halves of the short beats, as demonstrated by this example's added imaginary pulse.
 
 <div id="example21" class="example"></div>
 
-There are two characteristics of this poetic accompaniment that are noteworthy here. First, the beat or pulse is consistent in that it repeats over and over again, but not every beat within it is the same duration. Second, the subdivision stays duple (beats are divided in two) whether the beat is short or long. This makes some subdivisions longer and some shorter.
-
-To the first point, one of the core assumptions about rhythm in western-centric systems of understanding is that the pulse is made up of evenly-spaced beats.[^exceptions] In fact, this pattern can be mathematically broken down and written in western notation. The "long" beats are equal to three halves of the short beats.
-
 [^exceptions]: There are some common exceptions, including when the tempo changes. The tempo is the rate of passing beats or the speed of the underlying pulse. When it increases, beats will "speed up" and the time between them gets shorter.
 
-```
-BEAT b | b |  | b | b | b |  |
-```
+Imagining this pattern as comprised of twelve beats makes it easy to create groupings of two and three. This aligns with the first hamadsha rhythm that I introduced earlier. It fits into western notation (using quarter notes and dotted quarter notes), but I argue that it fails to account for the clearly-defined nature of how these rhythms are articulated and perceived.
+
+An example of a common variant that ornaments this pattern shows that this even pulse does not represent how the rhythm works in practice. Abderrahim Amrani and Fredrick Calmus, members of the brotherhood I worked with most closely, taught me this drum pattern that organizes and underlies the entire poetic segment of the ritual.
 
 <div id="example22" class="example"></div>
 
-Imagining this pattern as comprised of twelve beats makes it easy to create groupings of two and three. This aligns with the first hamadsha rhythm that I introduced earlier. It fits into western notation, but I argue that it fails to account for the clearly-defined nature of how these rhythms are articulated and perceived. That brings us to the second point.
+There are two characteristics of this poetic accompaniment that are noteworthy here. First, the beat or pulse is consistent in that it repeats over and over again, but not every beat within it is the same duration. Second, the subdivision stays duple (beats are divided in two) whether the beat is short or long. This makes some subdivisions longer and some shorter.
 
 When a musician places an emphasis between beats or between subdivisions, it is called *syncopation*. This can make for a surprising and energetic moment, and it is a common and useful tool. This pattern divides the long beat (the second and fourth claps) in half. If we understand the subdivision to be consistent and even, then the drum stroke or clap that divides the second beat is syncopated. It is between beats.
 
-This pattern repeats over and over throughout the long poetic recitation, however. While it may feel syncopated at first, the listener grows accustomed to its asymmetry. If we allow for a pulse of uneven beats (some long and some short) with subdivisions that divide them in half instead of mathematically attempting to fit this into a structural conceptualization designed for a different set of musical traditions, then we can more closely approximate what is happening. This visualization allows you to listen to the pattern while switching between depictions of these two perspectives. The syncopated version may feel more appropriate to you. Maybe not. The point is not that one is correct: we all hear and feel music differently. Instead, the point is that we do not need to prioritize western-centric tools that might not fit the job.
-
-```
-BEAT  |   |     |   |   |     end
-DRUM  t d t  d  t   t d d     end
-HIGHLIGHT SYNCOPATION
-TOGGLE VISUAL OF SUBDIVISIONS
-```
-
-<div id="example23" class="example"></div>
+This pattern repeats over and over throughout the long poetic recitation, however. While it may feel syncopated at first, the listener grows accustomed to its asymmetry. If we allow for a pulse of uneven beats (some long and some short) with subdivisions that divide them in half instead of mathematically attempting to fit this into a structural conceptualization designed for a different set of musical traditions, then we can more closely approximate what is happening. This may sound syncopated to you. Or you might hear it as regular and expected, despite its unevenness. The point is not that one is correct: we all hear and feel music differently. Instead, the point is that we do not need to prioritize western-centric tools that might not fit the job. Try listening to the last example again and let it loop for a while. See if it starts to "sink in" over time and feel different.
 
 Up until now, I have been using electronically created beats to demonstrate this pattern. In practice, however, there is an additional nuance. The last beat of the cycle is late. This is an example of microtiming, similar to Mongo Santamaria's "Watermelon Man." This subtle play with time that can build and release tension happens in every iteration of the pattern. It becomes a core part, though the amount of delay is open for exciting interpretation.
 
 ```
-BEAT
-REAL AUDIO
+Audio example
 ```
-
-<div id="example24" class="example"></div>
 
 ## Conclusions
 

@@ -755,14 +755,14 @@ var example20 = {
   loops: [
     {
       btnText: "Play loop",
-      tempo: 108,
+      tempo: 69,
       parts: [
         {
-          name: "Pulse",
+          name: "Drum",
           pattern: [1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0],
           boxWidths: [2.0/12, 3.0/12, 2.0/12, 2.0/12, 3.0/12],
           boxPattern: [1, 1, 1, 1, 1],
-          note: "A4",
+          note: "A6",
           source: drumSampler,
           show: true,
         }
@@ -772,8 +772,35 @@ var example20 = {
 }
 
 var example21 = {
-  title: "Example 21: Al-unasa al-saghira",
+  title: "Example 21: Imagining uneven beats with even subdivisions",
   tag: "example21",
+  loops: [
+    {
+      btnText: "Play loop",
+      tempo: 69,
+      parts: [
+        {
+          name: "Drum",
+          pattern: [1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0],
+          note: "A6",
+          source: drumSampler,
+          show: true,
+        },
+        {
+          name: "Pulse",
+          pattern: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        }
+      ]    
+    }
+  ]
+}
+
+var example22 = {
+  title: "Example 22: Al-unasa al-saghira",
+  tag: "example22",
   loops: [
     {
       btnText: "Play loop",
@@ -856,4 +883,5 @@ export var examples = {
   19: example19,
   20: example20,
   21: example21,
+  22: example22,
 }

@@ -11,15 +11,12 @@ export function part4setup(examples) {
 
   const example20 = new ExampleCustomBoxWidth("example20", examples[20]);
 
-  const example21 = new ExampleCustomBoxWidth("example21", examples[21]);
-  addBorder(example21, 0, 0);
-  addBorder(example21, 0, 2);
-  addBorder(example21, 0, 4);
-  addBorder(example21, 0, 6);
-  addBorder(example21, 1, 8);
+  const example21 = new Example("example21", examples[21]);
 
-  new ExampleHeaderOnly("example22");
-  new ExampleHeaderOnly("example23");
-  new ExampleHeaderOnly("example24");
-
+  const example22 = new ExampleCustomBoxWidth("example22", examples[22]);
+  addBorder(example22, 0, 0);
+  addBorder(example22, 0, 2);
+  addBorder(example22, 0, 4);
+  addBorder(example22, 0, 6);
+  addBorder(example22, 1, 8);
 }

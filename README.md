@@ -30,3 +30,14 @@
 ## Sounds
 
 * Cowbell attribution: https://freesound.org/people/GowlerMusic/sounds/364919/
+
+## Types of examples
+
+* Basic loop: Example 1
+* Switcher: Example 8
+* Marked loop: Example 10
+* Melodic: Example 11 (not done)
+* Audio loop: Example 15
+* Subdivision slider: Example 17
+* Duration slider: Example 19
+* Uneven beats: Examples 20 and 21
