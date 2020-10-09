@@ -82,3 +82,4 @@ When "the beat drops" in a song, the entire groove of the music dramatically and
 
 </main>
 <script src="main.js"></script>
+<script data-goatcounter="https://witulski.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

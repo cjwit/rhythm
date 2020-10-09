@@ -40,3 +40,5 @@ Witulski, Christopher. 2018. *The Gnawa Lions: Authenticity and Opportunity in M
 ———. 2019. *Focus: Music and Religion of Morocco*. New York and London: Routledge.
 
 [Part 4: Consistent Inconsistencies from Morocco](part4.html) | [Back to contents](index.html)
+
+<script data-goatcounter="https://witulski.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

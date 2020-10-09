@@ -48,3 +48,5 @@ These are mechanical examples produced by a computer. The real participants in t
 
 </main>
 <script src="main.js"></script>
+
+<script data-goatcounter="https://witulski.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

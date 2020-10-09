@@ -18,3 +18,5 @@ header-includes: <script src="audio.js"></script>
 [Part 4: Consistent inconsistencies from Morocco](part4.html) (2,083 words)
 
 [References](references.html)
+
+<script data-goatcounter="https://witulski.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

@@ -106,3 +106,5 @@ The final section turns to Morocco for a series of rhythms that challenge expect
 
 </main>
 <script src="main.js"></script>
+
+<script data-goatcounter="https://witulski.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>

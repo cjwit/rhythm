@@ -7,9 +7,6 @@
 ### Next
 
 * Examples
-  * 7 and 8: tarija drum sounds
-  * 13: riq or darbouka
-  * 17: ride
   * Example 15a: mute loop at start, adjust volume, stop loops after appropriate number
   * Example 19: new audio file, find a way to have it continue playing
 

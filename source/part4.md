@@ -92,3 +92,5 @@ Finally, I want to focus our understanding of music and sound more holistically 
 
 </main>
 <script src="main.js"></script>
+
+<script data-goatcounter="https://witulski.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
