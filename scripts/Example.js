@@ -103,7 +103,10 @@ export class Example {
       box.classList.add("box");
   
       // filled or not
-      let status = part.pattern[i] == 1 ? "filled-box" : "empty-box";
+      let status = "empty-box";
+      if (part.pattern[i] != null && part.pattern[i] != 0) {
+        status = "filled-box";
+      }
       box.classList.add(status);
   
       // style box width
@@ -138,28 +141,33 @@ export class Example {
 
     for (let i = 0; i < loop.parts.length; i++) {
       let part = loop.parts[i];
-
-      // convert pattern to correct format for the Tone.Sequence
-      let sequenceObject = [];
-      part.pattern.forEach(note => {
-        if (note == 0) {
-          sequenceObject.push(null)
-        } else {
-          sequenceObject.push(part.note)
-        }
-      })
-
-      // create new sequence
-      let sequence = new Tone.Sequence((time, note) => {
-        if (part.show) {
-          this.visualCallback(part.name);
-        }
-        part.source.triggerAttackRelease(note, "8n", time);
-      }, sequenceObject).start(0);
-      // createLoopSequence(name, sequence, sampler, exampleData.parts[i].show);
+      if (typeof part.pattern[0] == "number") {
+        part.pattern = this.convertPatternToNotes(part.pattern, part.note);
+      }
+      this.createLoop(part);
     }
 
     Tone.Transport.bpm.value = loop.tempo;
+  }
+
+  convertPatternToNotes(pattern, note) {
+    for (let i = 0; i < pattern.length; i++) {
+      if (pattern[i] == 0) {
+        pattern[i] = null
+      } else {
+        pattern[i] = note;
+      }
+    }
+    return pattern;
+  }
+
+  createLoop(part) {
+    var sequence = new Tone.Sequence((time, note) => {
+      if (part.show) {
+        this.visualCallback(part.name);
+      }
+      part.source.triggerAttackRelease(note, "8n", time);
+    }, part.pattern).start(0);
   }
 
   visualCallback(name) {

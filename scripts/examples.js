@@ -1,5 +1,6 @@
-import { createDrumSampler } from './audio.js';
+import { createDrumSampler, createSynth } from './audio.js';
 var drumSampler = createDrumSampler();
+var synth = createSynth();
 
 //
 // examples
@@ -339,7 +340,59 @@ var example10 = {
   ]
 }
 
-// TODO example 11
+var example11a = {
+  title: "Example 11a: A simple melody",
+  tag: "example11",
+  loops: [
+    {
+      btnText: "Play loop",
+      tempo: 108,
+      parts: [
+        {
+          name: "Melody",
+          pattern: ["C4", "C4", null, "Bb3", "C4", null, "Eb4", null,
+                    "G4", "F4", "Eb4", "C4", null, "Bb3", "C4", null ],
+          source: synth,
+          show: false,
+        },
+        {
+          name: "Pulse",
+          pattern: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        }
+      ]    
+    }
+  ]
+}
+
+var example11b = {
+  title: "Example 11b: Adding some more syncopation",
+  tag: "example11b",
+  loops: [
+    {
+      btnText: "Play loop",
+      tempo: 108,
+      parts: [
+        {
+          name: "Melody",
+          pattern: ["C4", "C4", null, "Bb3", null, "Eb4", null, null,
+                    "G4", "F4", null, "Eb4", null, "Bb3", "C4", null ],
+          source: synth,
+          show: false,
+        },
+        {
+          name: "Pulse",
+          pattern: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+          note: "A4",
+          source: drumSampler,
+          show: false,
+        }
+      ]    
+    }
+  ]
+}
 
 var example12 = {
   title: "Example 12: Different pulses",
@@ -873,6 +926,8 @@ export var examples = {
   8: example8,
   9: example9,
   10: example10,
+  "11a": example11a,
+  "11b": example11b,
   12: example12,
   13: example13,
   14: example14,

@@ -1,6 +1,5 @@
 import { Example } from './Example.js';
 import { ExampleWithSlider } from './ExampleWithSlider.js';
-import { ExampleHeaderOnly } from './ExampleHeaderOnly.js';
 import { addBorder, removeBorder } from './other_ui.js';
 
 export function part3setup(examples) {
@@ -16,8 +15,9 @@ export function part3setup(examples) {
   addBorder(example10, 1, 0);
   addBorder(example10, 1, 4);
 
-  new ExampleHeaderOnly("example11");
-
+  const example11a = new Example("example11a", examples["11a"]);
+  const example11b = new Example("example11b", examples["11b"]);
+  
   const example12 = new Example("example12", examples[12]);
   addBorder(example12, 1, 0);
   addBorder(example12, 1, 2);
@@ -27,7 +27,7 @@ export function part3setup(examples) {
   var example12Children = Array.from(example12.example.children);
   var playButton = example12Children[0];
   playButton.addEventListener("click", () => {
-    if (playButton.innerText == "Stop") {
+    if (playButton.innerText != "Stop") {
       // started playing loop 0
       addBorder(example12, 1, 2);
       addBorder(example12, 1, 6);
@@ -36,8 +36,9 @@ export function part3setup(examples) {
 
   var switchButton = example12Children[example12Children.length - 1];
   switchButton.addEventListener("click", () => {
-    if (switchButton.innerText == "Stop") {
+    if (switchButton.innerText != "Stop") {
       // started playing loop 1
+      console.log("clicked slower")
       removeBorder(example12, 1, 2);
       removeBorder(example12, 1, 6);
     }

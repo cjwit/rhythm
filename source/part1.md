@@ -64,7 +64,9 @@ It's worth discussing the words *rhythm* and *beat* themselves before trying to 
 
 A *rhythm* refers to sounds and silences that are associated based on their relationship in time. They come together to create a unified "thing" that might appear again. Some traditions have well-recognized names for certain rhythms. When rhythms that are familiar appear in different contexts, they might gain referential meanings over time. "Shave and a haircut, two bits" has become a common ending to songs during over the last century in America. It was so common that it could be and satirized. [This short video](https://www.youtube.com/embed/4W3cPSntmBk) has some good examples and discusses how such a short phrase can build so much anticipation.
 
-The *dembow* rhythm comes from a specific place and has its own history in the Caribbean (Marshall 2008). Like the examples above, it demonstrates how repeating a *rhythm* can turn it into a *groove*, to use a not-so-technical term. Push play to hear the rhythm by itself, then click "loop" to hear it repeat. That repeated version underlines global popular music styles ranging from [TODO](TODO) to [TODO](TODO).
+The *dembow* rhythm comes from a specific place and has its own history in the Caribbean (Marshall 2008). Like the examples above, it demonstrates how repeating a *rhythm* can turn it into a *groove*, to use a not-so-technical term. Push play to hear the rhythm by itself, then click "loop" to hear it repeat. That repeated version underlines global popular music styles, especially in genres like *reggaeton*.[^reggaeton] ["Don Don," a 2020 release from Daddy Yankee, Anuel AA, and Kendo Kaponi](https://youtu.be/bZMPz5lzb2U), is one of many examples.
+
+[^reggaeton]: When preparing this, I did a quick search in Spotify for "reggaeton" and found a mix of songs from 2020. Almost every one of them had the dembow rhythm featured prominently in the mix.
 
 <div id="example6" class="example"></div>
 

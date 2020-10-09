@@ -1,5 +1,4 @@
 import { Example } from './Example.js';
-import { ExampleHeaderOnly } from './ExampleHeaderOnly.js';
 import { ExampleCustomBoxWidth } from './ExampleCustomBoxWidth.js';
 import { ExampleWithTempoSlider } from './ExampleWithTempoSlider.js';
 import { addBorder } from './other_ui.js';

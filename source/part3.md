@@ -26,18 +26,11 @@ In this case, every beat of the pulse (at least as I hear it) is played by one o
 
 This time, the beat in the middle of the repeating pattern (marked in red) is not articulated, but you may have still felt it and clapped during the space. Your body moves the same way and the clap feels appropriate there. This is the result of *syncopation*, an emphasized sound that does not appear at an obvious moment. In this case, the bass drum hit shows up before the expected beat.
 
-As stated above, this is not just about drums. Here is a line that could be in a funk band horn section. Even without the rest of a group, you may be able to hear or feel the beat. In each example, try listening with and without the clapping that marks the pulse.
+As stated above, this is not just about drums. Here are some lines that could be in a funk band horn section. Even without the rest of a group, you may be able to hear or feel the beat.
 
-```
-HORN EXAMPLES
- - Select different loops
- - Option to play or mute clapping
-Largely on the beat
-Lots of space
-Lots of off-beats
-```
+<div id="example11a" class="example"></div>
 
-<div id="example11" class="example"></div>
+<div id="example11b" class="example"></div>
 
 Not all music has an underlying pulse. When a musician performs "freely" and without adherence to a consistent pulse, it can be termed *free rhythm*. This happens in solo introductions to a piece of music that showcases a performer's virtuosic and expressive technique. Without an underlying consistent pulse, a musical idea can still toy with related ideas like *pacing* to generate motion and tension. By moving from slow to fast or suddenly shifting the momentum, free rhythm can generate a powerful feeling of rhythmic direction.
 

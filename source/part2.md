@@ -32,11 +32,11 @@ A simple example from my own research in Morocco demonstrates this well (Witulsk
 
 [^issawa]: In this case, the term "brotherhood" refers to the all male musical ensembles who carry out ritual ceremonies. The events themselves are usually open to client families (who require healing through sacred blessing) and their friends. There are other rituals within the tradition that happen in religious spaces and are differentiated by gender.
 
-![ʿIssawa ensemble performing in Fez, note the *tabla* drums](https://via.placeholder.com/500x200.png?text=Issawa)
+![TODO ʿIssawa ensemble performing in Fez, note the *tabla* drums](https://via.placeholder.com/500x200.png?text=Issawa)
 
 In *ʿissawa* contexts, this pattern shows up on a pair of clay drums that are tied together. Some artists have switched from these traditional drums, however, to use manufactured *timbales*. In both cases, a larger and smaller drum makes two distinct sounds: one is lower and the other is higher. In *malhun*, different musicians each have small handheld goblet-shaped drums. Each one, called a *tarʿija* has a slightly different sound because of the natural fish-skin head.
 
-![Malhun ensemble performing in Fez](https://via.placeholder.com/500x200.png?text=Malhun)
+![TODO Malhun ensemble performing in Fez](https://via.placeholder.com/500x200.png?text=Malhun)
 
 These pairs of drums articulate two patterns. The first is two notes, equally spaced. This usually shows up on the larger drum. The second is offset and the notes are unequally spaced. In live settings, people might clap along to one or the other patterns. Try listening to each and clapping along with it individually. 
 

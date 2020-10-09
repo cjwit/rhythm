@@ -18,3 +18,8 @@ export function createDrumSampler() {
 
   return drumSampler;
 }
+
+export function createSynth() {
+  const synth = new Tone.Synth().toDestination();
+  return synth;
+}
