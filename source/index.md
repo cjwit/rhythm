@@ -5,7 +5,7 @@ header-includes: <script src="audio.js"></script>
 ---
 >*Note: this is a draft for a project that spans multiple pages. The layout and look of the page will change depending on where it is published. In its current state, this draft is not intended to represent visual or interactive elements in their final form.*
 
-![Hamadsha ensemble in a performance in 2013](./Hamadsha2013.jpg)
+![Hamadsha ensemble in a performance in 2013](./images/Hamadsha2013.jpg)
 
 ## Contents
 

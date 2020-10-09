@@ -543,7 +543,7 @@ var example15 = {
     {
       btnText: "Play (marking the beat)",
       tempo: 115,
-      audio: "./mi-buenos-aires-querido.mp3",
+      audio: "./samples/mi-buenos-aires-querido.mp3",
       parts: [
         {
           name: "Measure",
@@ -571,7 +571,7 @@ var example15 = {
     {
       btnText: "Mark the measure",
       tempo: 115,
-      audio: "./mi-buenos-aires-querido.mp3",
+      audio: "./samples/mi-buenos-aires-querido.mp3",
       parts: [
         {
           name: "Measure",
@@ -599,7 +599,7 @@ var example15 = {
     {
       btnText: "Mark the subdivision",
       tempo: 115,
-      audio: "./mi-buenos-aires-querido.mp3",
+      audio: "./samples/mi-buenos-aires-querido.mp3",
       parts: [
         {
           name: "Measure",
@@ -634,7 +634,7 @@ var example16 = {
     {
       btnText: "Play (marking the beat)",
       tempo: 117.5,
-      audio: "./honeymoon-waltz.mp3",
+      audio: "./samples/honeymoon-waltz.mp3",
       parts: [
         {
           name: "Measure",
@@ -662,7 +662,7 @@ var example16 = {
     {
       btnText: "Mark the measure",
       tempo: 117.5,
-      audio: "./honeymoon-waltz.mp3",
+      audio: "./samples/honeymoon-waltz.mp3",
       parts: [
         {
           name: "Measure",
@@ -690,7 +690,7 @@ var example16 = {
     {
       btnText: "Mark the subdivision",
       tempo: 117.5,
-      audio: "./honeymoon-waltz.mp3",
+      audio: "./samples/honeymoon-waltz.mp3",
       parts: [
         {
           name: "Measure",

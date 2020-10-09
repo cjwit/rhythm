@@ -34,7 +34,7 @@ A second pattern is both more complicated from the perspective of western musica
 
 Gnawa music uses three types of instruments. A single low bass string instrument called a *hajhuj*, *ginbri*, or *sintir* is at its core. This is the only melodic instrument that accompanies singing. A large drum called a *tbal* appears in certain places. Of interest here, though, are the *quraqib*, sets of iron castanets that beat out consistent rhythmic patterns throughout most of the overnight ceremony.
 
-![Quraqib, as demonstrated by members of Mʿallem Said Oughessal's gnawa troupe during the opening parade of the 2018 Essaouira gnawa and world music festival](./gnawa.jpg)
+![Quraqib, as demonstrated by members of Mʿallem Said Oughessal's gnawa troupe during the opening parade of the 2018 Essaouira gnawa and world music festival](./images/gnawa.jpg)
 
 Most individual songs in gnawa music start slowly and get faster as the trance intensifies.[^tempo] This example—and many similar instances of speeding up gradually that happen across the globe—is different than most western instances where, for example, acceleration may happen at the end of a piece to build excitement. When it does happen in western traditions, the internal subdivision pacing increases with the speed of the beats. This maintains the relationships between them (at least roughly). A duple subdivision usually stays duple.
 
