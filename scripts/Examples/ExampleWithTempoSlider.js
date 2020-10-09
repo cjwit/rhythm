@@ -1,4 +1,5 @@
 import { ExampleWithSlider } from '../Examples/ExampleWithSlider.js';
+import quraqeb from '../../audio/quraqeb.mp3';
 
 export class ExampleWithTempoSlider extends ExampleWithSlider {
   constructor(tagId, data) {
@@ -117,7 +118,7 @@ export class ExampleWithTempoSlider extends ExampleWithSlider {
   }
 
   setUpLoop() {
-    this.audio = new Audio("./samples/clave.mp3");
+    this.audio = new Audio(quraqeb);
     this.stopLoop();
     
     var durations = this.loops[0].parts[0].durations;
