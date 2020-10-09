@@ -32,13 +32,11 @@ A simple example from my own research in Morocco demonstrates this well (Witulsk
 
 [^issawa]: In this case, the term "brotherhood" refers to the all male musical ensembles who carry out ritual ceremonies. The events themselves are usually open to client families (who require healing through sacred blessing) and their friends. There are other rituals within the tradition that happen in religious spaces and are differentiated by gender.
 
-![TODO ʿIssawa ensemble performing in Fez, note the *tabla* drums](https://via.placeholder.com/500x200.png?text=Issawa)
+In *ʿissawa* contexts, this pattern shows up on a pair of clay drums that are tied together. Some artists have switched from these traditional drums, however, to use manufactured *timbales*. In both cases, a larger and smaller drum makes two distinct sounds: one is lower and the other is higher. In *malhun*, different musicians each have small handheld goblet-shaped drums. Each one, called a *tarʿija* has a slightly different sound because of the natural fish-skin head. This video shows another brotherhood, the *hamadsha*, who borrow from both of these styles within their own ceremony. I recorded this in Meknes in 2013. The group is led by Abderrahim Amrani and features a guest, Mohammad Essousi, who is a prominent *malhun* singer.
 
-In *ʿissawa* contexts, this pattern shows up on a pair of clay drums that are tied together. Some artists have switched from these traditional drums, however, to use manufactured *timbales*. In both cases, a larger and smaller drum makes two distinct sounds: one is lower and the other is higher. In *malhun*, different musicians each have small handheld goblet-shaped drums. Each one, called a *tarʿija* has a slightly different sound because of the natural fish-skin head.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KPAVajyNM-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![TODO Malhun ensemble performing in Fez](https://via.placeholder.com/500x200.png?text=Malhun)
-
-These pairs of drums articulate two patterns. The first is two notes, equally spaced. This usually shows up on the larger drum. The second is offset and the notes are unequally spaced. In live settings, people might clap along to one or the other patterns. Try listening to each and clapping along with it individually. 
+In this example, drums and clapping articulate two main rhythmic patterns. The first is two notes, equally spaced. This usually shows up on the larger drum of a pair. The second is offset and the notes are unequally spaced. As in the video, people clap along to one pattern or the other. Try listening to each and clapping along with it individually.
 
 <div id="example7" class="example"></div>
 

@@ -22,9 +22,11 @@ Two of these three examples come from the *hamadsha* tradition. The hamadsha bro
 
 An evening hamadsha event moves through a number of segments, each with its own musical characteristics. One, called the *saf al-ginbri* features an underlying rhythmic pattern of uneven heavy beats that group the beats of a consistent pulse. This pattern is also common elsewhere in the world, including the Balkan region of Europe and across the Middle East (Goldberg 2020). This example is from a ceremony I attended with the hamadsha leader Abdderrahim Amrani.
 
-<div id="example18" class="example"></div>
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/507913104&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/witulski" title="Witulski" target="_blank" style="color: #cccccc; text-decoration: none;">Witulski</a> · <a href="https://soundcloud.com/witulski/saf-al-ginbri" title="Saf al-Ginbri" target="_blank" style="color: #cccccc; text-decoration: none;">Saf al-Ginbri</a></div>
 
-A western system would define this as a 5/8 meter by focusing on the consistent pulse. In practice, however, this is felt at the larger grouping of one short beat (subdivided in half) and one that is slightly longer (made up of three subdivisions). There are two conflicting pulses because of the shortness of the pattern. Is it a consistently uneven pulse (which would be consistent in its own way) or is this an example of two smaller groupings combining? I argue that there is no "correct" answer. The western notational practice of calling something like this 5/8 (five even beats grouped into two and three) obfuscates what we hear by prioritizing written convenience. It fits better into a system built for western classical tradition.
+A western system would define this as a 5/8 meter by focusing on the consistent pulse. In practice, however, this is felt at the larger grouping of one short beat (subdivided in half) and one that is slightly longer (made up of three subdivisions). Is it a consistently uneven pulse (which would be consistent in its own way) or is this an example of two smaller groupings combining? I argue that there is no "correct" answer. The western notational practice of calling something like this 5/8 (five even beats grouped into two and three) obfuscates what we hear by prioritizing written convenience. It fits better into a system built for western classical tradition.
+
+<div id="example18" class="example"></div>
 
 ## Shrinking beats
 
@@ -32,17 +34,15 @@ A second pattern is both more complicated from the perspective of western musica
 
 Gnawa music uses three types of instruments. A single low bass string instrument called a *hajhuj*, *ginbri*, or *sintir* is at its core. This is the only melodic instrument that accompanies singing. A large drum called a *tbal* appears in certain places. Of interest here, though, are the *quraqib*, sets of iron castanets that beat out consistent rhythmic patterns throughout most of the overnight ceremony.
 
-![Quraqib, as demonstrated by TODO](https://via.placeholder.com/500x200.png?text=Quraqib)
+![Quraqib, as demonstrated by members of Mʿallem Said Oughessal's gnawa troupe during the opening parade of the 2018 Essaouira gnawa and world music festival](./gnawa.jpg)
 
 Most individual songs in gnawa music start slowly and get faster as the trance intensifies.[^tempo] This example—and many similar instances of speeding up gradually that happen across the globe—is different than most western instances where, for example, acceleration may happen at the end of a piece to build excitement. When it does happen in western traditions, the internal subdivision pacing increases with the speed of the beats. This maintains the relationships between them (at least roughly). A duple subdivision usually stays duple.
 
 [^tempo]: If using western terminology, the speed would be referred to with the term *tempo*.
 
-At higher speeds, it can get hard to maintain the pace of subdivisions simply because shorter notes get too fast to play. This pacing issue is simply accepted and normalized in gnawa music. The pattern that starts a piece gets so fast that the musicians "even out" the distance between the subdivisions. Mathematical ratios are less important than the intensity of the experience. A gradual moves happens where a feeling of a duple subdivision shifts into a triple one as longer notes shorten. This example, whch was played by Abderrahim Abderrazak, my teacher during my fieldwork in Fez, Morocco, shows the progression. Skim around the entire track and listen for the difference between the rhythmic pacing of the beginning and the end.
+At higher speeds, it can get hard to maintain the pace of subdivisions simply because shorter notes get too fast to play. This pacing issue is simply accepted and normalized in gnawa music. The pattern that starts a piece gets so fast that the musicians "even out" the distance between the subdivisions. Mathematical ratios are less important than the intensity of the experience. A gradual moves happens where a feeling of a duple subdivision shifts into a triple one as longer notes shorten. This example, whch was played by Abderrahim Abderrazak, my teacher during my fieldwork in Fez, Morocco, shows the progression. Skip around the entire track and listen for the difference between the rhythmic pacing of the beginning and the end.
 
-```
-EMBED EXAMPLE AND DESCRIBE SKIPPING AROUND FROM THE BEGINNING TO THE END
-```
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/907455763&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/witulski" title="Witulski" target="_blank" style="color: #cccccc; text-decoration: none;">Witulski</a> · <a href="https://soundcloud.com/witulski/abd-al-rzaq-lalla-mimouna-sidi-ali-moussem" title="Abd al-Rzaq, Lalla Mimouna (Sidi Ali Moussem, Feb 12 2011)" target="_blank" style="color: #cccccc; text-decoration: none;">Abd al-Rzaq, Lalla Mimouna (Sidi Ali Moussem, Feb 12 2011)</a></div>
 
 This example lets you change the pacing yourself. You can see how it goes from feeling like an even duple subdivision to a triple one as you shorten the first note in the pattern. That also quickens the looping repetitions.
 
@@ -76,9 +76,7 @@ This pattern repeats over and over throughout the long poetic recitation, howeve
 
 Up until now, I have been using electronically created beats to demonstrate this pattern. In practice, however, there is an additional nuance. The last beat of the cycle is late. This is an example of microtiming, similar to Mongo Santamaria's "Watermelon Man." This subtle play with time that can build and release tension happens in every iteration of the pattern. It becomes a core part, though the amount of delay is open for exciting interpretation.
 
-```
-Audio example
-```
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/507913116&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/witulski" title="Witulski" target="_blank" style="color: #cccccc; text-decoration: none;">Witulski</a> · <a href="https://soundcloud.com/witulski/al-unassa-al-kbira" title="al-Unassa al-Kbira" target="_blank" style="color: #cccccc; text-decoration: none;">al-Unassa al-Kbira</a></div>
 
 ## Conclusions
 
