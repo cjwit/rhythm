@@ -7,10 +7,9 @@
 ### Next
 
 * Examples
-  * Get better audio examples for non-drum set drums
-  * Example 8: needs working mute buttons
-  * Examples 9 and 10: add mute buttons for the pulse
-  * Example 12 and 14: switch pulse button
+  * 7 and 8: tarija drum sounds
+  * 13: riq or darbouka
+  * 17: ride
   * Example 15a: mute loop at start, adjust volume, stop loops after appropriate number
   * Example 19: new audio file, find a way to have it continue playing
 

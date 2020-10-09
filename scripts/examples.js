@@ -354,13 +354,6 @@ var example11a = {
                     "G4", "F4", "Eb4", "C4", null, "Bb3", "C4", null ],
           source: synth,
           show: false,
-        },
-        {
-          name: "Pulse",
-          pattern: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
-          note: "A4",
-          source: drumSampler,
-          show: false,
         }
       ]    
     }
@@ -380,13 +373,6 @@ var example11b = {
           pattern: ["C4", "C4", null, "Bb3", null, "Eb4", null, null,
                     "G4", "F4", null, "Eb4", null, "Bb3", "C4", null ],
           source: synth,
-          show: false,
-        },
-        {
-          name: "Pulse",
-          pattern: [1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0],
-          note: "A4",
-          source: drumSampler,
           show: false,
         }
       ]    

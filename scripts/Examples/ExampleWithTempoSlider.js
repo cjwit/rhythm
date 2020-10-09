@@ -117,7 +117,7 @@ export class ExampleWithTempoSlider extends ExampleWithSlider {
   }
 
   setUpLoop() {
-    this.audio = new Audio("./clave.mp3");
+    this.audio = new Audio("./samples/clave.mp3");
     this.stopLoop();
     
     var durations = this.loops[0].parts[0].durations;

@@ -9,11 +9,11 @@ header-includes: <script src="audio.js"></script>
 
 ## Contents
 
-[Part 1: Expectation and repetition](part1.html) (1,803 words)
+[Part 1: Expectation and repetition](part1.html) (1,778 words)
 
-[Part 2: Cycles of time](part2.html) (1,493 words)
+[Part 2: Cycles of time](part2.html) (1,526 words)
 
-[Part 3: Feeling the beat(s)](part3.html) (2,129 words)
+[Part 3: Feeling the beat(s)](part3.html) (2,069 words)
 
 [Part 4: Consistent inconsistencies from Morocco](part4.html) (2,083 words)
 
