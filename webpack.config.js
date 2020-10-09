@@ -7,6 +7,18 @@ module.exports = {
         test: /\.js$/,
         enforce: 'pre',
         use: ['source-map-loader'],
+      },
+      {
+        test: /\.(mp3)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              outputPath: 'samples',
+              name: '[name].[ext]'
+            }
+          }
+        ]
       }
     ]
   },

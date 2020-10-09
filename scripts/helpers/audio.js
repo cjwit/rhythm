@@ -1,18 +1,28 @@
 import * as Tone from 'tone';
 
+import hihat from "../../audio/hihat.mp3";
+import snare from "../../audio/snare.mp3";
+import kick from "../../audio/kick.mp3";
+import clave from "../../audio/clave.mp3";
+import ding from "../../audio/ding.mp3";
+import bongo1 from "../../audio/bongo1.mp3";
+import bongo2 from "../../audio/bongo2.mp3";
+import tom3 from "../../audio/tom3.mp3";
+import cowbell from "../../audio/cowbell.mp3";
+
 // drum sampler configuration
 export function createDrumSampler() {
   const drumSampler = new Tone.Sampler({
     urls: {
-      A1: "./hihat.mp3",
-      A2: "./snare.mp3",
-      A3: "./kick.mp3",
-      A4: "./clave.mp3",
-      A5: "./ding.mp3",
-      A6: "./bongo1.mp3",
-      A7: "./bongo2.mp3",
-      A8: "./tom3.mp3",
-      A9: "./cowbell.mp3"
+      A1: hihat,
+      A2: snare,
+      A3: kick,
+      A4: clave,
+      A5: ding,
+      A6: bongo1,
+      A7: bongo2,
+      A8: tom3,
+      A9: cowbell,
     },
   }).toDestination();
 
