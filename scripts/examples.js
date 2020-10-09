@@ -452,14 +452,14 @@ var example13 = {
         {
           name: "Tek",
           pattern: [0, 0, 0, 1, 0, 0, 0, 1, 0, 0],
-          note: "A6",
+          note: "A11",
           source: drumSampler,
           show: true,
         },
         {
           name: "Dum",
           pattern: [1, 0, 0, 0, 0, 1, 1, 0, 0, 0],
-          note: "A8",
+          note: "A10",
           source: drumSampler,
           show: true,
         },

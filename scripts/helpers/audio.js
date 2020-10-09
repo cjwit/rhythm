@@ -9,6 +9,9 @@ import bongo1 from "../../audio/bongo1.mp3";
 import bongo2 from "../../audio/bongo2.mp3";
 import tom3 from "../../audio/tom3.mp3";
 import cowbell from "../../audio/cowbell.mp3";
+import riqqDum from "../../audio/riqq-dum.mp3";
+import riqqTek from "../../audio/riqq-tek.mp3";
+
 
 // drum sampler configuration
 export function createDrumSampler() {
@@ -23,6 +26,8 @@ export function createDrumSampler() {
       A7: bongo2,
       A8: tom3,
       A9: cowbell,
+      A10: riqqDum,
+      A11: riqqTek,
     },
   }).toDestination();
 
