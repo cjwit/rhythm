@@ -1,7 +1,7 @@
-import { ExampleWithSlider } from '../Examples/ExampleWithSlider.js';
+import { ExampleWithSlider } from './ExampleWithSlider.js';
 import quraqeb from '../../audio/quraqeb.mp3';
 
-export class ExampleWithTempoSlider extends ExampleWithSlider {
+export class ExampleDurationSlider extends ExampleWithSlider {
   constructor(tagId, data) {
     super(tagId, data);
     this.timeouts = [];

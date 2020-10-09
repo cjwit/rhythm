@@ -4,24 +4,10 @@
 
 ## To do
 
-### Next
-
 * Examples
   * Example 15a: mute loop at start, adjust volume, stop loops after appropriate number
-  * Example 19: new audio file, find a way to have it continue playing
-
-### Code
-
-* Add goatcounter and split out CSS (since this has multiple pages now)
-* Determine overall look
-* Set up color variables for easy changes later
-* Try using objects to organize the code
-  * Frame (title)
-  * Box layout
-  * Wave form layout
-  * Play and loop buttons
-  * Text description
-  * Audio object?
+  * Example 19: find a way to have it continue playing
+* Create a page with example demos
 
 ## Sounds
 
