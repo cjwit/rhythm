@@ -1,5 +1,4 @@
-import * as Tone from "tone";
-import { ExampleWithSlider } from './ExampleWithSlider.js';
+import { ExampleWithSlider } from '../Examples/ExampleWithSlider.js';
 
 export class ExampleWithTempoSlider extends ExampleWithSlider {
   constructor(tagId, data) {

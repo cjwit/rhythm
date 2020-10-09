@@ -1,7 +1,7 @@
-import { Example } from './Example.js';
-import { ExampleCustomBoxWidth } from './ExampleCustomBoxWidth.js';
-import { ExampleWithTempoSlider } from './ExampleWithTempoSlider.js';
-import { addBorder } from './other_ui.js';
+import { Example } from '../Examples/Example.js';
+import { ExampleCustomBoxWidth } from '../Examples/ExampleCustomBoxWidth.js';
+import { ExampleWithTempoSlider } from '../Examples/ExampleWithTempoSlider.js';
+import { addBorder } from '../helpers/other_ui.js';
 
 export function part4setup(examples) {
   const example18 = new Example("example18", examples[18]);

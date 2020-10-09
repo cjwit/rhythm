@@ -1,5 +1,3 @@
-import { Tone } from "tone/build/esm/core/Tone";
-
 // show hidden text in part 1
 export function showMoreButton(hiddenElementId) {
   var showMoreButton = document.getElementById("showMoreButton");

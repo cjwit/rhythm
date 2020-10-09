@@ -1,4 +1,4 @@
-import { createDrumSampler, createSynth } from './audio.js';
+import { createDrumSampler, createSynth } from './helpers/audio.js';
 var drumSampler = createDrumSampler();
 var synth = createSynth();
 

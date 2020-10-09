@@ -1,6 +1,6 @@
-import { Example } from './Example.js';
-import { ExampleWithSlider } from './ExampleWithSlider.js';
-import { addBorder, removeBorder } from './other_ui.js';
+import { Example } from '../Examples/Example.js';
+import { ExampleWithSlider } from '../Examples/ExampleWithSlider.js';
+import { addBorder, removeBorder } from '../helpers/other_ui.js';
 
 export function part3setup(examples) {
   const example9 = new Example("example9", examples[9]);

@@ -1,5 +1,5 @@
-import { Example } from './Example.js';
-import { addBorder, showMoreButton } from './other_ui.js';
+import { Example } from '../Examples/Example.js';
+import { addBorder, showMoreButton } from '../helpers/other_ui.js';
 
 export function part1setup(examples, drumSampler) {
   const example1 = new Example("example1", examples[1]);

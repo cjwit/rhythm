@@ -1,4 +1,4 @@
-import { Example } from './Example.js';
+import { Example } from '../Examples/Example.js';
 
 export function part2setup(examples) {
   const example7 = new Example("example7", examples[7]);
