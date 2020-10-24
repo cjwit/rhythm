@@ -32,7 +32,7 @@ A simple example from my own research in Morocco demonstrates this well (Witulsk
 
 In *ʿissawa* contexts, musicians articulate this pattern on a pair of clay drums that are tied together. Some artists have switched from these traditional drums, however, to use manufactured *timbales*. In both cases, a larger and smaller drum makes two distinct sounds: one is lower and the other is higher. In *malhun*, different musicians each have small handheld goblet-shaped drums. Each one, called a *tarʿija* has a slightly different sound because of the natural fish-skin head. This video shows another brotherhood, the *hamadsha*, who borrow from both of these styles within their own ceremony. I recorded this in Meknes in 2013. The group is led by Abderrahim Amrani and features a guest, Mohammad Essousi, who is a prominent *malhun* singer.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KPAVajyNM-g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="560" height="315" controls><source src="./images/hamadsha2013.mp4" type="video/mp4"></video>
 
 In this example, drums and clapping articulate two main rhythmic patterns. The first is two notes, equally spaced. The second is offset and the notes are unequally spaced. They are layered to build a new pattern, one that is coincidentally similar to reggaeton's *dembow*.
 
