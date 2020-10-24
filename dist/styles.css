@@ -917,4 +917,8 @@ input {
   cursor: pointer;
 }
 
+audio {
+  width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */
