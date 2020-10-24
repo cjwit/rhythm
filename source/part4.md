@@ -22,7 +22,9 @@ Two of these three examples come from the *hamadsha* tradition. The hamadsha bro
 
 An evening hamadsha event moves through a number of segments, each with its own musical characteristics. One, called the *saf al-ginbri* features an underlying rhythmic pattern of uneven heavy beats. This pattern is also common elsewhere in the world, including the Balkan region of Europe and across the Middle East (Goldberg 2020). This example is from a ceremony I attended with the hamadsha leader Abdderrahim Amrani.
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/507913104&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/witulski" title="Witulski" target="_blank" style="color: #cccccc; text-decoration: none;">Witulski</a> · <a href="https://soundcloud.com/witulski/saf-al-ginbri" title="Saf al-Ginbri" target="_blank" style="color: #cccccc; text-decoration: none;">Saf al-Ginbri</a></div>
+<audio controls>
+  <source src="./images/saf-al-ginbri.mp3" type="audio/mpeg">
+</audio>
 
 A western system would define this as a 5/8 meter by focusing on the consistent pulse. In practice, however, this is felt at the larger grouping of one short beat (subdivided in half) and one that is slightly longer (made up of three subdivisions). Is it a consistently uneven pulse (which would be consistent in its own way) or is this an example of two smaller groupings combining?
 
@@ -44,7 +46,9 @@ Most individual songs in gnawa music start slowly and get faster as the trance i
 
 At higher speeds, it can get hard to maintain the pace of subdivisions simply because shorter notes get too fast to play. This pacing issue is simply accepted and normalized in gnawa music. The pattern that starts a piece gets so fast that the musicians "even out" the distance between the subdivisions. Mathematical ratios are less important than the intensity of the experience. A gradual moves happens where a feeling of a duple subdivision shifts into a triple one as longer notes shorten. This example, whch was played by Abderrahim Abderrazak, my teacher during my fieldwork in Fez, Morocco, shows the progression. Skip around the entire track and listen for the difference between the rhythmic pacing of the beginning and the end.
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/907455763&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/witulski" title="Witulski" target="_blank" style="color: #cccccc; text-decoration: none;">Witulski</a> · <a href="https://soundcloud.com/witulski/abd-al-rzaq-lalla-mimouna-sidi-ali-moussem" title="Abd al-Rzaq, Lalla Mimouna (Sidi Ali Moussem, Feb 12 2011)" target="_blank" style="color: #cccccc; text-decoration: none;">Abd al-Rzaq, Lalla Mimouna (Sidi Ali Moussem, Feb 12 2011)</a></div>
+<audio controls>
+  <source src="./images/lalla-mimouna.mp3" type="audio/mpeg">
+</audio>
 
 This example lets you change the pacing yourself. You can see how it goes from feeling like an even duple subdivision to a triple one as you shorten the first note in the pattern. That also quickens the looping repetitions.
 
