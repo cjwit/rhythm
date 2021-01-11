@@ -1,6 +1,6 @@
 ---
 title: "On Rhythm"
-author: Christopher Witulski
+author: Omitted for blind review
 ---
 <main>
 

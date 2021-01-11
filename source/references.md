@@ -1,7 +1,6 @@
 ---
 title: "On Rhythm"
-author: Christopher Witulski
-header-includes: <script src="audio.js"></script>
+author: Omitted for blind review
 ---
 [Part 4: Consistent Inconsistencies from Morocco](part4.html) | [Back to contents](index.html)
 
