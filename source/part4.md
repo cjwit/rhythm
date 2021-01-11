@@ -82,7 +82,9 @@ This pattern repeats over and over throughout the long poetic recitation, howeve
 
 Up until now, I have been using electronically created beats to demonstrate this pattern. In practice, however, there is an additional nuance. The last beat of the cycle is late. This is an example of microtiming, similar to Mongo Santamaria's "Watermelon Man." This subtle play with time that can build and release tension happens in every iteration of the pattern. It becomes a core part, though the amount of delay is open for exciting interpretation.
 
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/507913116&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/witulski" title="Witulski" target="_blank" style="color: #cccccc; text-decoration: none;">Witulski</a> · <a href="https://soundcloud.com/witulski/al-unassa-al-kbira" title="al-Unassa al-Kbira" target="_blank" style="color: #cccccc; text-decoration: none;">al-Unassa al-Kbira</a></div>
+<audio controls>
+  <source src="./images/al-unassa-al-kbira.mp3" type="audio/mpeg">
+</audio>
 
 ## Conclusions
 
