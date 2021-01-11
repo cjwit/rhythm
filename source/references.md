@@ -34,6 +34,8 @@ Marshall, Wayne. 2008. “Dem Bow, Dembow, Dembo: Translation and Transnation in
 
 Moore, Robin. 2010. *Music in the Hispanic Caribbean*. Experiencing Music, Expressing Culture. New York and Oxford: Oxford University Press.
 
+Ruckert, George. 2011. *Music in North India: Experiencing Music, Expressing Culture*. Global Music Series. New York, Oxford: Oxford University Press.
+
 Witulski, Christopher. 2018. *The Gnawa Lions: Authenticity and Opportunity in Moroccan Ritual Music*. Public Cultures of the Middle East and North Africa. Bloomington, IN: Indiana University Press.
 
 ———. 2019. *Focus: Music and Religion of Morocco*. New York and London: Routledge.

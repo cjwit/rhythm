@@ -8,7 +8,7 @@ author: Omitted for blind review
 
 ## Part 4: Consistent inconsistencies from Morocco
 
-One of my main goals in this series is to disassociate widely used terminology from an exclusive understanding based in western classical music and its associated system of written symbols. Rhythm is central to music worldwide, even in contexts where it is important in absentia like free rhythm improvisations. It is difficult to imagine music that does not incorporate a sense of passing time. Even where that might be possible, it is likely to work by breaking expectations.
+As mentioned in the opening of this series, one of my main goals here is to disassociate widely used terminology from an exclusive understanding based in western classical music and its associated system of written symbols. Rhythm is central to music worldwide, even in contexts where it is important in absentia like free rhythm improvisations. It is difficult to imagine music that does not incorporate a sense of passing time. Even where that might be possible, it is likely to work by breaking expectations.
 
 The exclusive association of ideas like beat and meter to western systems has a secondary impact: it leads analysts to consider all music from a perspective that adheres to western traditions. Using three examples from my own research in Morocco, I aim to demonstrate how centering experience and perception and decentering prescriptive conceptions of musical elements brings about new ideas of how music works.[^ethnography]
 
@@ -62,7 +62,9 @@ The final rhythm I present here animates two different segments of the hamadsha 
 
 <div id="example20" class="example"></div>
 
-One of the core assumptions about rhythm in western-centric systems of understanding is that the pulse is made up of evenly-spaced beats.[^exceptions] In fact, this pattern can be mathematically broken down and written in western notation. The "long" beats are equal to three halves of the short beats, as demonstrated by this example's added imaginary pulse.
+One of the core assumptions about rhythm in western-centric systems of understanding is that the pulse is made up of evenly-spaced beats.[^exceptions] In fact, this pattern can be mathematically broken down and written in western notation. The "long" beats are equal to three halves of the short beats, as demonstrated by this example's added imaginary pulse.[^alternative]
+
+[^alternative]: Alternatively, these embedded examples can be understood as alternative forms of notation. While the long and short bars that represent the notes ignore much of what western notation includes, they show duration more intuitively (in some ways). Notation itself is an effort to foreground certain elements of sound that are deemed important by composers, researchers, listeners, performers, and so on. Alternative notation is common in all forms of music, including western classical music, where the work of John Cage, George Crumb, and Krzysztof Penderecki include commonly taught examples. Creating your own form of graphic representation of sound (notation) is a useful exercise for understanding how these decisions and priorities play out in practice.
 
 <div id="example21" class="example"></div>
 

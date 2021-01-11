@@ -4,13 +4,21 @@
 
 - [x] A) In the sixth to last sentence, there is one small spelling error, “inappropriately” may replace “in appropriately.”
 
-- [ ] B) There was a suggestion from one reviewer to offer a brief overview of “notions of meter, beat, and pulse as understood through a notational lens (e.g. How do notes in a given measure reflect the prescribed time signature?).” [We think this is currently well-addressed in your second footnote.]
+- [x] B) There was a suggestion from one reviewer to offer a brief overview of “notions of meter, beat, and pulse as understood through a notational lens (e.g. How do notes in a given measure reflect the prescribed time signature?).” [We think this is currently well-addressed in your second footnote.]
+
+> I assume that you mean the second footnote of the second page (the longer one). If you are comfortable with this, I will leave it as is. My hope is to avoid hindering accessibility by interrupting a flow with these discussions, hence the use of footnotes. I will point some of these ideas out in the introduction so that these goals are more obvious at the outset.
+
+- [x] C) One reviewer suggested connecting with music education curricula by at least briefly referencing bols/takadimi systems in South Asian music and how time (beats, subdivisions, rhythms, etc.) are verbalized.
+
+> Added a short description and reference to the footnote on education.
 
 - [ ] F) A reviewer suggests adding a reference to the Music of the Spheres and its relationship to planetary rhythms and cycles in the first section. A brief little addition to the first paragraph could give some historical context.
 
-- [ ] C) One reviewer suggested connecting with music education curricula by at least briefly referencing bols/takadimi systems in South Asian music and how time (beats, subdivisions, rhythms, etc.) are verbalized.
+> I'm split on this. I could add it (the idea of linking sound to an understanding of the universe does work well in an introduction!), but I'm concerned about foregrounding the kind of Greek histories that highlight western traditions and understandings in a piece that is actively trying to avoid that. Further, my understanding of the music of the spheres is that it is more about the ratios that create the harmonic series (and philosophy, of course). I looked at the Oxford Music Online entry and don't see much about rhythm, per se. The most compelling part is about expectation (Plato's idea that these resonances are audible to everyone since birth, but unnoticed). As an aside, this sounds a lot like a religion in a young adult series that I just finished reading called *Scythe*...
 
-- [ ] H) Regarding section 4, a reviewer suggests adding an example of alternative form of notation. They further suggest the possibility of an exercise for students “could be to establish notational methods that differ from those available through Western standard notation.”
+- [x] H) Regarding section 4, a reviewer suggests adding an example of alternative form of notation. They further suggest the possibility of an exercise for students “could be to establish notational methods that differ from those available through Western standard notation.”
+
+> Added a footnote that highlights how the examples are, themselves, alternative forms of notation and that discusses the utility of these systems (with the suggestion to create your own)
 
 ## Edit introduction/structure
 
