@@ -90,11 +90,9 @@ Up until now, I have been using electronically created beats to demonstrate this
 
 ## Conclusions
 
-This set of short essays describes core elements of rhythm by prioritizing perception with three goals in mind. First, I aim to introduce some terminology that can inform how we hear and understand what we listen to. These elements may prove more or less helpful depending on the music that is playing, but they are widely applicable.
+This set of short essays considers rhythm from the perspective of expectation and ambiguity. Music is something that we feel as much as we hear. It impacts us, in part, through how we sense it, not just how we hear or think about it. Rhythm works, in part, by organizing time. This final section demonstrates how we experience and understand rhythmic ambiguity and how common "rules" and western classical music-oriented understanding of rhythm can be reductive, failing to illuminate how we *feel* music.
 
-Second, the approaches here resist the western-centric methods and perspectives that commonly define things like beat, meter, and subdivision. I present these examples, especially in this final section, to show how these methods are not as widely useful as they so often seem. This is not a case of a system being used inappropriately for something that does not fit. Like other global systems, western, musical notation is derived from specific histories and compositional styles. It is a tool serving a purpose. Just as it obfuscates nuance in some Moroccan styles, it hinders certain elements of western performance practice when used inappropriately.
-
-Finally, I want to focus our understanding of music and sound more holistically on the body. We do not just hear music, we feel it, dance it, sing it, and experience the world around us to it. Yet, each of us does so differently based on experiences, abilities, training, hopes, dreams, and so on. Music, like so many other things, lives in systems that we internalize. But at their best, rules and expectations—whether musical or otherwise—are made to be broken.
+Music and musicians set up and break down listener expectation in innovative ways and these dramatically change how we experience music. Like so many other things, music lives in systems that we internalize, but, as I hope is clear through these essays, it is at its best when we understand that the rules of those systems are made to be broken.
 
 [Part 3: Feeling the beat(s)](part3.html) | [Back to contents](index.html) | [References](references.html)
 
