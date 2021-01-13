@@ -30,11 +30,11 @@
 
 > Added some language in the revised introduction to state why the focus is on Morocco (it's related to my own research)
 
-- [x] I) A reviewer suggested adding a chart to demonstrate similarities and differences in the examples suggested (syncopation, cycles, polyrhythms), but we feel that this could easily be treacherous and is likely best avoided.
-
-> I agree: one of the goals here is to avoid that kind of similarity/difference binary to recognize that these broad concepts can be applied in many places. Some specific examples showing types of syncopation, for example, may help, but that would add a lot of length. It's a trade off that I would consider if you both think it's worth it!
+- [ ] I) A reviewer suggested adding a chart to demonstrate similarities and differences in the examples suggested (syncopation, cycles, polyrhythms), but we feel that this could easily be treacherous and is likely best avoided.
 
 - [ ] Jessie A) Whereas I agree that you might consider clarifications and additions in your piece that better outline how Western notation systems, for example, have had an impact on transmission (see point D above), I feel that your attempts to avoid a binary discussion of "Western vs. non-Western" concepts is preferable (see also both my and Kristina's concerns about the suggestion of adding a table of comparing and contrasting. If you feel there is a way to create some type of graph to help explain or summarize concepts of beats, meters/cycles, syncopation, and polyrhythms, then that might be worth adding, but not as a binary chart as one reviewer suggested.
+
+> I agree: one of the goals here is to avoid that kind of similarity/difference binary to recognize that these broad concepts can be applied in many places. Some specific examples showing types of syncopation, for example, may help, but that would add a lot of length. It's a trade off that I would consider if you both think it's worth it!
 
 ## Beat discussion
 
