@@ -52,4 +52,6 @@
 
 ## Transcription
 
-- [ ] Kristina B) I also notice a gap in the start of Part 4 in that there hasn’t been any mention of transcription, which is what you are critiquing. Is there a place where there might be space to introduce transcription to provide context to students prior to the discussion in Part 4?
+- [x] Kristina B) I also notice a gap in the start of Part 4 in that there hasn’t been any mention of transcription, which is what you are critiquing. Is there a place where there might be space to introduce transcription to provide context to students prior to the discussion in Part 4?
+
+> I included a footnote in the part 4 introduction to keep the text flowing, but I could do something more intently within the text if it's preferable.
