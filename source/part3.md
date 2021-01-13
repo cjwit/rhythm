@@ -72,7 +72,7 @@ In western music theory practice, subdivision is generally taught as *duple* or 
 
 The following examples present these structures as connected levels of organization. When listening, you can use the buttons to have the loop articulate different "scopes" (the measure/grouping of beats, the pulse/beats, and the subdivision/division of beats).
 
-Note that since these are real audio examples, they don't line up perfectly. The performers subtly shift their timing, even over a short period. The first example, which demonstrates a duple feel, comes from Argentinean tango.
+Note that since these are real audio examples, they don't line up perfectly. The performers subtly shift their timing, even over a short period. The first example, which demonstrates a duple feel, is a version of "St. Louis Blues" by Jim Reese Europe's "Hellfire Band." Europe was a popular and successful black bandleader in the early 20th century who led a military band during World War I.
 
 <div id="example15" class="example"></div>
 

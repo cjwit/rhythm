@@ -523,13 +523,13 @@ var example14 = {
 }
 
 var example15 = {
-  title: "Example 15: \"Mi Buenos Aires querido\" by Carlos Gardel (1934)",
+  title: "Example 15: \"St. Louis Blues\" by Jim Europe's Hellfighters",
   tag: "example15",
   loops: [
     {
       btnText: "Play (marking the beat)",
-      tempo: 115,
-      audio: "./samples/mi-buenos-aires-querido.mp3",
+      tempo: 84,
+      audio: "./samples/europe_stlouisblues.mp3",
       parts: [
         {
           name: "Measure",
@@ -556,8 +556,8 @@ var example15 = {
     },
     {
       btnText: "Mark the measure",
-      tempo: 115,
-      audio: "./samples/mi-buenos-aires-querido.mp3",
+      tempo: 84,
+      audio: "./samples/europe_stlouisblues.mp3",
       parts: [
         {
           name: "Measure",
@@ -584,8 +584,8 @@ var example15 = {
     },
     {
       btnText: "Mark the subdivision",
-      tempo: 115,
-      audio: "./samples/mi-buenos-aires-querido.mp3",
+      tempo: 84,
+      audio: "./samples/europe_stlouisblues.mp3",
       parts: [
         {
           name: "Measure",
