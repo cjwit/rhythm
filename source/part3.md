@@ -84,19 +84,21 @@ This second example, with beats grouped into sets of three and divided into dupl
 
 In practice, musicians manipulate these divisions further. *Swing* is one common example that developed as part of the early jazz scene in the United States before the word came to represent its own genre of music. In swing, a duple subdivision turns into something else: the musicians lengthen the first half and shorten the second half. This means that they are no longer halves.
 
-A frequent division is for the first "half" to be roughly two-thirds of the length of the beat, leaving one-third for the second "half." This particular division turns into a mathematical *triple* subdivision where the first two thirds are linked together and roughly aligns with another name: a *shuffle*.
+Musicians make use of the flexibility that live performance offers.[^computers] Swing performers themselves vary the degree of their swing to create an individual style. Even within a single musical line, they change the ratios of their subdivisions to build and release tension (Benadon 2006). Christine Gerischer shares similar ideas about Brazilian samba music, showing that this is not unique to the genre known as "swing" (2006). These manipulations are examples of *microtiming*, adjusting the timing of notes in slight, but noticeable, ways.
+
+[^computers]: It should be said that flexibility in subdivisions and other expressive techniques are not exclusive to human performers. Electronic music has this capability and, in some cases, can do so with more specific intentionality on the part of the composer or producer.
+
+These adjustments can sound and feel different. As a basic demonstration, move the slider to change the subdivision ratio and listen to how the simple swing drum set beat responds. Then, see if you can hear or feel the swing in Count Basie's "One O'Clock Jump." (It's not always easy to hear, but you may feel like there's some forward momentum that you can't quite articulate. That's fine! In fact, that's the point!)
+
+<div id="example17" class="example"></div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/b4G7bJhY6_c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+A frequent division of the beat that is related to swing involves a first "half" that is roughly two-thirds of the length of the beat, leaving one-third for the second "half." This particular division turns into a mathematical *triple* subdivision where the first two thirds are linked together and roughly aligns with another name: a *shuffle*.
 
 This example from Odetta, a folk singer and Civil Rights activist in the 1950s and 1960s, is a slow shuffle, which brings it closer to the sound of the blues.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/V6xJLQKIRUI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Musicians do not typically adhere to mathematical certainties, though. They make use of the flexibility that live performance offers.[^computers] Swing performers themselves vary the degree of their swing to create an individual style. Even within a single musical line, they change the ratios of their subdivisions to build and release tension (Benadon 2006). Christine Gerischer shares similar ideas about Brazilian samba music, showing that this is not unique to the genre known as "swing" (2006). These manipulations are examples of *microtiming*, adjusting the timing of notes in slight, but noticeable, ways.
-
-[^computers]: It should be said that flexibility in subdivisions and other expressive techniques are not exclusive to human performers. Electronic music has this capability and, in some cases, can do so with more specific intentionality on the part of the composer or producer.
-
-These adjustments can sound and feel different. As a basic demonstration, move the slider to change the subdivision ratio and listen to how the simple swing drum set beat responds.
-
-<div id="example17" class="example"></div>
 
 This technique of rushing or delaying notes can happen anywhere in a piece of music, but it is a matter of balance. Breaking too far from expectations or norms could confuse a listener or dancer, but sticking to them methodically might get dull. One of my own favorite moments that exemplifies this is from [a performance of "Watermelon Man" by Mongo Santamaria](https://www.youtube.com/embed/zJuX-JJ8WF0). While listening, try to let yourself feel the groove and, if the music inspires you, move along with it or clap. Then, *feel* how the percussion (drum set and other instruments) almost pull the horn section (the brass instruments and saxophone) along. It is even more extreme when the percussion drops out at about 30 seconds in. When I listen, I can't help but to actually feel this tension in my body, as well as the relief that comes when they snap back together.
 

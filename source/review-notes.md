@@ -38,13 +38,17 @@
 
 ## Beat discussion
 
-- [ ] G) There is also a suggestion about how to perhaps amend the section on dividing time: “Part three clearly shows the reader about pulse, beat and meter. However the concept of dividing time appears to be counter intuitive in many of these musics that don’t employ additive rhythm but have cycles of rhythmic groupings in rhythmic modes. Might this difference between the rhythms of western and non-western music be described in this section? The examples of Irish Jig and West African Bell are very clear, the beat of the couple dancing Tango seems would be more difficult to follow for the non-specialist as well as the midi beats on examples 15 and 16.”
+- [x] G) There is also a suggestion about how to perhaps amend the section on dividing time: “Part three clearly shows the reader about pulse, beat and meter. However the concept of dividing time appears to be counter intuitive in many of these musics that don’t employ additive rhythm but have cycles of rhythmic groupings in rhythmic modes. Might this difference between the rhythms of western and non-western music be described in this section? The examples of Irish Jig and West African Bell are very clear, the beat of the couple dancing Tango seems would be more difficult to follow for the non-specialist as well as the midi beats on examples 15 and 16.”
+
+- [x] Jessie B) I also felt that the tango example would be difficult for many students to follow and understand the beats and stylistic deviations. I was thinking perhaps you could leave the example you do have and add an additional "square" clip (if one is readily available) that would line up with the beat and help students focus on one thing (the beat) before hearing how it is played with in practice for stylistic effects (what you include).
+
+> I changed the tango example to something more "straight" (an example from Jim Reese Europe). It's hard to find good recordings that are perfectly in time since I'm drawing from public domain (and therefore old) examples. But I think it's worth it to show how real people are not mechanical. Hopefully this helps. If it's the discussion and not the example that is unclear, please let me know.
 
 ## Clearer examples
 
-- [ ] Kristina A) Thinking about teaching in my own classroom, it would be quite a lot of new terms to give a student in one. I do wonder if there are some places certain things could be streamlined a bit. One example that comes to mind is the final bit of Part 3 where it ends with “Watermelon Man,” introducing what is a cha cha cha after swing. I could see this causing some confusion currently, and I wonder if it might be clearer to stick to an example that is swing after having just introduced it.
+- [x] Kristina A) Thinking about teaching in my own classroom, it would be quite a lot of new terms to give a student in one. I do wonder if there are some places certain things could be streamlined a bit. One example that comes to mind is the final bit of Part 3 where it ends with “Watermelon Man,” introducing what is a cha cha cha after swing. I could see this causing some confusion currently, and I wonder if it might be clearer to stick to an example that is swing after having just introduced it.
 
-- [ ] Jessie B) I also felt that the tango example would be difficult for many students to follow and understand the beats and stylistic deviations. I was thinking perhaps you could leave the example you do have and add an additional "square" clip (if one is readily available) that would line up with the beat and help students focus on one thing (the beat) before hearing how it is played with in practice for stylistic effects (what you include).
+> I changed the order around and added a swing example (Basie). I would like to keep the Watermelon Man mention by way of conclusion. Some people may feel it, others may not, but it aligns with this idea that rhythm isn't mechanical. Hopefully that's more clear this time around.
 
 ## Transcription
 
